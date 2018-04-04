@@ -1,0 +1,42 @@
+
+
+  <style>
+  html{}
+@import @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+    body {
+      background-color: black;
+    }
+    h1 {
+      color: white;
+      margin-left: 40px;
+      margin-top: 50px;
+      font-family: 'Indie Flower', cursive;
+      text-align: center;
+    }
+
+    p{
+      color:yellow;
+      margin: 100px;
+    }
+  #p {
+    transform: rotate(0);
+    transition: all 2s;
+}
+
+#p: hover {
+  transition: all 2s;
+  transform: rotate(30deg);
+}
+  
+span {
+  color: azure;
+}
+
+  .placeholder {
+    border: 5px solid white;
+    padding: 30px;
+    margin: 40px;
+
+
+}
+    </style>
