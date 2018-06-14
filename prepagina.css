@@ -1,0 +1,128 @@
+<style>
+area{
+  display: initial ;
+}
+img{
+  position:absolute;
+  bottom:0px;
+  right:0px;
+  z-index:1;
+}
+.vl {
+    border-left: 3px solid red;
+    height: 818px;
+    position:absolute;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+.vl1 {
+    border-left: 3px solid red;
+    height: 818px;
+    position:absolute;
+    margin-left: 60px;
+    margin-top: 0px;
+}
+.vl2 {
+    border-left: 3px solid red;
+    height: 818px;
+    position:absolute;
+    margin-left: 90px;
+    margin-top: 0px;
+}
+
+@keyframes sposta1 {
+  0% { margin-top: 650px;
+    margin-left: 700px;
+    }
+    45% {margin-top: 770px;
+      margin-left:930px;
+      }
+      50% { margin-top: 760px;
+        margin-left:920;
+      }
+      65% { margin-top: 770px;
+        margin-left:930;
+      }
+      100% {margin-top: 650px;
+        margin-left:700px;
+      }
+}
+@keyframes sposta2 {
+  0% { margin-top: 480px;
+    margin-left: 930px;
+    }
+    45% {margin-top: 720px;
+      margin-left:940px;
+      }
+      50% { margin-top: 710px;
+        margin-left:940px;
+      }
+      65% { margin-top: 720px;
+        margin-left:940px;
+      }
+      100% {margin-top: 480px;
+        margin-left:930px;
+      }
+}
+@keyframes sposta3 {
+  0% { margin-top: 580px;
+    margin-left: 795px;
+    }
+    45% {margin-top: 720px;
+      margin-left:910px;
+      }
+      50% { margin-top: 710px;
+        margin-left:900px;
+      }
+      65% { margin-top: 720px;
+        margin-left:910px;
+      }
+      100% {margin-top: 580px;
+        margin-left:795px;
+      }
+}
+
+
+
+#rect1 {
+  animation: sposta1 1.2s infinite alternate;
+  transform: translate(30%, 30%);
+	width:38px;
+	height:7px;
+	background:red;
+  border-radius: 35%;
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 730px;
+  transform: rotate(15deg);
+  z-index:2;
+}
+
+#rect2 {
+  animation: sposta2 1.2s infinite alternate;
+  transform: translate(30%, 30%);
+	width:60px;
+	height:7px;
+	background:red;
+  border-radius: 35%;
+  position: absolute;
+  margin-left: 930px;
+  margin-top: 680px;
+  transform: rotate(80deg);
+  z-index:3;
+
+}
+#rect3 {
+  animation: sposta3 1.2s infinite alternate;
+  transform: translate(30%, 30%);
+	width:30px;
+	height:7px;
+	background:red;
+  border-radius: 35%;
+  position: absolute;
+  margin-left: 895px;
+  margin-top: 680px;
+  transform: rotate(40deg);
+  z-index:3;
+
+</style>
