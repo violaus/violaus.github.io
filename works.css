@@ -1,0 +1,87 @@
+
+  <style>
+  html{}
+@import url('https://fonts.googleapis.com/css?family=Monoton|Sedgwick+Ave+Display');
+    body {
+      background-color: white;
+      background-image: url(https://i.pinimg.com/564x/b9/c8/e2/b9c8e24cb22b653bca0c7029158a0399.jpg);
+      background-repeat:no-repeat;
+      background-position: 100% 100%;
+      background-attachment: fixed;
+      background-size: auto;
+      margin-right:0px;
+      margin-bottom: 0px;
+      font-family: 'Permanent Marker', cursive;
+font-size: 200%;
+color:red;
+margin:0px;
+      }
+
+div.gallery {
+    margin-top: 260px;
+    margin-left: 260px;
+    border: 0px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 0px solid #777;
+}
+
+div.gallery img {
+    width: 150%;
+    height: auto;
+}
+
+
+
+.fascia{
+        position:absolute;
+        height:4870px;
+        width:166px;
+        border-left:2px;
+        border-top:0px;
+        border-bottom:0px;
+      background-color:red;
+        display: initial;
+        z-index:2;
+      }
+
+h1 {
+  color:red;
+  position:absolute;
+  left: 260px;
+}
+
+p{
+  position:absolute;
+  color:red;
+  margin-top: 130px;
+  margin-left: 260px;
+
+}
+
+#bo {
+  position:absolute;
+  color:red;
+  margin-top: 3100px;
+  margin-left: 260px;
+}
+
+#bo1 {
+  position:absolute;
+  color:red;
+  margin-top: 1500px;
+  margin-left: 260px;
+
+}
+
+.progetto {
+  position:absolute;
+  color:red;
+  margin-top:3500px;
+  margin-left:260px;
+}
+
+ </style>

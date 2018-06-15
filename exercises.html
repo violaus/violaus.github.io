@@ -1,0 +1,42 @@
+<html>
+<head>
+<link rel="stylesheet" href="exercises.css">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Monoton|Plaster|Six+Caps');
+</style>
+
+<head>
+  <script src="jquery.js"></script>
+<link rel="stylesheet" href="exercises.css">
+</head>
+<body>
+
+
+<div id="cornice">
+  <div id="pianeta"></div>
+</div>
+<div id="cornice2">
+  <div id="pianeta2"></div>
+</div>
+<div id="stella"></div>
+
+<script>
+function spinner(){
+  if($("#cornice").hasClass("spinning")){
+    $("#cornice2").addClass("spinning2")
+  }
+    $("#cornice").addClass("spinning")
+}
+
+$("#stella").on("click", spinner);
+</script>
+</body>
+
+<div class="fascia"></div>
+
+  <h1>EXERCISES</h1>
+
+
+
+</head>
+</html>
