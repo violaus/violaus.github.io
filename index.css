@@ -33,7 +33,6 @@ a {
     opacity: 1;
     transition: 1s;
     animation-duration: 5.4s;
-    animation-timing-function:cubic-bezier(20deg);
     text-decoration:none;
 }
 a:link {
