@@ -1,0 +1,37 @@
+<html>
+<head>
+<link rel="stylesheet" href="ex3.css">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Shadows+Into+Light|Shrikhand');
+
+</style>
+<head>
+  <script src="jquery.js"></script>
+<link rel="stylesheet" href="ex3.css">
+</head>
+<body>
+  <div id="cornice">
+    <div id="pianeta"></div>
+  </div>
+  <div id="cornice2">
+    <div id="pianeta2"></div>
+  </div>
+  <div id="stella"></div>
+
+  <script>
+  function spinner(){
+    if($("#cornice2").hasClass("spinning2")){
+      $("#cornice").addClass("antispinning");
+      $("#cornice2").addClass("antispinning2")
+    }
+    else if($("#cornice").hasClass("spinning")){
+      $("#cornice2").addClass("spinning2")
+    }
+      else $("#cornice").addClass("spinning")
+  }
+
+  $("#stella").on("click", spinner);
+  </script>
+  </body>
+
+<h1> EXERCISE 3 </h1>

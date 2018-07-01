@@ -1,0 +1,55 @@
+<html>
+<head>
+<link rel="stylesheet" href="ex4.css">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Shadows+Into+Light|Shrikhand');
+
+</style>
+<head>
+  <script src="jquery.js"></script>
+<link rel="stylesheet" href="ex4.css">
+</head>
+<body>
+  <div id="quadrato" class="q center"></div>
+<div id="cerchio" class="c fuori"></div>
+<script>
+function cambio() {
+  $("#quadrato").addClass("mariaesco");
+  $("#cerchio").addClass("mariaentro");
+  }
+
+function cambeeo() {
+  $("#cerchio").addClass("squadra");
+}
+
+function rotazione() {
+  $("#cerchio").addClass("ruota");
+}
+
+function ricambio(){
+  $("#cerchio").addClass("riesco");
+    $("#quadrato").addClass("entro2");
+}
+
+function al_2click() {
+  if($("#cerchio").hasClass("ruota"))
+    ricambio();
+  if($("#cerchio").hasClass("squadra"))
+    rotazione();
+  else if($("#cerchio").hasClass("mariaentro"))
+    cambeeo();
+}
+
+
+function al_click() {
+  if($("#quadrato").hasClass("center"),
+   $("#cerchio").hasClass("fuori"))
+  cambio();
+  }
+
+
+$("#quadrato").click(al_click);
+$("#cerchio").click(al_2click);
+</script>
+</body>
+<h1> EXERCISE 4 </h1>

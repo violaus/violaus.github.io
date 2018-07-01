@@ -1,0 +1,40 @@
+<html>
+<head>
+<link rel="stylesheet" href="ex2.css">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Shadows+Into+Light|Shrikhand');
+
+</style>
+<head>
+  <script src="jquery.js"></script>
+<link rel="stylesheet" href="ex2.css">
+</head>
+<body>
+<div id="cornice">
+<div id="q-altosin" class="quadrato"></div>
+<div id="q-altodes" class="quadrato"></div>
+<div id="q-bassosin" class="quadrato"></div>
+<div id="q-bassodes" class="quadrato"></div>
+</div>
+
+
+<script>
+function scambio(){
+  if($("#cornice").hasClass("gira")){
+    $("#cornice").removeClass("gira")
+  }
+  else if($("#q-altosin").hasClass("scambioalto"),
+$("#q-altodes").hasClass("riscambioalto")){
+  $("#cornice").addClass("gira")
+}
+
+else  $("#q-altosin").addClass("scambioalto");
+  $("#q-altodes").addClass("riscambioalto")
+}
+
+$(".quadrato").click(scambio);
+</script>
+</body>
+
+<h1> EXERCISE 2 </h1>
+</html>

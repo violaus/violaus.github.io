@@ -1,0 +1,42 @@
+<html>
+<head>
+<link rel="stylesheet" href="ex1.css">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Shadows+Into+Light|Shrikhand');
+</style>
+<head>
+  <script src="jquery.js"></script>
+<link rel="stylesheet" href="ex1.css">
+</head>
+<body>
+<div id="quadrato" class="q center"></div>
+<div id="quadratino" class="qino-off center"></div>
+
+<script>
+function ruota_quadrato_rosso() {
+  $("#quadrato").addClass("rotate");
+}
+
+function disegna_quadrato_giallo() {
+  $("#quadratino").addClass("qino-on");
+}
+
+function ruota_tutto() {
+  $("#quadrato").addClass("rotate-orario");
+  $("#quadratino").addClass("rotate-antiorario");
+}
+
+function al_click() {
+  if($("#quadratino").hasClass("qino-on"))
+    ruota_tutto();
+  else if($("#quadrato").hasClass("rotate"))
+    disegna_quadrato_giallo();
+  else
+    ruota_quadrato_rosso();
+}
+
+$("#quadrato").click(al_click);
+</script>
+</body>
+
+<h1> EXERCISE 1 </h1>

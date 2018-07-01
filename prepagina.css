@@ -1,29 +1,19 @@
 <style>
 html{}
 body{
-  background-image: url(https://i.pinimg.com/564x/b9/c8/e2/b9c8e24cb22b653bca0c7029158a0399.jpg);
-  background-repeat:no-repeat;
-  background-position: 93% 100%;
+  background-image: url("file:///Users/violamoliterni/Downloads/iop2.jpg");
+  background-repeat: no-repeat;
+  background-color:black;
+  background-position: 80% 70%;
   background-attachment: fixed;
-  background-size: auto;
+  background-size: 40%;
   margin-right:0px;
   margin-bottom: 0px;
   z-index:3;
   margin:0px;
-  font-family: 'Permanent Marker', cursive;
-  font-family: 'Julius Sans One', sans-serif;
-  font-family: 'Special Elite', cursive;
-  font-family: 'Fugaz One', cursive;
   font-family: 'Shrikhand', cursive;
-  font-family: 'Plaster', cursive;
-  font-family: 'Vast Shadow', cursive;
-  font-family: 'Chango', cursive;
-  font-family: 'Syncopate', sans-serif;
-  font-family: 'Rock Salt', cursive;
-  font-family: 'Sigmar One', cursive;
-  font-family: 'Merienda', cursive;
-  font-family: 'Allerta Stencil', sans-serif;
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Poiret One', cursive;
 font-size: 100%;
 }
 
@@ -36,7 +26,7 @@ area{
 
 a {
   animation: compare 5.4s;
-    color:red;
+    color:white;
     font-size: 30px;
     transition: 1s;
     z-index:4;
@@ -44,26 +34,25 @@ a {
     transition: 1s;
     animation-duration: 5.4s;
     animation-timing-function:cubic-bezier(20deg);
-    color: red;
     text-decoration:none;
 }
 a:link {
-  color:red;
+  color:#642EFE;
 }
 a:visited {
-  color: red;
+  color: white;
 }
 a:hover {
   text-decoration: underline;
-  color: black;
+  color: #642EFE;
 }
 a:active {
-  color: black;
+  color: #642EFE;
 }
 
+
 #works {
-  animation: compare 5.4s;
-  color:red;
+  animation: compare 3.8s;
   position:absolute;
   margin-top: 150px;
   margin-left: 210px;
@@ -75,9 +64,8 @@ a:active {
 }
 
 
-#collegamento {
-  animation: compare 7.2s;
-    color:red;
+#exercises{
+  animation: compare 5.6s;
     margin-top: 270px;
     margin-left: 250px;
       position:absolute;
@@ -85,12 +73,10 @@ font-size: 30px;
     transition: 1s;
     z-index:4;
     opacity: 1;
-
 }
 
-#exercises {
-  animation: compare 9s;
-    color:red;
+#collegamento {
+  animation: compare 7.4s;
     margin-top:390px;
     position:absolute;
     margin-top:390px;
@@ -106,7 +92,7 @@ font-size: 30px;
   margin-top: 870px;
   margin-left: 310px;
   position:absolute;
-  color: red;
+  color: #642EFE;
   font-size: 30px;
   transition: 1s;
   z-index:4;
@@ -114,16 +100,16 @@ font-size: 30px;
 
 }
 
+
 img {
-  animation: tap 1.9s;
-  transform:rotate(-20deg);
-  position:absolute;
-  bottom:0px;
-  right:458px;
-  z-index:1;
-  height: 70px;
-  width:40px;
-  opacity:0;
+  transform:translate(-50%,-50%);
+  position:fixed;
+  top:10%;
+  left:80%;
+  z-index:5;
+  width:200px;
+  height:45px;
+  opacity:1;
 }
 
 @keyframes compare {
@@ -138,30 +124,57 @@ img {
 
 
 }
+.vl-3 {
 
+    border-left: 6px solid white;
+    position:absolute;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 0px;
+    z-index: 5;
+}
+.vl-2 {
+
+    border-left: 6px solid white;
+    position:absolute;
+    height: 500px;
+    margin-left: 90px;
+    margin-top: 0px;
+    z-index: 5;
+}
+
+.vl-1 {
+
+    border-left: 6px solid white;
+    position:absolute;
+    height: 700px;
+    margin-left: 130px;
+    margin-top: 0px;
+    z-index: 5;
+}
 
 .vl {
 
-    border-left: 6px solid red;
+    border-left: 6px solid white;
     position:absolute;
-    height: 850px;
-    margin-left: 160px;
+    height: 900px;
+    margin-left: 170px;
     margin-top: 0px;
     z-index: 5;
 }
 .vl1 {
-  animation:scende1 7.2s;
+  animation:scende1 3.6s;
   position:absolute;
-    border-left: 6px solid red;
+    border-left: 6px solid white;
     height: 850px;
     margin-left: 210px;
     margin-top: 200px;
     z-index: 5;
 }
 .vl2 {
-  animation: scende2 9s;
+  animation: scende2 5.4s;
   position:absolute;
-    border-left: 6px solid red;
+    border-left: 6px solid white;
     height: 850px;
     margin-left:250px;
     margin-top: 320px;
@@ -170,45 +183,66 @@ img {
 }
 
 .vl3 {
-  animation: scende3 10.8s;
+  animation: scende3 7.2s;
   position:absolute;
-    border-left: 6px solid red;
+    border-left: 6px solid white;
     height: 850px;
     margin-left:290px;
     margin-top: 440px;
     z-index: 5;
 
 }
-.fascia{
-  position:absolute;
-  height:1370px;
-  width:166px;
-  border-left:5px;
-  border-top:0px;
-  border-bottom:0px;
-background-color:red;
-  display: initial;
-  z-index:2;
+
+.fascia-firma {
+  animation: trasla 5s;
+  position:fixed;
+  left:100%;
+  top:7%;
+  z-index:6;
+  width:250px;
+  height:50px;
+  background-color:black;
+
 }
 
-.fb {
+
+.insta {
 position:absolute;
 margin-top: 940px;
 margin-left: 310px;
 position:absolute;
-color: red;
+color: white;
 font-size: 20px;
 z-index:4;
 }
 
-.insta {
+.behance {
 position:absolute;
 margin-top: 970px;
 margin-left: 310px;
 position:absolute;
-color: red;
+color: white;
 font-size: 20px;
 z-index:4;
+}
+
+#email {
+  position:absolute;
+  margin-top: 1030px;
+  margin-left: 310px;
+  position:absolute;
+  color: white;
+  font-size: 20px;
+  z-index:4;
+  display:inherit;
+}
+
+.fb {
+  position:absolute;
+  margin-top:1000px;
+  margin-left: 310px;
+  color:red;
+  font-size:20px;
 }
 
 
@@ -256,58 +290,17 @@ z-index:4;
     }
 }
 
+@keyframes trasla{
+  0% {left:70%;
+    }
+    100%{left:100%;
 
-
-
-@keyframes tap {
-  0% {transform:rotate(-20deg);
-    opacity:1;
-      }
-  45% {transform:rotate(-50deg);
-  }
-  50% {
-    transform:rotate(-40deg);
-  }
-  65% {
-    transform:rotate(-50deg);
-
-  }
-  85%{transform:rotate(-20deg);
-    opacity:1;
-
-  }
-  100% {transform:rotate(-20deg);
-    opacity:0;
-  }
-}
-@keyframes pat {
-  0%{opacity:0;
-  }
-  45%{opacity:1;
-  }
-  50%{opacity:0.5;
-  }
-  65%{opacity:1;
-  }
-  100%{opacity:0;
-  }
+    }
 }
 
-#tocco {
-  animation: pat 1.8s;
-  transform:rotate(35deg);
-  position:absolute;
-  margin-left: 920px;
-  margin-top:788px;
-  width:10px;
-  height: 4px;
-  background-color:red;
-  border-radius:35%;
-  z-index:5;
-  opacity:0;
-  display:inherit;
 
-}
+
+
 
 
 

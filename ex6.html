@@ -1,0 +1,32 @@
+<html>
+<head>
+<link rel="stylesheet" href="ex6.css">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Shadows+Into+Light|Shrikhand');
+
+</style>
+<head>
+  <script src="jquery.js"></script>
+<link rel="stylesheet" href="ex6.css">
+</head>
+<body>
+  <div id="q1" class="quadrato sinistra alto"></div>
+<div id="q2" class="quadrato destra alto"></div>
+<div id="q3" class="quadrato destra basso"></div>
+<div id="q4" class="quadrato sinistra basso"></div>
+<script>
+function centra() {
+  if($(this).hasClass("oscilla")){
+    $(this).removeClass("oscilla");
+      $(this).removeClass("centra")}
+
+ else if($(this).hasClass("centra"))
+    $(this).addClass("oscilla");
+  else
+    $(this).addClass("centra")
+}
+$(".quadrato").click(centra);
+</script>
+</body>
+
+<h1> EXERCISE 6 </h1>
