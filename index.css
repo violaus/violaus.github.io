@@ -54,7 +54,7 @@ a:active {
   animation: compare 3.8s;
   position:absolute;
   margin-top: 150px;
-  margin-left: 210px;
+  margin-left: 170px;
   font-size: 30px;
   transition: 1s;
   z-index:4;
@@ -66,7 +66,7 @@ a:active {
 #works{
   animation: compare 5.6s;
     margin-top: 270px;
-    margin-left: 250px;
+    margin-left: 210px;
       position:absolute;
 font-size: 30px;
     transition: 1s;
@@ -76,7 +76,7 @@ font-size: 30px;
 
 #exercises {
   animation: compare 7.4s;
-    margin-top:390px;
+    margin-top:250px;
     position:absolute;
     margin-left: 290px;
     font-size: 30px;
@@ -88,7 +88,7 @@ font-size: 30px;
 
 #Contact{
   margin-top: 870px;
-  margin-left: 310px;
+  margin-left: 290px;
   position:absolute;
   color: #642EFE;
   font-size: 30px;
