@@ -27,8 +27,8 @@ html{}
   p{
     position:absolute;
     color:white;
-    font-size:80%;
-    margin-left: 260px;
+    font-size:95%;
+    margin-left: 160px;
   }
   #p1{
     top:40%;
@@ -41,11 +41,14 @@ html{}
   #p3{
     top:50%;
   }
+  #p4{
+    top:55%;
+  }
 
   img{
     position:absolute;
-    right:10%;
-    top:50%;
+    right:8%;
+    top:35%;
     z-index:4;
     background-size: auto;
 
@@ -57,7 +60,8 @@ html{}
     top:30%;
     right:40%;
     z-index:5;
-    transform:rotate(45deg);
+    transform:rotate(-45deg);
+    size:50%;
   }
 
  </style>
