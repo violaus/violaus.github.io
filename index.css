@@ -147,7 +147,7 @@ img {
 
     border-left: 6px solid white;
     position:absolute;
-    height: 500px;
+    height: 420px;
     margin-left: 90px;
     margin-top: 0px;
     z-index: 5;
@@ -157,7 +157,7 @@ img {
 
     border-left: 6px solid white;
     position:absolute;
-    height: 700px;
+    height: 540px;
     margin-left: 130px;
     margin-top: 0px;
     z-index: 5;
@@ -301,7 +301,20 @@ z-index:4;
     }
 }
 
+@keyframes scende4 {
 
+  0% {height:850px;
+  margin-top:0px;
+
+  }
+  33% {height:1118px;
+  margin-top:0px;}
+
+
+  99% {height: 850px;
+    margin-top:510px;
+    }
+}
 
 
 

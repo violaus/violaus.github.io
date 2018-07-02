@@ -30,6 +30,17 @@ html{}
     color:white;
     font-size:70%;
     margin-left: 100px;
+    top:40%;
+  }
+
+  img{
+    position:absolute;
+    right:10%;
+    top:50%;
+    z-index:4;
+    background-size: auto;
+
+
   }
 
  </style>
