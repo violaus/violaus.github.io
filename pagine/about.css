@@ -48,7 +48,7 @@ html{}
     top:60%;
   }
 
-  img{
+  #scoppiati{
     position:absolute;
     right:8%;
     top:30%;
@@ -58,12 +58,14 @@ html{}
 
   }
 
-  font{
+  #freccia{
     position:absolute;
-    top:30%;
-    right:30%;
     z-index:5;
-    transform:rotate(-45deg);
+    background-size:auto;
+    top:50%;
+    right:30%;
   }
+
+
 
  </style>
