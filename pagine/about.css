@@ -17,6 +17,19 @@ html{}
   font-size: 100%;
   }
 
-  
+  h1 {
+    color:#642EFE;
+    position:absolute;
+    left:47%;
+    top:10%;
+  }
+
+
+  p{
+    position:absolute;
+    color:white;
+    font-size:50%;
+    margin-left: 100px;
+  }
 
  </style>
