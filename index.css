@@ -25,7 +25,7 @@ area{
 
 
 a {
-  animation: compare 5.4s;
+  animation: compare 2s;
     color:white;
     font-size: 30px;
     transition: 1s;
@@ -51,7 +51,7 @@ a:active {
 
 
 #about {
-  animation: compare 3.8s;
+  animation: compare 1.6s;
   position:absolute;
   margin-top: 150px;
   margin-left: 170px;
@@ -64,7 +64,7 @@ a:active {
 
 
 #works{
-  animation: compare 5.6s;
+  animation: compare 3.4s;
     margin-top: 270px;
     margin-left: 210px;
       position:absolute;
@@ -75,7 +75,7 @@ font-size: 30px;
 }
 
 #exercises {
-  animation: compare 7.4s;
+  animation: compare 5.2s;
     margin-top:390px;
     position:absolute;
     margin-left: 250px;
@@ -99,7 +99,7 @@ font-size: 30px;
 }
 
 #collegamento{
-  animation: compare 9.2s;
+  animation: compare 7s;
     margin-top:510px;
     position:absolute;
     margin-left: 290px;
