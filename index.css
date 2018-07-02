@@ -50,7 +50,7 @@ a:active {
 }
 
 
-#works {
+#about {
   animation: compare 3.8s;
   position:absolute;
   margin-top: 150px;
@@ -63,7 +63,7 @@ a:active {
 }
 
 
-#exercises{
+#works{
   animation: compare 5.6s;
     margin-top: 270px;
     margin-left: 250px;
@@ -74,7 +74,7 @@ font-size: 30px;
     opacity: 1;
 }
 
-#collegamento {
+#exercises {
   animation: compare 7.4s;
     margin-top:390px;
     position:absolute;
@@ -96,6 +96,18 @@ font-size: 30px;
   transition: 1s;
   z-index:4;
 
+
+}
+
+#collegamento{
+  animation: compare 9.2s;
+    margin-top:510px;
+    position:absolute;
+    margin-left: 330px;
+    font-size: 30px;
+    transition: 1s;
+    z-index:4;
+    opacity: 1;
 
 }
 
