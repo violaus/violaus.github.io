@@ -165,7 +165,7 @@ img {
 
 .vl {
 
-    border-left: 6px solid white;
+    border-left: scende1 6px solid white;
     position:absolute;
     height: 900px;
     margin-left: 170px;
@@ -173,7 +173,7 @@ img {
     z-index: 5;
 }
 .vl1 {
-  animation:scende1 3.6s;
+  animation:scende2 3.6s;
   position:absolute;
     border-left: 6px solid white;
     height: 850px;
@@ -182,7 +182,7 @@ img {
     z-index: 5;
 }
 .vl2 {
-  animation: scende2 5.4s;
+  animation: scende3 5.4s;
   position:absolute;
     border-left: 6px solid white;
     height: 850px;
@@ -193,7 +193,7 @@ img {
 }
 
 .vl3 {
-  animation: scende3 7.2s;
+  animation: scende4 7.2s;
   position:absolute;
     border-left: 6px solid white;
     height: 850px;
