@@ -194,7 +194,7 @@ img {
 }
 
 .vl3 {
-  animation: scende4 7.2s;
+  animation: scende4 7s;
   position:absolute;
     border-left: 6px solid white;
     height: 850px;
@@ -205,7 +205,7 @@ img {
 }
 
 .fascia-firma {
-  animation: trasla 5s;
+  animation: trasla 7s;
   position:fixed;
   left:100%;
   top:7%;
@@ -312,7 +312,7 @@ z-index:4;
 
 
   99% {height: 850px;
-    margin-top:510px;
+    margin-top:518px;
     }
 }
 
