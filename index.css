@@ -179,7 +179,7 @@ img {
     border-left: 6px solid white;
     height: 850px;
     margin-left: 210px;
-    margin-top: 200px;
+    margin-top: 318px;
     z-index: 5;
 }
 .vl2 {
@@ -188,7 +188,7 @@ img {
     border-left: 6px solid white;
     height: 850px;
     margin-left:250px;
-    margin-top: 320px;
+    margin-top: 440px;
     z-index: 5;
 
 }
@@ -199,7 +199,7 @@ img {
     border-left: 6px solid white;
     height: 850px;
     margin-left:290px;
-    margin-top: 440px;
+    margin-top: 518px;
     z-index: 5;
 
 }
@@ -300,6 +300,10 @@ z-index:4;
     margin-top:440px;
     }
 }
+
+
+
+
 
 @keyframes trasla{
   0% {left:70%;
