@@ -27,7 +27,7 @@ html{}
   p{
     position:absolute;
     color:white;
-    font-size:95%;
+    font-size:99%;
     margin-left: 160px;
   }
   #p1{
@@ -51,7 +51,7 @@ html{}
   img{
     position:absolute;
     right:8%;
-    top:35%;
+    top:30%;
     z-index:4;
     background-size: auto;
 
@@ -61,7 +61,7 @@ html{}
   font{
     position:absolute;
     top:30%;
-    right:40%;
+    right:30%;
     z-index:5;
     transform:rotate(-45deg);
     font-size:150%;
