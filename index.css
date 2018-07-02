@@ -88,7 +88,7 @@ font-size: 30px;
 
 #Contact{
   margin-top: 870px;
-  margin-left: 290px;
+  margin-left: 310px;
   position:absolute;
   color: #642EFE;
   font-size: 30px;
@@ -164,8 +164,9 @@ img {
 }
 
 .vl {
+   animation:scende1 1.8s;
 
-    border-left: scende1 6px solid white;
+    border-left: 6px solid white;
     position:absolute;
     height: 900px;
     margin-left: 170px;
