@@ -48,6 +48,14 @@ html{}
     top:60%;
   }
 
+  #me {
+    position:absolute;
+    transform:rotate(-30deg);
+    top:500px; 
+    right:750px
+
+  }
+
   #scoppiati{
     position:absolute;
     right:150px;
