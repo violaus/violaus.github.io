@@ -61,7 +61,7 @@ html{}
   #freccia{
     position:absolute;
     z-index:5;
-    background-size:20%;
+    size:20%;
     top:50%;
     right:30%;
   }
