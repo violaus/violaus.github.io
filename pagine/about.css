@@ -44,6 +44,9 @@ html{}
   #p4{
     top:55%;
   }
+  #p5{
+    top:60%;
+  }
 
   img{
     position:absolute;
@@ -61,7 +64,7 @@ html{}
     right:40%;
     z-index:5;
     transform:rotate(-45deg);
-    size:50%;
+    font-size:150%;
   }
 
  </style>
