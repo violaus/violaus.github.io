@@ -79,6 +79,33 @@ a:active {
   top:580px;
 }
 
+.riga{
+  position:absolute;
+  height:6px;
+  width: 255px;
+  background-color:white;
+}
+
+#v1{
+  top:180px;
+}
+
+#v2{
+  top:260px;
+}
+
+#v3{
+  top:340px;
+}
+#v4{
+  top:420px;
+}
+#v5{
+  top:500px;
+}
+#v6{
+  top:580px;
+}
 
 
 </style>
