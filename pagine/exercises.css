@@ -164,7 +164,7 @@ a:active {
 
 @keyframes compare{
   0%{opacity:0;}
-  60%{opacity:0;}
+  40%{opacity:0;}
   100%{opacity:1;}
 }
 
