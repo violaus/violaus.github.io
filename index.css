@@ -114,8 +114,8 @@ font-size: 30px;
 img {
   transform:translate(-50%,-50%);
   position:fixed;
-  top:10%;
-  left:80%;
+  top:130px;
+  right:170px;
   z-index:5;
   width:200px;
   height:45px;
@@ -207,8 +207,8 @@ img {
 .fascia-firma {
   animation: trasla 9s;
   position:fixed;
-  left:100%;
-  top:7%;
+  right:0%;
+  top:130px;
   z-index:6;
   width:250px;
   height:50px;
@@ -319,9 +319,9 @@ z-index:4;
 
 
 @keyframes trasla{
-  0% {left:70%;
+  0% {right:170px;
     }
-    100%{left:100%;
+    100%{right:0%;
 
     }
 }
