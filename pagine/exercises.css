@@ -150,7 +150,7 @@ a:active {
     transform:translate(-50%,-50%);
   }
   to{
-    width:255px;
+    width:275px;
     transform:translate(-50%,-50%);
   }
 }
