@@ -82,64 +82,64 @@ a:active {
 
 
 #v1{
-  top:185px;
+  top:190px;
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
   height:6px;
-  width:275px;
+  width:325px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
 
 #v2{
-  top:270px;
+  top:275px;
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
   height:6px;
-  width:275px;
+  width:325px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
 
 #v3{
-  top:350px;
+  top:355px;
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
   height:6px;
-  width:275px;
+  width:325px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
 #v4{
-  top:430px;
+  top:435px;
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
   height:6px;
-  width:275px;
+  width:325px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
 #v5{
-  top:510px;
+  top:515px;
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
   height:6px;
-  width:275px;
+  width:325px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
 #v6{
-  top:590px;
+  top:595px;
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
   height:6px;
-  width:275px;
+  width:325px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
@@ -150,7 +150,7 @@ a:active {
     transform:translate(-50%,-50%);
   }
   to{
-    width:275px;
+    width:325px;
     transform:translate(-50%,-50%);
   }
 }
