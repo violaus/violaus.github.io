@@ -38,6 +38,20 @@ div.gallery img {
     z-index: 5;
 }
 
+a:link {
+  color:white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+  color: #642EFE;
+}
+a:active {
+  color: #642EFE;
+}
+
 
 
 
