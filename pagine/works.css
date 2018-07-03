@@ -72,6 +72,7 @@ p{
   size:50%;
 }
 #photos{
+  position:absolute;
   top:20%;
 }
 #illustrations{
