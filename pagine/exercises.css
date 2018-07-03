@@ -83,6 +83,7 @@ a:active {
   animation: righe 2.5s forwards;
   position:absolute;
   height:6px;
+  width:255px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
@@ -111,9 +112,11 @@ a:active {
 @keyframes righe {
   from{
     width:0px;
+    transform:translate(-50%,-50%);
   }
   to{
     width:255px;
+    transform:translate(-50%,-50%);
   }
 }
 
