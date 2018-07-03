@@ -69,13 +69,13 @@ p{
   text-align: center;
   color: #642EFE;
   margin-left: 47%;
-  size:20%;
+  size:50%;
 }
 #illustrations{
-  top:15%;
+  top:20%;
 }
 #photos{
-  top:20%;
+  top:25%;
 }
 #foto{
   top:3400px;
@@ -86,7 +86,7 @@ p{
 #bocca {
   position:absolute;
   margin-left: 190px;
-  margin-top:2390px;
+  margin-top:2590px;
   background-size: 1% 3%;
 
 
