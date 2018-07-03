@@ -75,7 +75,7 @@ p{
   top:20%;
 }
 #photos{
-  top:200px;
+  top:25%;
 }
 #foto{
   top:3400px;
@@ -127,13 +127,14 @@ p{
   position:absolute;
   margin-left:190px;
   margin-top:8300px;
+  transform:rotate(180deg);
 }
 #meduse {
   position:absolute;
   margin-left:190px;
   margin-top:9100px;
 }
-#kooks {
+#cus {
   position:absolute;
   margin-left:800px;
   margin-top:9100px;
