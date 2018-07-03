@@ -49,31 +49,37 @@ a:active {
 }
 
 #es1{
+  animation:compare 2s forwards;
   position:absolute;
   left:260px;
   top:180px;
 }
 #es2{
+  animation:compare 2s forwards;
   position:absolute;
   left:260px;
   top:260px;
 }
 #es3{
+  animation:compare 2s forwards;
   position:absolute;
   left:260px;
   top:340px;
 }
 #es4{
+  animation:compare 2s forwards;
   position:absolute;
   left:260px;
   top:420px;
 }
 #es5{
+  animation:compare 2s forwards;
   position:absolute;
   left:260px;
   top:500px;
 }
 #es6{
+  animation:compare 2s forwards;
   position:absolute;
   left:260px;
   top:580px;
@@ -83,7 +89,7 @@ a:active {
 
 #v1{
   top:190px;
-  animation: righe 2.5s forwards;
+  animation: righe 2s forwards;
   position:absolute;
   z-index:4;
   height:3px;
@@ -94,7 +100,7 @@ a:active {
 
 #v2{
   top:275px;
-  animation: righe 2.5s forwards;
+  animation: righe 2s forwards;
   position:absolute;
   z-index:4;
   height:3px;
@@ -105,7 +111,7 @@ a:active {
 
 #v3{
   top:355px;
-  animation: righe 2.5s forwards;
+  animation: righe 2s forwards;
   position:absolute;
   z-index:4;
   height:3px;
@@ -115,7 +121,7 @@ a:active {
 }
 #v4{
   top:435px;
-  animation: righe 2.5s forwards;
+  animation: righe 2s forwards;
   position:absolute;
   z-index:4;
   height:3px;
@@ -125,7 +131,7 @@ a:active {
 }
 #v5{
   top:515px;
-  animation: righe 2.5s forwards;
+  animation: righe 2s forwards;
   position:absolute;
   z-index:4;
   height:3px;
@@ -135,7 +141,7 @@ a:active {
 }
 #v6{
   top:595px;
-  animation: righe 2.5s forwards;
+  animation: righe 2s forwards;
   position:absolute;
   z-index:4;
   height:3px;
@@ -153,6 +159,12 @@ a:active {
     width:405px;
     transform:translate(-50%,-50%);
   }
+}
+
+
+@keyframes compare{
+  from{opacity:0;}
+  to{opacity:1;}
 }
 
 
