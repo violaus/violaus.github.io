@@ -63,7 +63,7 @@ p{
 #bocca {
   position:absolute;
   margin-left: 190px;
-  margin-top:2200px;
+  margin-top:2350px;
   background-size: 1% 3%;
 
 
@@ -92,6 +92,11 @@ p{
   position:absolute;
   margin-left:190px;
   margin-top:6200px;
+}
+#pots{
+  position:absolute;
+  margin-left:190px;
+  margin-top:7000px;
 }
 
 
