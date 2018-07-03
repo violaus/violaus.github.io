@@ -79,15 +79,7 @@ a:active {
   top:580px;
 }
 
-.riga{
-  animation: righe 2.5s forwards;
-  position:absolute;
-  z-index:4;
-  height:6px;
-  width:255px;
-  background-color:white;
-  transform:translate(-50%,-50%);
-}
+
 
 #v1{
   top:180px;
@@ -95,26 +87,61 @@ a:active {
   position:absolute;
   z-index:4;
   height:6px;
-  width:255px;
+  width:275px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
 
 #v2{
-  top:260px;
+  top:265px;
+  animation: righe 2.5s forwards;
+  position:absolute;
+  z-index:4;
+  height:6px;
+  width:275px;
+  background-color:white;
+  transform:translate(-50%,-50%);
 }
 
 #v3{
-  top:340px;
+  top:345px;
+  animation: righe 2.5s forwards;
+  position:absolute;
+  z-index:4;
+  height:6px;
+  width:275px;
+  background-color:white;
+  transform:translate(-50%,-50%);
 }
 #v4{
-  top:420px;
+  top:425px;
+  animation: righe 2.5s forwards;
+  position:absolute;
+  z-index:4;
+  height:6px;
+  width:275px;
+  background-color:white;
+  transform:translate(-50%,-50%);
 }
 #v5{
-  top:500px;
+  top:505px;
+  animation: righe 2.5s forwards;
+  position:absolute;
+  z-index:4;
+  height:6px;
+  width:275px;
+  background-color:white;
+  transform:translate(-50%,-50%);
 }
 #v6{
-  top:580px;
+  top:585px;
+  animation: righe 2.5s forwards;
+  position:absolute;
+  z-index:4;
+  height:6px;
+  width:275px;
+  background-color:white;
+  transform:translate(-50%,-50%);
 }
 
 @keyframes righe {
