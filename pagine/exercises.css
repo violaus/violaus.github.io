@@ -80,6 +80,7 @@ a:active {
 }
 
 .riga{
+  animation: righe 2.5s forwards;
   position:absolute;
   height:6px;
   width: 255px;
@@ -105,6 +106,15 @@ a:active {
 }
 #v6{
   top:580px;
+}
+
+@keyframes righe {
+  from{
+    width:0px;
+  }
+  to{
+    width:255px;
+  }
 }
 
 
