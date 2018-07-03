@@ -52,12 +52,12 @@ h1 {
 
 p{
   position:absolute;
-  text-align: center
-  color:#642EFE;
+  text-align: center;
+  color: #642EFE;
   margin-left: 47%;
   size:20%;
 }
-#illustration{
+#illustrations{
   top:15%;
 }
 #photos{
@@ -106,6 +106,16 @@ p{
   position:absolute;
   margin-left:190px;
   margin-top:7100px;
+}
+#praga{
+  position:absolute;
+  margin-left:190px;
+  margin-top:7900px;
+}
+#fux{
+  position:absolute;
+  margin-right:190px;
+  margin-top:8700px;
 }
 
 
