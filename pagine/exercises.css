@@ -86,8 +86,8 @@ a:active {
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
-  height:6px;
-  width:325px;
+  height:3px;
+  width:355px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
@@ -97,8 +97,8 @@ a:active {
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
-  height:6px;
-  width:325px;
+  height:3px;
+  width:355px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
@@ -108,8 +108,8 @@ a:active {
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
-  height:6px;
-  width:325px;
+  height:3px;
+  width:355px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
@@ -118,8 +118,8 @@ a:active {
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
-  height:6px;
-  width:325px;
+  height:3px;
+  width:355px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
@@ -128,8 +128,8 @@ a:active {
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
-  height:6px;
-  width:325px;
+  height:3px;
+  width:355px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
@@ -138,8 +138,8 @@ a:active {
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
-  height:6px;
-  width:325px;
+  height:3px;
+  width:355px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
@@ -150,7 +150,7 @@ a:active {
     transform:translate(-50%,-50%);
   }
   to{
-    width:325px;
+    width:355px;
     transform:translate(-50%,-50%);
   }
 }
