@@ -82,7 +82,7 @@ a:active {
 
 
 #v1{
-  top:180px;
+  top:185px;
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
@@ -93,7 +93,7 @@ a:active {
 }
 
 #v2{
-  top:265px;
+  top:270px;
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
@@ -104,7 +104,7 @@ a:active {
 }
 
 #v3{
-  top:345px;
+  top:350px;
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
@@ -114,7 +114,7 @@ a:active {
   transform:translate(-50%,-50%);
 }
 #v4{
-  top:425px;
+  top:430px;
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
@@ -124,7 +124,7 @@ a:active {
   transform:translate(-50%,-50%);
 }
 #v5{
-  top:505px;
+  top:510px;
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
@@ -134,7 +134,7 @@ a:active {
   transform:translate(-50%,-50%);
 }
 #v6{
-  top:585px;
+  top:590px;
   animation: righe 2.5s forwards;
   position:absolute;
   z-index:4;
