@@ -39,7 +39,7 @@ div.gallery img {
 }
 
 a:link {
-  color:white;
+  color:#642EFE;
 }
 a:visited {
   color: white;
@@ -78,7 +78,7 @@ p{
   top:20%;
 }
 #foto{
-  top:300px;
+  top:3400px;
 }
 
 
@@ -128,8 +128,8 @@ p{
 }
 #fux{
   position:absolute;
-  margin-right:190px;
-  margin-top:9100px;
+  margin-left:800px;
+  margin-top:8300px;
 }
 
 
