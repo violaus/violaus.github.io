@@ -82,6 +82,7 @@ a:active {
 .riga{
   animation: righe 2.5s forwards;
   position:absolute;
+  z-index:4;
   height:6px;
   width:255px;
   background-color:white;
