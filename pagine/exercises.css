@@ -87,7 +87,7 @@ a:active {
   position:absolute;
   z-index:4;
   height:3px;
-  width:385px;
+  width:405px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
@@ -98,7 +98,7 @@ a:active {
   position:absolute;
   z-index:4;
   height:3px;
-  width:385px;
+  width:405px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
@@ -109,7 +109,7 @@ a:active {
   position:absolute;
   z-index:4;
   height:3px;
-  width:385px;
+  width:405px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
@@ -119,7 +119,7 @@ a:active {
   position:absolute;
   z-index:4;
   height:3px;
-  width:385px;
+  width:405px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
@@ -129,7 +129,7 @@ a:active {
   position:absolute;
   z-index:4;
   height:3px;
-  width:385px;
+  width:405px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
@@ -139,7 +139,7 @@ a:active {
   position:absolute;
   z-index:4;
   height:3px;
-  width:385px;
+  width:405px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
@@ -150,7 +150,7 @@ a:active {
     transform:translate(-50%,-50%);
   }
   to{
-    width:385px;
+    width:405px;
     transform:translate(-50%,-50%);
   }
 }
