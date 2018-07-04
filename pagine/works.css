@@ -38,6 +38,11 @@ div.gallery img {
     z-index: 5;
 }
 
+a{
+  transition:1s;
+}
+
+
 a:link {
   color: white;
 }
