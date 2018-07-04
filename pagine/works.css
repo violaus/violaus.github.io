@@ -146,21 +146,21 @@ p{
 
 #v1{
   animation:riga 2s forwards;
-  top: 165px;
+  top: 175px;
   position:absolute;
   z-index:4;
   height:3px;
-  width:810px;
+  width:1310px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
-#v1{
+#v2{
   animation:riga 2s forwards;
-  top: 190px;
+  top: 200px;
   position:absolute;
   z-index:4;
   height:3px;
-  width:810px;
+  width:1310px;
   background-color:white;
   transform:translate(-50%,-50%);
 }
@@ -173,7 +173,7 @@ p{
       transform:translate(-50%,-50%);
     }
     to{
-      width:810px;
+      width:1310px;
       transform:translate(-50%,-50%);
   }
 }
