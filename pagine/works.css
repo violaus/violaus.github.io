@@ -39,10 +39,10 @@ div.gallery img {
 }
 
 a:link {
-  color:#642EFE;
+  color: white;
 }
 a:visited {
-  color: #642EFE;
+  color: white;
 }
 a:hover {
   text-decoration: underline;
@@ -68,7 +68,7 @@ p{
   position:absolute;
   text-align: center;
 
-  color: #642EFE;
+  color: white;
   margin-left: 47%;
   size:50%;
 }
@@ -156,7 +156,7 @@ p{
 }
 #v2{
   animation:riga 2s forwards;
-  top: 210px;
+  top: 215px;
   position:absolute;
   z-index:4;
   height:3px;
