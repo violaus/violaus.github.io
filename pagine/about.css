@@ -58,7 +58,7 @@ html{}
 
   #scoppiati{
     position:absolute;
-    right:150px;
+    right:15%;
     top:30%;
     z-index:4;
     background-size: auto;
@@ -71,7 +71,7 @@ html{}
     z-index:5;
     background-size:5%;
     top:50%;
-    right:400px;
+    right:40%;
   }
 
 
