@@ -66,17 +66,18 @@ h1 {
 
 p{
   position:absolute;
-  left:50%;
+  text-align: center;
+  
   color: #642EFE;
   margin-left: 47%;
   size:50%;
 }
 #photos{
   position:absolute;
-  top:20%;
+  margin-top:190px;
 }
 #illustrations{
-  top:25%;
+  margin-top:150px;
 }
 #foto{
   top:3400px;
