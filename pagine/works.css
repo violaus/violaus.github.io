@@ -155,7 +155,7 @@ p{
   position:absolute;
   z-index:4;
   height:3px;
-  width:44%;
+  width:100%;
   background-color:white;
   transform:translate(-50%,-50%);
 }
@@ -165,7 +165,7 @@ p{
   position:absolute;
   z-index:4;
   height:3px;
-  width:44%;
+  width:100%;
   background-color:white;
   transform:translate(-50%,-50%);
 }
