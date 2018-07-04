@@ -74,10 +74,12 @@ p{
 }
 #photos{
   position:absolute;
+  animation: compare 2s forwards;
   margin-top:190px;
 }
 #illustrations{
   margin-top:165px;
+  animation: compare 2s forwards;
 }
 #foto{
   top:3400px;
@@ -142,6 +144,45 @@ p{
   margin-top:9100px;
 }
 
+#v1{
+  animation:riga 2s forwards;
+  top: 165px;
+  position:absolute;
+  z-index:4;
+  height:3px;
+  width:810px;
+  background-color:white;
+  transform:translate(-50%,-50%);
+}
+#v1{
+  animation:riga 2s forwards;
+  top: 190px;
+  position:absolute;
+  z-index:4;
+  height:3px;
+  width:810px;
+  background-color:white;
+  transform:translate(-50%,-50%);
+}
+
+
+@keyframes riga{
+
+    from{
+      width:0px;
+      transform:translate(-50%,-50%);
+    }
+    to{
+      width:810px;
+      transform:translate(-50%,-50%);
+  }
+}
+
+@keyframes compare{
+  0%{opacity:0;}
+  40%{opacity:0;}
+  100%{opacity:1;}
+}
 
 
  </style>
