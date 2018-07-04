@@ -42,7 +42,7 @@ a:link {
   color:#642EFE;
 }
 a:visited {
-  color: white;
+  color: #642EFE;
 }
 a:hover {
   text-decoration: underline;
@@ -67,7 +67,7 @@ h1 {
 p{
   position:absolute;
   text-align: center;
-  
+
   color: #642EFE;
   margin-left: 47%;
   size:50%;
@@ -77,7 +77,7 @@ p{
   margin-top:190px;
 }
 #illustrations{
-  margin-top:150px;
+  margin-top:165px;
 }
 #foto{
   top:3400px;
