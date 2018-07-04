@@ -95,45 +95,45 @@ p{
 }
 #mauer{
   position:absolute;
-  margin-left:190px;
+  margin-left:160px;
   margin-top:3500px;
 }
 #am{
   position:absolute;
-  margin-left:190px;
+  margin-left:160px;
   margin-top:4300px;
 }
 #berlin{
   position:absolute;
-  margin-left:190px;
+  margin-left:160px;
   margin-top:5100px;
 }
 #piano{
   position:absolute;
-  margin-left:190px;
+  margin-left:160px;
   margin-top:5900px;
 }
 #matera{
   position:absolute;
-  margin-left:190px;
+  margin-left:160px;
   margin-top:6700px;
 }
 #pots{
   position:absolute;
-  margin-left:190px;
+  margin-left:160px;
   margin-top:7500px;
 }
 
 
 #mt{
   position:absolute;
-  margin-left:190px;
+  margin-left:160px;
   margin-top:8300px;
   transform:rotate(180deg);
 }
 #meduse {
   position:absolute;
-  margin-left:190px;
+  margin-left:160px;
   margin-top:9100px;
 }
 #cus {
