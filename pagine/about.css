@@ -51,8 +51,8 @@ html{}
   #me {
     position:absolute;
     transform:rotate(-35deg);
-    top:665px;
-    right:746px;
+    top:80%;
+    right:90%;
 
   }
 
