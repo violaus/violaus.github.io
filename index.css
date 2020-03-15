@@ -203,19 +203,6 @@ img {
 
 }
 
-.fascia-firma {
-  animation: trasla 5s;
-  position:fixed;
-  right:0%;
-  top:110px;
-  z-index:6;
-  width:250px;
-  height:50px;
-  background-color:black;
-
-}
-
-
 .insta {
 position:absolute;
 margin-top: 940px;
