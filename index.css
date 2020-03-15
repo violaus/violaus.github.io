@@ -2,7 +2,7 @@
 html{}
 body{
   background-repeat: no-repeat;
-  background-color:black;
+  background-color:white;
   background-position: 80% 70%;
   background-attachment: fixed;
   background-size: 40%;
@@ -23,7 +23,7 @@ area{
 
 a {
   animation: compare 2s;
-    color:white;
+    color:black;
     font-size: 30px;
     transition: 1s;
     z-index:4;
@@ -33,17 +33,17 @@ a {
     text-decoration:none;
 }
 a:link {
-  color:white;
+  color:black;
 }
 a:visited {
-  color: white;
+  color: black;
 }
 a:hover {
   text-decoration: underline;
-  color: #642EFE;
+  color: #ff0000;
 }
 a:active {
-  color: #642EFE;
+  color: #ff0000;
 }
 
 
@@ -87,7 +87,7 @@ font-size: 30px;
   margin-top: 870px;
   margin-left: 310px;
   position:absolute;
-  color: #642EFE;
+  color: #ff0000;
   font-size: 30px;
   transition: 1s;
   z-index:4;
@@ -122,7 +122,7 @@ font-size: 30px;
 }
 .vl-3 {
 
-    border-left: 6px solid white;
+    border-left: 6px solid black;
     position:absolute;
     height: 300px;
     margin-left: 50px;
@@ -131,7 +131,7 @@ font-size: 30px;
 }
 .vl-2 {
 
-    border-left: 6px solid white;
+    border-left: 6px solid black;
     position:absolute;
     height: 420px;
     margin-left: 90px;
@@ -141,7 +141,7 @@ font-size: 30px;
 
 .vl-1 {
 
-    border-left: 6px solid white;
+    border-left: 6px solid black;
     position:absolute;
     height: 540px;
     margin-left: 130px;
@@ -152,7 +152,7 @@ font-size: 30px;
 .vl {
    animation:scende1 1.8s;
 
-    border-left: 6px solid white;
+    border-left: 6px solid black;
     position:absolute;
     height: 900px;
     margin-left: 170px;
@@ -162,7 +162,7 @@ font-size: 30px;
 .vl1 {
   animation:scende2 3.6s;
   position:absolute;
-    border-left: 6px solid white;
+    border-left: 6px solid black;
     height: 850px;
     margin-left: 210px;
     margin-top: 318px;
@@ -171,7 +171,7 @@ font-size: 30px;
 .vl2 {
   animation: scende3 5.4s;
   position:absolute;
-    border-left: 6px solid white;
+    border-left: 6px solid black;
     height: 850px;
     margin-left:250px;
     margin-top: 440px;
@@ -182,7 +182,7 @@ font-size: 30px;
 .vl3 {
   animation: scende4 6.8s;
   position:absolute;
-    border-left: 6px solid white;
+    border-left: 6px solid black;
     height: 850px;
     margin-left:290px;
     margin-top: 562px;
@@ -195,7 +195,7 @@ position:absolute;
 margin-top: 940px;
 margin-left: 310px;
 position:absolute;
-color: white;
+color: black;
 font-size: 20px;
 z-index:4;
 }
@@ -205,7 +205,7 @@ position:absolute;
 margin-top: 970px;
 margin-left: 310px;
 position:absolute;
-color: white;
+color: black;
 font-size: 20px;
 z-index:4;
 }
@@ -215,7 +215,7 @@ z-index:4;
   margin-top: 1030px;
   margin-left: 310px;
   position:absolute;
-  color: white;
+  color: black;
   font-size: 20px;
   z-index:4;
   display:inherit;
@@ -225,7 +225,7 @@ z-index:4;
   position:absolute;
   margin-top:1000px;
   margin-left: 310px;
-  color:red;
+  color:#ff0000;
   font-size:20px;
 }
 
