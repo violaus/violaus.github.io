@@ -208,7 +208,7 @@ font-size: 20px;
 z-index:4;
 }
 
-#email {
+.email {
   position:absolute;
   margin-top: 1030px;
   margin-left: 310px;
