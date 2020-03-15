@@ -96,12 +96,10 @@ font-size: 30px;
 }
 
 #collegamento{
-  animation: compare 7s;
     margin-top:510px;
-    position:absolute;
     margin-left: 290px;
+    position:absolute;
     font-size: 30px;
-    transition: 1s;
     z-index:4;
     opacity: 1;
 
@@ -180,7 +178,7 @@ font-size: 30px;
 }
 
 .vl3 {
-  animation: scende4 6.8s;
+  animation: scende4 6.4s;
   position:absolute;
     border-left: 6px solid black;
     height: 850px;
