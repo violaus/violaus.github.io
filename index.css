@@ -86,11 +86,10 @@ font-size: 30px;
   position:absolute;
   color: #00ffcc;
   font-size: 30px;
-  transition: 1s;
   z-index:4;
 }
 
-#collegamento{
+#collegamento {
     margin-top:510px;
     margin-left:290px;
     position:absolute;
