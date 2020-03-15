@@ -37,10 +37,10 @@ a:visited {
 }
 a:hover {
   text-decoration: underline;
-  color: #ff0000;
+  color: #00ffcc;
 }
 a:active {
-  color: #ff0000;
+  color: #00ffcc;
 }
 
 
@@ -84,7 +84,7 @@ font-size: 30px;
   margin-top: 870px;
   margin-left: 310px;
   position:absolute;
-  color: #ff0000;
+  color: #00ffcc;
   font-size: 30px;
   transition: 1s;
   z-index:4;
@@ -92,9 +92,9 @@ font-size: 30px;
 
 #collegamento{
     margin-top:510px;
-    margin-left: 290px;
+    margin-left:290px;
     position:absolute;
-    font-size: 30px;
+    font-size:30px;
     z-index:4;
     opacity: 1;
 }
@@ -217,7 +217,7 @@ z-index:4;
   position:absolute;
   margin-top:1000px;
   margin-left: 310px;
-  color:#ff0000;
+  color:black;
   font-size:20px;
 }
 
