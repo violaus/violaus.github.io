@@ -1,12 +1,9 @@
 <style>
 html{}
   body {
-    background-image: url("images/im18.JPG");
-    background-repeat: no-repeat;
     background-color:white;
     background-position: 130% 70%;
     background-attachment: fixed;
-    background-size: 50%;
     margin-right:0px;
     margin-bottom: 0px;
     z-index:3;
