@@ -1,9 +1,7 @@
 <style>
 html{}
 body{
-  background-image: url("images/sfondo.JPG");
-  background-repeat: no-repeat;
-  background-color:black;
+  background-color:white;
   background-position: 80% 70%;
   background-attachment: fixed;
   background-size: 40%;
@@ -11,13 +9,12 @@ body{
   margin-bottom: 0px;
   z-index:3;
   margin:0px;
-  font-family: 'Shrikhand', cursive;
-  font-family: 'Shadows Into Light', cursive;
-  font-family: 'Poiret One', cursive;
-font-size: 100%;
+  font-family: 'Baloo 2', cursive;
+  font-size: 100%;
 }
+
 h1 {
-  color:#642EFE;
+  color:#00ffcc;
   position:absolute;
   left: 660px;
 }
@@ -35,14 +32,14 @@ a {
     text-decoration:none;
 }
 a:link {
-  color:white;
+  color:black;
 }
 a:visited {
-  color: white;
+  color: black;
 }
 a:hover {
   text-decoration: underline;
-  color: #642EFE;
+  color: #00ffcc;
 }
 a:active {
   color: black;
@@ -94,7 +91,7 @@ a:active {
   z-index:4;
   height:3px;
   width:405px;
-  background-color:white;
+  background-color:black;
   transform:translate(-50%,-50%);
 }
 
@@ -105,7 +102,7 @@ a:active {
   z-index:4;
   height:3px;
   width:405px;
-  background-color:white;
+  background-color:black;
   transform:translate(-50%,-50%);
 }
 
@@ -116,7 +113,7 @@ a:active {
   z-index:4;
   height:3px;
   width:405px;
-  background-color:white;
+  background-color:black;
   transform:translate(-50%,-50%);
 }
 #v4{
@@ -126,7 +123,7 @@ a:active {
   z-index:4;
   height:3px;
   width:405px;
-  background-color:white;
+  background-color:black;
   transform:translate(-50%,-50%);
 }
 #v5{
@@ -136,7 +133,7 @@ a:active {
   z-index:4;
   height:3px;
   width:405px;
-  background-color:white;
+  background-color:black;
   transform:translate(-50%,-50%);
 }
 #v6{
@@ -146,7 +143,7 @@ a:active {
   z-index:4;
   height:3px;
   width:405px;
-  background-color:white;
+  background-color:black;
   transform:translate(-50%,-50%);
 }
 
