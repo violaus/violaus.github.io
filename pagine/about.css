@@ -11,14 +11,12 @@ html{}
     margin-bottom: 0px;
     z-index:3;
     margin:0px;
-    font-family: 'Shrikhand', cursive;
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Poiret One', cursive;
-  font-size: 100%;
+    font-family: 'Baloo 2', cursive;
+    font-size: 100%;
   }
 
   h1 {
-    color:#642EFE;
+    color:#00ffcc;
     position:absolute;
     left:47%;
     top:10%;
@@ -26,7 +24,7 @@ html{}
 
   p{
     position:absolute;
-    color:white;
+    color:black;
     font-size:99%;
     margin-left: 120px;
   }
