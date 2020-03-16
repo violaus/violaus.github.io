@@ -47,10 +47,7 @@ html{}
   }
 
   #me {
-    position:absolute;
-    transform:rotate(-35deg);
-    top:80%;
-    right:55%;
+    top:66%;
 
   }
 
@@ -62,14 +59,6 @@ html{}
     background-size: auto;
 
 
-  }
-
-  #freccia{
-    position:absolute;
-    z-index:5;
-    background-size:5%;
-    top:50%;
-    right:32%;
   }
 
 
