@@ -1,6 +1,9 @@
 <style>
 html{}
+@import "compass/css3";
 body{
+  margin:0px;
+  overflow: hidden;
   background-repeat: no-repeat;
   background-color:white;
   background-position: 80% 70%;
@@ -12,7 +15,23 @@ body{
   margin:0px;
   font-family: 'Baloo 2', cursive;
 font-size: 100%;
+  
+  &:hover {
+   span {
+      display: none;
+    }
+  }
 }
+
+span {
+ position: fixed;
+  top: 50%;
+  left: 50%;
+  color: #000;
+  margin-top: -40px;
+  margin-left: -227px;
+}
+
 
 area{
   display:initial;
@@ -30,10 +49,10 @@ a {
     text-decoration:none;
 }
 a:link {
-  color:#ff1a1a;
+  color:black;
 }
 a:visited {
-  color: #ff1a1a;
+  color: black;
 }
 a:hover {
   text-decoration: underline;
@@ -113,7 +132,7 @@ font-size: 30px;
 }
 .vl-3 {
 
-    border-left: 5px solid #ff1a1a;
+    border-left: 5px solid black;
     position:absolute;
     height: 300px;
     margin-left: 50px;
@@ -122,7 +141,7 @@ font-size: 30px;
 }
 .vl-2 {
 
-    border-left: 5px solid #ff1a1a;
+    border-left: 5px solid black;
     position:absolute;
     height: 420px;
     margin-left: 90px;
@@ -132,7 +151,7 @@ font-size: 30px;
 
 .vl-1 {
 
-    border-left: 5px solid #ff1a1a;
+    border-left: 5px solid black;
     position:absolute;
     height: 540px;
     margin-left: 130px;
@@ -143,7 +162,7 @@ font-size: 30px;
 .vl {
    animation:scende1 1.8s;
 
-    border-left: 5px solid #ff1a1a;
+    border-left: 5px solid black;
     position:absolute;
     height: 900px;
     margin-left: 170px;
@@ -153,7 +172,7 @@ font-size: 30px;
 .vl1 {
   animation:scende2 3.6s;
   position:absolute;
-    border-left: 5px solid #ff1a1a;
+    border-left: 5px solid black;
     height: 850px;
     margin-left: 210px;
     margin-top: 318px;
@@ -162,7 +181,7 @@ font-size: 30px;
 .vl2 {
   animation: scende3 5.4s;
   position:absolute;
-    border-left: 5px solid #ff1a1a;
+    border-left: 5px solid black;
     height: 850px;
     margin-left:250px;
     margin-top: 440px;
@@ -173,7 +192,7 @@ font-size: 30px;
 .vl3 {
   animation: scende4 6.0s;
   position:absolute;
-    border-left: 5px solid #ff1a1a;
+    border-left: 5px solid black;
     height: 840px;
     margin-left:290px;
     margin-top: 562px;
@@ -186,7 +205,7 @@ position:absolute;
 margin-top: 940px;
 margin-left: 310px;
 position:absolute;
-color: #ff1a1a;
+color: black;
 font-size: 20px;
 z-index:4;
 }
@@ -196,7 +215,7 @@ position:absolute;
 margin-top: 970px;
 margin-left: 310px;
 position:absolute;
-color: #ff1a1a;
+color: black;
 font-size: 20px;
 z-index:4;
 }
@@ -206,7 +225,7 @@ z-index:4;
   margin-top: 1030px;
   margin-left: 310px;
   position:absolute;
-  color: #ff1a1a;
+  color: black;
   font-size: 20px;
   z-index:4;
   display:inherit;
@@ -216,7 +235,7 @@ z-index:4;
   position:absolute;
   margin-top:1000px;
   margin-left: 310px;
-  color:#ff1a1a;
+  color:black;
   font-size:20px;
 }
 
