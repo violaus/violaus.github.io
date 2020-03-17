@@ -14,11 +14,13 @@ html{}
 
 a {
     color:black;
-    font-size: 30px;
+    font-size: 20px;
     transition: 1s;
     z-index:4;
     opacity: 1;
     text-decoration:none;
+    margin-left: 120px;
+    top:7%;
 }
 a:link {
   color:black;
@@ -39,6 +41,7 @@ a:active {
     position:absolute;
     left:47%;
     top:7%;
+ 
   }
 
   p{
