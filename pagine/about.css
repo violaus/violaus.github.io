@@ -12,6 +12,28 @@ html{}
     font-size: 100%;
   }
 
+a {
+    color:black;
+    font-size: 30px;
+    transition: 1s;
+    z-index:4;
+    opacity: 1;
+    text-decoration:none;
+}
+a:link {
+  color:black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  color: #ff1a1a;
+}
+a:active {
+  color: #ff1a1a;
+}
+
   h1 {
     color:#00ffcc;
     position:absolute;
