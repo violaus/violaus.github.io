@@ -13,14 +13,14 @@ html{}
   }
 
 a {
+    position:absolute;
     color:black;
     font-size: 28px;
     transition: 1s;
     z-index:4;
     opacity: 1;
-    text-decoration:none;
-    margin-left: 15%;
-    top:15%;
+    margin-left: 60px;
+    top:60px;
 }
 a:link {
   color:black;
@@ -29,7 +29,6 @@ a:visited {
   color: black;
 }
 a:hover {
-  text-decoration: underline;
   color: #ff1a1a;
 }
 a:active {
