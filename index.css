@@ -6,18 +6,18 @@ html {
      cursor:none;
 }
 body{ width: auto;
-height: 650px;
+height: auto;
 background-image: url("images/sfondo6.jpg");
-background-position: -130px -40%;
+background-position: -9vw 17vw;
 background-repeat: no-repeat;
 background-attachment: fixed;
-background-size: 120%;
+background-size: 120vw;
 }
 
 body{
   z-index:5;
   font-family: 'Rubik', sans-serif;
-  font-size: 100%;
+  font-size: 50vw;
   cursor:none;
   margin:0;
   padding:0;
@@ -25,12 +25,12 @@ body{
 }
 
 img {
-  width:10.7%;
-  height:9%;
+  width:10.3vw;
+  height:4vw;
   background-image: url('images/LAUS.jpg');
   background-repeat:no-repeat;
-  margin-left: 80px;
-  margin-top: 68px;
+  margin-left: 5.5vw;
+  margin-top: 5vw;
   position:absolute;
   z-index: 8;
 }
@@ -50,7 +50,7 @@ img {
   position:absolute;
   width:34px;
   height:34px;
-  border:5px solid #ffeb00;
+  border:5px solid  #ff3300;
   box-sizing: content-box;
   transition: 0.1s;
   transform: translate(-50%, -50%);
@@ -98,9 +98,9 @@ div:hover ~ #cursor {
 
 #hello{
   position: absolute;
-  margin-left: 80px;
-  margin-top: 155px;
-  font-size: 16.3px;
+  margin-left: 5.5vw;
+  margin-top: 11vw;
+  font-size: 1.1vw;
   font-weight:lighter;
   pointer-events: none;
 }
@@ -135,9 +135,9 @@ a:active {
 #about {
   animation: compare 4.5s;
   position:absolute;
-  margin-top: 18%;
-  margin-left: 580px;
-  font-size: 60px;
+  margin-left: 32.5vw;
+  margin-top: 21vw;
+  font-size: 4.5vw;
   font-weight: bold;
   transition: 0.6s;
   z-index:5;
@@ -149,10 +149,10 @@ a:active {
 
 #works{
   animation: compare 6s;
-    margin-top: 33%;
-  margin-left: 650px;
+    margin-top: 37vw;
+  margin-left: 40vw;
     position:absolute;
-    font-size: 60px;
+    font-size: 4.5vw;
     font-weight: bold;
     transition: 0.6s;
     z-index:5;
@@ -178,10 +178,10 @@ a:active {
 
 #collegamento {
   animation: compare 7.5s;
-    margin-top:23%;
-    margin-left:57%;
+  margin-top: 23vw;
+margin-left: 53vw;
     position:absolute;
-    font-size:60px;
+    font-size:4.5vw;
     font-weight: bold;
     z-index:5;
     opacity: 1;
@@ -212,49 +212,45 @@ a:active {
   99% {opacity:1;
     }
 }
-#insta {
-  font-weight:normal;
-position:absolute;
-margin-top:26.7%;
-margin-left:69.8%;
-position:absolute;
-color: black;
-font-size: 20px;
-z-index:5;
-    transform:rotate(10deg);
-    width: :0px;
-}
 
 #behance {
 position:absolute;
-margin-top:23%;
-margin-left:70.5%;
+margin-top:23.6vw;
+margin-left:68.2vw;
 color: black;
-font-size: 20px;
+  font-size: 1.4vw;
 z-index:5;
     transform:rotate(10deg);
 }
-
+#insta {
+  font-weight:normal;
+position:absolute;
+margin-top: 27.3vw;
+margin-left: 67.4vw;
+position:absolute;
+color:black;
+  font-size: 1.4vw;
+z-index:5;
+    transform:rotate(10deg);
+}
+#fb {
+  position:absolute;
+  margin-top: 31vw;
+margin-left: 66.7vw;
+  color:black;
+  font-size: 1.4vw;
+  z-index:5;
+    transform:rotate(10deg);
+}
 #email {
   position:absolute;
-  margin-top:35.6%;
-  margin-left:68.5%;
-  position:absolute;
+  margin-top: 36.7vw;
+margin-left: 66vw;
   color: black;
-  font-size: 20px;
+  font-size: 1.4vw;
   z-index:5;
   display:inherit;
       transform:rotate(10deg);
-}
-
-#fb {
-  position:absolute;
-  margin-top:30.1%;
-  margin-left:69.1%;
-  color:black;
-  font-size:20px;
-  z-index:5;
-    transform:rotate(10deg);
 }
 
 
@@ -325,13 +321,11 @@ z-index:5;
   z-index:5;
 }
 .box-works, .box-about, .box-behance, .box-insta, .box-fb a {
-  line-height:60px;
+  line-height:4.6vw;
 }
 .custom-underline {
   position: relative;
   display: inline-block;
-  font-size: 12px;
-  font-weight: 200px;
   text-align: center;
 }
 .custom-underline,
@@ -347,7 +341,7 @@ z-index:5;
 }
 .box-works .custom-underline::after {
   top: 97%;
-  height: 5.5px;
+  height: 0.5vw;
   width: 0%;
   left: 3%;
   background-color: rgba(0, 0, 0, 2);
@@ -355,7 +349,7 @@ z-index:5;
 }
 .box-about .custom-underline::after {
   top: 97%;
-  height: 5.5px;
+  height: 0.12vw;
   width: 0%;
   left: 3%;
   background-color: rgba(0, 0, 0, 2);
@@ -363,7 +357,7 @@ z-index:5;
 }
 .box-behance .custom-underline::after {
   top: 70%;
-  height: 2px;
+  height: 0.12vw;
   width: 0%;
   left: 3%;
   background-color: rgba(0, 0, 0, 2);
@@ -371,7 +365,7 @@ z-index:5;
 }
 .box-insta .custom-underline::after {
   top: 70%;
-  height: 2px;
+  height: 0.12vw;
   width: 0%;
   left: 3%;
   background-color: rgba(0, 0, 0, 2);
@@ -379,7 +373,7 @@ z-index:5;
 }
 .box-fb .custom-underline::after {
   top: 70%;
-  height: 2px;
+  height: 0.17vw;
   width: 0%;
   left: 3%;
   background-color: rgba(0, 0, 0, 2);
