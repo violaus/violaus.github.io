@@ -7,27 +7,24 @@ html {
 }
 body{ width: auto;
 height: auto;
-background-image: url("images/sfondo6.jpg");
 background-position: -9vw 17vw;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 120vw;
-}
 
+}
 body{
   z-index:5;
-  font-family: 'Rubik', sans-serif;
+font-family: 'Miriam Libre', sans-serif;
   font-size: 50vw;
   cursor:none;
   margin:0;
   padding:0;
   overflow-y:auto;
 }
-
 img {
   width:10.3vw;
   height:4vw;
-  background-image: url('images/LAUS.jpg');
   background-repeat:no-repeat;
   margin-left: 5.5vw;
   margin-top: 5vw;
@@ -35,22 +32,11 @@ img {
   z-index: 8;
 }
 
-//riga{
-  animation: compare 2.7s;
-  height:3px;
-  width:53px;
-  background-color:black;
-  border-radius:1%;
-  position: absolute;
-  margin-top:109px;
-  margin-left:286px;
-  z-index:7;
-}
 #cursor{
   position:absolute;
   width:34px;
   height:34px;
-  border:5px solid  #ff3300;
+  border:6px solid  #ff3300;
   box-sizing: content-box;
   transition: 0.1s;
   transform: translate(-50%, -50%);
@@ -65,10 +51,14 @@ p{
   -webkit-transition: 1s;
   -moz-transition: 1s ;
   -o-transition: 1s;
+  display:initial;
+  margin-block-start: 1vw;
+    margin-block-end: 1vw;
+    margin-inline-start: 0vw;
+    margin-inline-end: 0vw;
 }
 
 p:hover ~ #cursor {
-
   width: 40px;
   height:40px;
   border: 2px dashed black;
@@ -77,15 +67,12 @@ p:hover ~ #cursor {
 }
 
 div:hover ~ #cursor {
-
   width: 80px;
   height:80px;
   border: 3.3px dashed black;
   color:black;
   animation: animate 4s linear infinite;
 }
-
-
 
 @keyframes animate {
   0%{
@@ -95,14 +82,21 @@ div:hover ~ #cursor {
     transform: translate(-50%, -50%) rotate(360deg);
   }
 }
-
 #hello{
   position: absolute;
   margin-left: 5.5vw;
-  margin-top: 11vw;
-  font-size: 1.1vw;
+  margin-top: 6vw;
+  font-size: 2.8vw;
   font-weight:lighter;
   pointer-events: none;
+}
+@media screen and (min-width: 800px) {
+ #hello{
+   position:absolute;
+font-size:1.4vw;
+margin-left: 5.5vw;
+margin-top: 4vw;
+ }
 }
 
 a {
@@ -125,89 +119,80 @@ a:visited {
 a:hover {
   color: black;
   transition: 0.5s;
-
 }
 a:active {
   color: black;
 }
 
-
 #about {
   animation: compare 4.5s;
   position:absolute;
   margin-left: 32.5vw;
-  margin-top: 21vw;
-  font-size: 4.5vw;
+  margin-top: 29vw;
+  font-size: 8vw;
   font-weight: bold;
   transition: 0.6s;
   z-index:5;
   opacity: 1;
   transform:rotate(-43deg);
-
 }
-
-
+@media screen and (min-width: 800px) {
+ #about{
+   position:absolute;
+font-size:4.5vw;
+margin-left: 30.5vw;
+margin-top: 31vw;
+transform:rotate(-37deg);
+ }
+}
 #works{
   animation: compare 6s;
-    margin-top: 37vw;
-  margin-left: 40vw;
+    margin-top: 68vw;
+  margin-left: 36vw;
     position:absolute;
-    font-size: 4.5vw;
+    font-size: 8vw;
     font-weight: bold;
     transition: 0.6s;
     z-index:5;
     transform:rotate(21deg);
     opacity: 1;
 }
-
- {
-  animation: compare 3.5s;
-    margin-top:20%;
-    position:absolute;
-    margin-left: 400px;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.6s;
-    z-index:5;
-    opacity: 1;
-    transform:rotate(34deg);
-
+@media screen and (min-width: 800px) {
+ #works{
+   position:absolute;
+font-size:4.5vw;
+margin-top: 32vw;
+margin-left: 49vw;
+  transform:rotate(15deg);
+ }
 }
-
-
-
-#collegamento {
+#contact {
   animation: compare 7.5s;
-  margin-top: 23vw;
-margin-left: 53vw;
+  margin-top: 108vw;
+margin-left: 30vw;
     position:absolute;
-    font-size:4.5vw;
+    font-size:8vw;
     font-weight: bold;
     z-index:5;
     opacity: 1;
     transition: 0.6s;
-    transform:rotate(-80deg);
+    transform:rotate(-57deg);
     pointer-events: none;
 }
-
-
-//{
-  animation: compare 3s;
-  font-size:23px;
-  font-weight: normal;
-  z-index:7;
-  transition: 0.6s;
-  position:absolute;
-  margin-top:125px;
-  margin-left:289px;
+@media screen and (min-width: 800px) {
+ #contact{
+   position:absolute;
+font-size:4.5vw;
+margin-top: 32vw;
+margin-left: 70vw;
+  transform:rotate(-37deg);
+ }
 }
 
 @keyframes compare {
   0% {opacity: 0;
-
   }
   35% {opacity:0;}
-
 
   99% {opacity:1;
     }
@@ -215,114 +200,99 @@ margin-left: 53vw;
 
 #behance {
 position:absolute;
-margin-top:23.6vw;
-margin-left:68.2vw;
+margin-top:95vw;
+margin-left:61vw;
 color: black;
-  font-size: 1.4vw;
+  font-size: 2.6vw;
 z-index:5;
-    transform:rotate(10deg);
+    transform:rotate(33deg);
+}
+@media screen and (min-width: 800px) {
+ #behance{
+   position:absolute;
+font-size: 1.4vw;
+margin-top: 23.6vw;
+margin-left: 74.2vw;
+  transform:rotate(10deg);
+ }
 }
 #insta {
   font-weight:normal;
 position:absolute;
-margin-top: 27.3vw;
-margin-left: 67.4vw;
+margin-top:104vw;
+margin-left:61vw;
 position:absolute;
 color:black;
-  font-size: 1.4vw;
+  font-size: 2.6vw;
 z-index:5;
-    transform:rotate(10deg);
+    transform:rotate(33deg);
+}
+@media screen and (min-width: 800px) {
+ #insta{
+   position:absolute;
+font-size: 1.4vw;
+margin-top: 27.3vw;
+margin-left: 73.4vw;
+  transform:rotate(10deg);
+ }
 }
 #fb {
   position:absolute;
-  margin-top: 31vw;
-margin-left: 66.7vw;
+  margin-top:112.2vw;
+  margin-left:50vw;
   color:black;
-  font-size: 1.4vw;
+  font-size: 2.6vw;
   z-index:5;
-    transform:rotate(10deg);
+    transform:rotate(33deg);
+}
+@media screen and (min-width: 800px) {
+ #fb{
+   position:absolute;
+font-size: 1.4vw;
+margin-top: 31vw;
+margin-left: 66.7vw;
+  transform:rotate(10deg);
+ }
 }
 #email {
   position:absolute;
-  margin-top: 36.7vw;
-margin-left: 66vw;
+  margin-top:119.5vw;
+  margin-left:46vw;
   color: black;
-  font-size: 1.4vw;
+  font-size: 2.6vw;
   z-index:5;
   display:inherit;
-      transform:rotate(10deg);
+      transform:rotate(33deg);
+}
+@media screen and (min-width: 800px) {
+ #email{
+   position:absolute;
+font-size: 1.4vw;
+margin-top: 34.6vw;
+margin-left: 66.2vw;
+  transform:rotate(10deg);
+ }
 }
 
-
-
-@keyframes scende1 {
-
-  0% {height:850px;
-  margin-top:0px;
-  }
-
-  33% {height:818px;
-  margin-top:0px;}
-
-
-  99% {height: 850px;
-    margin-top:200px;
-    }
-}
-@keyframes scende2 {
-
-  0% {height:850px;
-  margin-top:0px;
-
-  }
-  33% {height:1118px;
-  margin-top:0px;}
-
-
-  99% {height: 850px;
-    margin-top:318px;
-    }
-}
-@keyframes scende3 {
-
-  0% {height:850px;
-  margin-top:0px;
-
-  }
-  33% {height:1118px;
-  margin-top:0px;}
-
-
-  99% {height: 850px;
-    margin-top:440px;
-    }
-}
-
-@keyframes scende4 {
-
-  0% {height:850px;
-  margin-top:0px;
-
-  }
-  33% {height:1118px;
-  margin-top:0px;}
-
-
-  99% {height: 850px;
-    margin-top:562px;
-    }
-}
-}
-.box-works, .box-about, .box.behance, .box-insta, .box-fb{
+.box-works, .box-about, .box-contact, .box.behance, .box-insta, .box-fb,{
   position:relative;
   width:130%;
   height: 20%;
   cursor:none;
   z-index:5;
 }
-.box-works, .box-about, .box-behance, .box-insta, .box-fb a {
+.box-behance, .box-insta, .box-fb, a {
   line-height:4.6vw;
 }
+.box-about, .box-works, .box-contact, a {
+  line-height: 8vw;
+}
+@media screen and (min-width: 800px) {
+ .box-about, .box-works, .box-contact, a{
+   line-height: 4.6vw;
+ }
+}
+
 .custom-underline {
   position: relative;
   display: inline-block;
@@ -341,7 +311,7 @@ margin-left: 66vw;
 }
 .box-works .custom-underline::after {
   top: 97%;
-  height: 0.5vw;
+  height: 1.3vw;
   width: 0%;
   left: 3%;
   background-color: rgba(0, 0, 0, 2);
@@ -349,15 +319,47 @@ margin-left: 66vw;
 }
 .box-about .custom-underline::after {
   top: 97%;
-  height: 0.5vw;
+  height: 1.3vw;
   width: 0%;
   left: 3%;
   background-color: rgba(0, 0, 0, 2);
     transition: 0.3s ease all .1s;
 }
+.box-contact .custom-underline::after {
+  top: 97%;
+  height: 1.3vw;
+  width: 0%;
+  left: 3%;
+  background-color: rgba(0, 0, 0, 2);
+    transition: 0.3s ease all .1s;
+}
+@media screen and (min-width: 800px) {
+ .box-about .custom-underline::after{
+   top: 97%;
+   height: 0.6vw;
+   width: 0%;
+   left: 3%;
+ }
+}
+@media screen and (min-width: 800px) {
+ .box-works .custom-underline::after{
+   top: 97%;
+   height: 0.6vw;
+   width: 0%;
+   left: 3%;
+ }
+}
+@media screen and (min-width: 800px) {
+ .box-contact .custom-underline::after{
+   top: 97%;
+   height: 0.6vw;
+   width: 0%;
+   left: 3%;
+ }
+}
 .box-behance .custom-underline::after {
   top: 70%;
-  height: 0.12vw;
+  height: 0.17vw;
   width: 0%;
   left: 3%;
   background-color: rgba(0, 0, 0, 2);
@@ -365,7 +367,7 @@ margin-left: 66vw;
 }
 .box-insta .custom-underline::after {
   top: 70%;
-  height: 0.12vw;
+  height: 0.17vw;
   width: 0%;
   left: 3%;
   background-color: rgba(0, 0, 0, 2);
@@ -396,6 +398,10 @@ margin-left: 66vw;
     transition: 0.2s ease all;
 }
 .box-fb:hover .custom-underline::after {
+  width: 90%;
+    transition: 0.2s ease all;
+}
+.box-contact:hover .custom-underline::after {
   width: 90%;
     transition: 0.2s ease all;
 }
