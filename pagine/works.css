@@ -1,189 +1,331 @@
 
   <style>
-  html{}
-    body {
-      background-color:white;
-      background-position: 130% 70%;
-      background-attachment: fixed;
-      background-size: 50%;
-      margin-right:0px;
-      margin-bottom: 0px;
-      z-index:3;
-      margin:0px;
-      font-family: 'Baloo 2', cursive;
-    font-size: 100%;
-    }
-
-
-div.gallery {
-    margin-top: 20%;
-    margin-left: 130px;
-    border: 0px solid #ccc;
-    float: left;
-    width: 180px;
-    z-index: 5;
+html {
+   height: 100%;
+   width: 100%;
+     cursor:none;
 }
-
-div.gallery:hover {
-    border: 0px solid #777;
-}
-
-div.gallery img {
-    width: 150%;
-    height: auto;
-    z-index: 5;
-}
-
-a{
-  transition:1s;
+body{
+  height: 11300px;
+  width: auto;
+background-attachment: fixed;
+z-index:0;
+font-family: 'Miriam Libre', sans-serif;
+cursor:none;
+margin:0;
+padding:0;
+overflow-y: scroll;
+overflow-x: auto;
 }
 
 
-a:link {
-  color: black;
+
+* {box-sizing:border-box}
+
+
+/* Slideshow container */
+.slideshow-container-1 {
+  max-width: 120vw;
+  position: absolute;
+  width: 46vw;
+  margin-top:87vw;
+  margin-left:48vw;
+}
+
+.slideshow-container-2 {
+  max-width: 120vw;
+  position: absolute;
+  width: 46vw;
+  margin-top:160vw;
+    margin-left:48vw;
+}
+
+/* Hide the images by default */
+.mySlides1 {
+  position: absolute;
+}
+
+.mySlides2 {
+  position: absolute;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: none;
+}
+
+/* Caption text */
+.text {
+  font-size: 15px;
+  padding: 8px 8px;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 1vw;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+#concept_carte{
+  padding: 5vw;
+  width: 29vw;
+  height: 20vw;
+  text-align: justify;
+  position: absolute;
+  margin-left: 5.3vw;
+  margin-top: 102vw;
+    font-size: 0.95vw;
+      z-index:2;
+
+}
+#works{
+  animation: compare 2.7s;
+  position: absolute;
+  margin-left:7.7vw;
+  margin-top: 13vw;
+  font-size: 2.8vw;
+  font-weight: bold;
+  pointer-events: none;
+  z-index:2;
+}
+
+#playingcards{
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: 19vw;
+    font-size: 1vw;
+      z-index:2;
+        pointer-events: none;
+}
+#img_carte{
+  position: absolute; posizione immagini
+  width: auto;
+  height: 25vw;
+  margin-left:43vw;
+  margin-top:-5vw;
+    z-index:2;
+}
+
+#magazine{
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: 21.5vw;
+    font-size: 1vw;
+      z-index:2;
+}
+#paula{
+  position: absolute; posizione immagini
+  width: auto;
+  height: 25vw;
+  margin-left:43vw;
+  margin-top:-5vw;
+    z-index:2;
+}
+
+a .hover-img {
+  position:relative;
+  z-index:2;
+    opacity:1;
+      pointer-events: auto;
+ }
+a .hover-img span {
+  position:absolute;
+  z-index:2;
+  left:80vw;
+  top:20vw;
+  z-index:2;
+    opacity:1;
+      pointer-events: auto;
+ }
+a:hover .hover-img span {
+  z-index:2;
+  top: 20px;
+  left:0;
+    opacity:1;
+      pointer-events: auto;
+ }
+
+
+#indietro{
+    animation: compare 5s;
+  position: absolute;
+  font-size: 7vw;
+  font-weight: bold;
+  color:black;
+  margin-left: 7vw;
+  margin-top: 5vw;
+    z-index:2;
+    text-decoration:none;
+}
+@media screen and (min-width: 400px) {
+ #indietro{
+   position:absolute;
+   margin-left: 4vw;
+   margin-top: 2vw;
+  font-size: 3.6vw;
+ }
+}
+
+a {
+  animation: compare 2s;
+  animation-duration: 2s;
+  position: absolute;
+    transition: 1s;
+    z-index:2;
+    opacity: 1;
+    pointer-events: initial;
+}
+
+
+a:link { //sotto works
+  color:black;
+  text-decoration:none;
+       cursor:none;
+
 }
 a:visited {
   color: black;
+  text-decoration:none;
+       cursor:none;
 }
 a:hover {
-  text-decoration: underline;
-  color: #00ffcc;
+  color: black;
+  text-decoration:underline;
+  cursor:none;
 }
 a:active {
-  color: #00ffcc;
-}
-
-
-
-
-
-
-h1 {
-  color:#00ffcc;
-  position:absolute;
-  left:47%;
-  top:7%;
-}
-
-p{
-  position:absolute;
-  text-align: center;
-
   color: black;
-  margin-left: 47%;
-  size:50%;
-}
-#photos{
-  position:absolute;
-  animation: compare 2s forwards;
-  margin-top:190px;
-}
-#illustrations{
-  margin-top:165px;
-  animation: compare 2s forwards;
-}
-#foto{
-  top:3400px;
+  text-decoration:none;
+       cursor:none;
 }
 
-
-
-#bocca {
-  position:absolute;
-  margin-left: 190px;
-  margin-top:2590px;
-  background-size: 1% 3%;
-
-
-}
-#mauer{
-  position:absolute;
-  margin-left:160px;
-  margin-top:3500px;
-}
-#am{
-  position:absolute;
-  margin-left:160px;
-  margin-top:4300px;
-}
-#berlin{
-  position:absolute;
-  margin-left:160px;
-  margin-top:5100px;
-}
-#piano{
-  position:absolute;
-  margin-left:160px;
-  margin-top:5900px;
-}
-#matera{
-  position:absolute;
-  margin-left:160px;
-  margin-top:6700px;
-}
-#pots{
-  position:absolute;
-  margin-left:160px;
-  margin-top:7500px;
+#cursor{
+  position:fixed;
+  width:53px;
+  height:53px;
+  background-color: #A0EDFF;
+  box-sizing: content-box;
+  transition: 0.1s;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9;
+  animation: animate 2s linear infinite;
 }
 
-
-#mt{
-  position:absolute;
-  margin-left:160px;
-  margin-top:8300px;
-  transform:rotate(180deg);
+a:hover ~ #cursor {
+  width: 70px;
+  height:70px;
+  border: 2px dashed black;
+  color:black;
+  background-color: transparent;
+  animation: animate 3s linear infinite;
+       cursor:none;
 }
-#meduse {
-  position:absolute;
-  margin-left:160px;
-  margin-top:9100px;
+.hover-img:hover ~ #cursor {
+  width: 50px;
+  height:50px;
+  border: 1px solid black;
+  color:black;
+  background-color: transparent;
+  animation: animate 3s linear infinite;
+       cursor:none;
+       transition:0.2s;
 }
-#cus {
-  position:absolute;
-  margin-left:800px;
-  margin-top:9100px;
-}
-
-#v1{
-  animation:riga 2s forwards;
-  top: 175px;
-  position:absolute;
-  z-index:4;
-  height:3px;
-  width:100%;
-  background-color:black;
-  transform:translate(-50%,-50%);
-}
-#v2{
-  animation:riga 2s forwards;
-  top: 215px;
-  position:absolute;
-  z-index:4;
-  height:3px;
-  width:100%;
-  background-color:black;
-  transform:translate(-50%,-50%);
+.slideshow-container-1:hover ~ #cursor {
+  width: 60px;
+  height:60px;
+  border: 1px  solid black;
+  color:black;
+  background-color: transparent;
+       cursor:none;
+       transition:0.2s;
 }
 
+.slideshow-container-2:hover ~ #cursor {
+  width: 50px;
+  height:50px;
+  border: 1px solid black;
+  color:black;
+  background-color: transparent;
+       cursor:none;
+       transition:0.2s;
+}
 
-@keyframes riga{
-
-    from{
-      width:0%;
-      transform:translate(-50%,-50%);
-    }
-    to{
-      width:88%;
-      transform:translate(-50%,-50%);
+#collegamento_carte {
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: 80vw;
+    text-decoration:none;
+    font-size: 1.8vw;
+      z-index:2;
+}
+@keyframes animate {
+  0%{
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
   }
 }
+@keyframes compare {
+  0% {opacity: 0;
+  }
+  35% {opacity:0;}
 
-@keyframes compare{
-  0%{opacity:0;}
-  40%{opacity:0;}
-  100%{opacity:1;}
+  99% {opacity:1;
+    }
 }
 
+</style>
 
- </style>
