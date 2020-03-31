@@ -27,14 +27,15 @@ img{
     position:absolute;
   width:60vw;
   height:60vw;
-  background-image: url('images/ME.jpg');
+  background-image: url('images/ME1.jpg');
   background-repeat:no-repeat;
   margin-left: 20vw;
   margin-top: 20vw;
   z-index: 8;
-  filter: saturate(125%);
+  filter: saturate(0%);
+  border-radius: 50%;
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 400px) {
  img{
    width:25vw;
    height:25vw;
@@ -68,7 +69,7 @@ animation: compare 3s;
     font-size: 2.4vw;
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: 400px) {
    #p1{
      position:absolute;
      margin-top: 35vw;
@@ -84,7 +85,7 @@ animation: compare 3s;
     font-size: 2.4vw;
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: 400px) {
    #p2{
      position:absolute;
      margin-top: 37vw;
@@ -99,7 +100,7 @@ animation: compare 3s;
     color: black;
     font-size: 2.4vw;
   }
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: 400px) {
    #p3{
      position:absolute;
      margin-top: 39vw;
@@ -113,7 +114,7 @@ animation: compare 3s;
     color: black;
     font-size: 2.4vw;
   }
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: 400px) {
    #p4{
      position:absolute;
      margin-top: 41vw;
@@ -127,7 +128,7 @@ animation: compare 3s;
     color: black;
     font-size: 2.4vw;
   }
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: 400px) {
    #me{
      position:absolute;
      margin-top: 43vw;
@@ -146,7 +147,7 @@ animation: compare 3s;
   font-weight: bold;
   pointer-events: none;
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 400px) {
  #about{
    width:25vw;
    height:25vw;
@@ -166,11 +167,11 @@ animation: compare 3s;
   margin-left: 7vw;
   margin-top: 5vw;
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 400px) {
  #indietro{
    position:absolute;
    margin-left: 4vw;
-   margin-top: 2vw;
+   margin-top: 3vw;
   font-size: 4vw;
  }
 }
@@ -198,7 +199,7 @@ a:visited {
 a:hover {
   color: #ff1a1a;
   text-decoration:none;
-       cursor:none;
+  cursor:none;
 }
 a:active {
   color: #ff1a1a;
@@ -207,10 +208,10 @@ a:active {
 }
 
 #cursor{
-  position:absolute;
-  width:34px;
-  height:34px;
-  border:6px solid  #ff3300;
+  position:fixed;
+  width:53px;
+  height:53px;
+  background-color: #a2ff00;
   box-sizing: content-box;
   transition: 0.1s;
   transform: translate(-50%, -50%);
@@ -227,6 +228,8 @@ a:hover ~ #cursor {
   color:black;
   animation: animate 3s linear infinite;
        cursor:none;
+       transition: 0.2s;
+       background-color:transparent;
 }
 
 @keyframes animate {
@@ -246,4 +249,3 @@ a:hover ~ #cursor {
     }
 }
 </style>
-
