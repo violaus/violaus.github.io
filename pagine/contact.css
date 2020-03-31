@@ -1,0 +1,265 @@
+<style>
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+     cursor:none;
+}
+body{
+  height: 100%;
+  width: 100%;
+background-attachment: fixed;
+background-size: cover;
+z-index:0;
+font-family: 'Miriam Libre', sans-serif;
+cursor:none;
+margin:0;
+padding:0;
+overflow-y: scroll;
+overflow-x: hidden;
+display:flex;
+}
+
+#indietro{
+    animation: compare 5s;
+  position: absolute;
+  font-size: 9vw;
+  font-weight: bold;
+  color:black;
+  margin-left: 7vw;
+  margin-top: 5vw;
+}
+@media screen and (min-width: 400px) {
+ #indietro{
+   position:absolute;
+   margin-left: 4vw;
+   margin-top: 4vw;
+  font-size: 5vw;
+ }
+}
+
+#contact{
+  animation: compare 2.7s;
+  position: absolute;
+  margin-left:20vw;
+  margin-top: 87vw;
+  font-size: 5vw;
+  font-weight: bold;
+  pointer-events: none;
+}
+@media screen and (min-width: 400px) {
+ #contact{
+   width:25vw;
+   height:25vw;
+   position:absolute;
+   margin-left:64.5vw;
+   margin-top: 20vw;
+     font-size: 2.8vw;
+ }
+}
+
+a {
+  animation: compare 2s;
+  animation-duration: 2s;
+  position: absolute;
+    transition: 1s;
+    z-index:2;
+    opacity: 1;
+}
+a:link {
+  color:black;
+  text-decoration:none;
+       cursor:none;
+}
+a:visited {
+  color: black;
+  text-decoration:none;
+       cursor:none;
+}
+a:hover {
+  color: black;
+  text-decoration:none;
+  cursor:none;
+}
+a:active {
+  color: black;
+  text-decoration:none;
+       cursor:none;
+}
+
+#cursor{
+  position:fixed;
+  width:53px;
+  height:53px;
+  background-color: #fd0012;
+  box-sizing: content-box;
+  transition: 0.1s;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9;
+  animation: animate 2s linear infinite;
+}
+
+a:hover ~ #cursor {
+  width: 70px;
+  height:70px;
+  border: 2px dashed black;
+  color:black;
+  animation: animate 3s linear infinite;
+       cursor:none;
+       transition: 0.2s;
+       background-color:transparent;
+}
+
+#behance {
+position:absolute;
+margin-top:95vw;
+margin-left:61vw;
+color: black;
+  font-size: 2.6vw;
+z-index:5;
+}
+@media screen and (min-width: 400px) {
+ #behance{
+   position:absolute;
+font-size: 1.4vw;
+margin-top: 25.6vw;
+margin-left: 70.2vw;
+ }
+}
+#insta {
+  font-weight:normal;
+position:absolute;
+margin-top:104vw;
+margin-left:61vw;
+position:absolute;
+color:black;
+  font-size: 2.6vw;
+z-index:5;
+}
+@media screen and (min-width: 400px) {
+ #insta{
+   position:absolute;
+font-size: 1.4vw;
+margin-top: 29.3vw;
+margin-left: 68.8vw;
+ }
+}
+#fb {
+  position:absolute;
+  margin-top:112.2vw;
+  margin-left:50vw;
+  color:black;
+  font-size: 2.6vw;
+  z-index:5;
+}
+@media screen and (min-width: 400px) {
+ #fb{
+   position:absolute;
+font-size: 1.4vw;
+margin-top: 33vw;
+margin-left: 69.7vw;
+ }
+}
+#email {
+  position:absolute;
+  margin-top:119.5vw;
+  margin-left:46vw;
+  color: black;
+  font-size: 2.6vw;
+  z-index:5;
+  display:inherit;
+}
+@media screen and (min-width: 400px) {
+ #email{
+   position:absolute;
+font-size: 1.4vw;
+margin-top: 36.6vw;
+margin-left: 71.9vw;
+ }
+}
+
+.box.behance, .box-insta, .box-fb,{
+  position:absolute;
+  width:130%;
+  height: 20%;
+  cursor:none;
+  z-index:5;
+}
+.box-behance, .box-insta, .box-fb, a {
+  line-height:4.6vw;
+}
+
+.custom-underline {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+}
+.custom-underline,
+.custom-underline:hover,
+.custom-underline:focus,
+.custom-underline:active {
+  color: black;
+  text-decoration: none;
+}
+.custom-underline::after {
+  content: "";
+  position: absolute;
+}
+
+.box-behance .custom-underline::after {
+  top: 70%;
+  height: 0.195vw;
+  width: 0%;
+  left: 3%;
+  background-color: rgba(0, 0, 0, 2);
+    transition: 0.3s ease all .1s;
+}
+.box-insta .custom-underline::after {
+  top: 70%;
+  height: 0.17vw;
+  width: 0%;
+  left: 3%;
+  background-color: rgba(0, 0, 0, 2);
+    transition: 0.3s ease all .1s;
+}
+.box-fb .custom-underline::after {
+  top: 70%;
+  height: 0.17vw;
+  width: 0%;
+  left: 3%;
+  background-color: rgba(0, 0, 0, 2);
+    transition: 0.3s ease all .1s;
+}
+
+.box-behance:hover .custom-underline::after {
+  width: 90%;
+    transition: 0.2s ease all;
+}
+.box-insta:hover .custom-underline::after {
+  width: 90%;
+    transition: 0.2s ease all;
+}
+.box-fb:hover .custom-underline::after {
+  width: 90%;
+    transition: 0.2s ease all;
+}
+@keyframes animate {
+  0%{
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes compare {
+  0% {opacity: 0;
+  }
+  35% {opacity:0;}
+
+  99% {opacity:1;
+    }
+}
+
+</style>
