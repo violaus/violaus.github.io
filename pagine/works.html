@@ -13,10 +13,11 @@
 
 
 * {box-sizing: border-box}
-.mySlides1, .mySlides2 {display: none}
+.mySlides1, .mySlides2, .mySlides3,{display: none}
+
 img {vertical-align: middle;}
 
-.slideshow-container-1, .slideshow-container-2,{
+.slideshow-container-1, .slideshow-container-2, .slideshow-container-3,{
   max-width: 100vw;
   position: absolute;
 }
@@ -27,15 +28,26 @@ img {vertical-align: middle;}
   top: 50%;
   width: auto;
   padding: 16px;
-  margin-top: 15vw;
+  margin-top: 30vw;
   color: white;
   font-weight: bold;
-  font-size: 1.9vw;
+  font-size: 4vw;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-
+@media screen and (min-width: 1300px) {
+.prev, .next {
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: 15vw;
+  font-size: 1.9vw;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+ }
+}
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -47,8 +59,13 @@ img {vertical-align: middle;}
   background-color: transparent;
   color: white;
   text-decoration:none;
+  font-size: 5vw;
+  transition: 0.1s;
+}
+@media screen and (min-width: 1300px) {
+.prev:hover, .next:hover {
   font-size: 2.7vw;
-  transition: 0.2s;
+ }
 }
 
 </style>
@@ -78,6 +95,10 @@ img {vertical-align: middle;}
     <img src="images/slide_hangar.png" style="width:100%">
   </div>
 
+  <div class="mySlides1">
+    <img src="images/slide_jolly.png" style="width:100%">
+  </div>
+
   <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
   <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 </div>
@@ -85,26 +106,53 @@ img {vertical-align: middle;}
 
 <div class="slideshow-container-2">
   <div class="mySlides2">
-    <img src="images/giallo.jpg" style="width:100%">
+    <img src="images/slide_entrambe.png" style="width:100%">
   </div>
 
   <div class="mySlides2">
-    <img src="images/copertina.jpg" style="width:100%">
+    <img src="images/slide_paula.png" style="width:100%">
   </div>
 
   <div class="mySlides2">
-    <img src="images/posterhouse.png" style="width:100%">
+    <img src="images/slide_atlantic.png" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="images/slide_identity.png" style="width:100%">
   </div>
 
   <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
 </div>
 
+<div class="slideshow-container-3">
+  <div class="mySlides3">
+    <img src="images/slide_hex.png" style="width:100%">
+  </div>
+
+  <div class="mySlides3">
+    <img src="images/slide_struttura.png" style="width:100%">
+  </div>
+
+  <div class="mySlides3">
+    <img src="images/slide_occhio.png" style="width:100%">
+  </div>
+
+  <div class="mySlides3">
+    <img src="images/hex.png" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+</div>
+
 <script>
-var slideIndex = [1,1];
-var slideId = ["mySlides1", "mySlides2"]
-showSlides(1, 0);
-showSlides(1, 1);
+var slideIndex = [1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3"]
+showSlides(1, 0,0)
+showSlides(1, 1,0)
+showSlides(1, 1,1)
+
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
@@ -144,16 +192,30 @@ function showSlides(n, no) {
      <span><img id="img_carte" src="images/slide_carte.png">  </span>
   </div></a>
 
-  <a id="collegamento_carte" name="prog_carte"> <br><br><br><br><br><br><br><br><br><br>playing cards </a>
+  <a id="collegamento_carte" name="prog_carte"> <br>playing cards </a>
   <div id="concept_carte"> _ four ways to know four different faces of Milan, a city where art and beauty are hidden in every corner: from the incredible modern buildings, to the fascinating ancient monuments, through the districts decorated by murals, to the pubs and clubs loved by the locals.<br>
 Each card suit is an itinerary, each card is a step containing the indications to reach the next one.
 The Milanese will be able to demonstrate how much they really know their city while the tourists will get useful tips about the "must-sees" of Milan.</div>
 
-<a id="magazine"><div class="hover-img">
+<a id="magazine" href="#prog_paula"><div class="hover-img">
   magazine about paula scher
-     <span><img id="paula" src="images/themet.jpg">  </span>
+     <span><img id="img_paula" src="images/themet.jpg">  </span>
   </div></a>
+  <a id="collegamento_paula" name="prog_paula"> paula scher -<br>groove in new york </a>
+  <div id="concept_paula">_ Paula Scher loves New York City.<br> Her work reflects the spirit of the City
+but at the same time contributes to the evolution of its appearance, collaborating with record
+companies, museums, theaters, cinemas, schools, parks and every other kind of institution in New York. <br>This number investigates the relation between
+the designer and her city analyzing the works she made. The four rubrics treat the different kind of creations she made during her career in the Big
+Apple: the record covers in the ‘70s and ‘80s, the collaboration with the cultural centres, the 24-year-long relation with The Public Theater, the design for public good. Somehow, these are four ways Paula dealt with New York City. The key element in the magazine is the map: its
+whole structure is based on the traceability of every single institution she collaborated with.<br>
+</div>
 
+<a id="hex" href="#prog_hex"><div class="hover-img">
+    hex
+       <span><img id="img_hex" src="images/hex.png">  </span>
+    </div></a>
+    <a id="collegamento_hex" name="prog_hex">HEX - when death anxiety<br>meets superstition</a>
+    <div id="concept_hex"> </div>
 
 
   </body>
