@@ -26,9 +26,9 @@ overflow-x: auto;
 .slideshow-container-1 {
   max-width: 120vw;
   position: absolute;
-  width: 90vw;
-  margin-top:255vw;
-  margin-left: 5vw;
+  width: 100%;
+  margin-top:245vw;
+  margin-left: 0vw;
 }
 @media screen and (min-width: 1300px) {
 .slideshow-container-1{
@@ -41,9 +41,9 @@ width: 46vw;
 .slideshow-container-2 {
   max-width: 120vw;
   position: absolute;
-  width: 90vw;
+  width: 100%;
   margin-top:440vw;
-    margin-left:5vw;
+    margin-left:0vw;
 }
 @media screen and (min-width: 1300px) {
 .slideshow-container-2{
@@ -55,9 +55,9 @@ width: 46vw;
 .slideshow-container-3 {
   max-width: 120vw;
   position: absolute;
-  width: 90vw;
+  width: 100%;
   margin-top:650vw;
-    margin-left:5vw;
+    margin-left:0vw;
 }
 @media screen and (min-width: 1300px) {
 .slideshow-container-3{
@@ -212,7 +212,7 @@ height: 20vw;
   animation: compare 2.7s;
   position: absolute;
   margin-left:14vw;
-  margin-top: 60vw;
+  margin-top: 58.5vw;
   font-size: 7vw;
   font-weight: bold;
   pointer-events: none;
@@ -229,8 +229,9 @@ margin-top: 13vw;
 
 #playingcards{
   position: absolute;
-  margin-left: 52vw;
-  margin-top: 54vw;
+  margin-left: 14.7vw;
+  margin-top: 75vw;
+  color: black;
     font-size: 3vw;
       z-index:2;
         pointer-events: none;
@@ -265,8 +266,8 @@ margin-top: 19vw;
 #magazine{
   position: absolute;
   color: black;
-  margin-left: 52vw;
-  margin-top: 60vw;
+  margin-left: 14.7vw;
+  margin-top: 82vw;
     font-size: 3vw;
       z-index:2;
 }
@@ -299,8 +300,8 @@ margin-top: 21.5vw;
 }
 #hex{
   position: absolute;
-  margin-left: 52vw;
-  margin-top: 66vw;
+  margin-left: 14.7vw;
+  margin-top: 89vw;
     font-size: 3vw;
       z-index:2;
         color: black;
