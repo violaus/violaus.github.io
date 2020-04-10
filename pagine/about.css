@@ -5,13 +5,13 @@ html {
    width: 100%;
      cursor:none;
 }
-body{ width: auto;
-height: auto;
-background-position: 8vw 50vw;
-background-repeat: no-repeat;
+body{ height: 100%;
+width: 100%;
+margin:0;
+padding:0;
+overflow-y: auto;
+overflow-x: hidden;
 background-attachment: fixed;
-background-size: 50%;
-
 }
 body{
   z-index:5;
@@ -19,29 +19,26 @@ font-family: 'Miriam Libre', sans-serif;
   cursor:none;
   margin:0;
   padding:0;
-  overflow-y:auto;
 }
 
 img{
      animation: compare 2s;
     position:absolute;
-  width:60vw;
-  height:60vw;
-  background-image: url('images/ME1.jpg');
+  width:auto;
+  height:24vw;
+  background-image: url('images/ME2.jpg');
   background-repeat:no-repeat;
-  margin-left: 20vw;
-  margin-top: 20vw;
+  margin-left: 39vw;
+  margin-top: 40vw;
   z-index: 8;
-  filter: saturate(0%);
-  border-radius: 50%;
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1300px) {
  img{
-   width:25vw;
-   height:25vw;
+   width:auto;
+   height:10.5vw;
    position:absolute;
-   margin-left: 64vw;
-   margin-top: 5.3vw;
+   margin-left: 45vw;
+   margin-top: 17vw;
  }
 }
 
@@ -61,79 +58,80 @@ p{
 p{
 position:absolute;
 animation: compare 3s;
+  z-index: 10;
   }
   #p1{
-    margin-top: 96vw;
+    margin-top: 107vw;
     margin-left:20vw;
     color: black;
     font-size: 2.4vw;
   }
 
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 1300px) {
    #p1{
      position:absolute;
-     margin-top: 35vw;
-     margin-left:10vw;
-    font-size: 1.3vw;
+     margin-top: 38vw;
+     margin-left:9vw;
+    font-size: 0.8vw;
    }
   }
 
   #p2{
-    margin-top: 100vw;
+    margin-top: 111vw;
     margin-left:20vw;
     color: black;
     font-size: 2.4vw;
   }
 
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 1300px) {
    #p2{
      position:absolute;
-     margin-top: 37vw;
-     margin-left:10vw;
-    font-size: 1.3vw;
+     margin-top: 39.5vw;
+     margin-left:9vw;
+    font-size: 0.8vw;
    }
   }
 
   #p3{
-    margin-top: 104vw;
+    margin-top: 115vw;
     margin-left:20vw;
     color: black;
     font-size: 2.4vw;
   }
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 1300px) {
    #p3{
      position:absolute;
-     margin-top: 39vw;
-     margin-left:10vw;
-    font-size: 1.3vw;
+     margin-top: 41vw;
+     margin-left:9vw;
+    font-size: 0.8vw;
    }
   }
   #p4{
-    margin-top: 108vw;
+    margin-top: 119vw;
     margin-left:20vw;
     color: black;
     font-size: 2.4vw;
   }
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 1300px) {
    #p4{
      position:absolute;
-     margin-top: 41vw;
-     margin-left:10vw;
-    font-size: 1.3vw;
+     margin-top: 42.5vw;
+     margin-left:9vw;
+    font-size: 0.8vw;
    }
   }
   #me{
-    margin-top: 112vw;
+    margin-top: 123vw;
     margin-left:20vw;
     color: black;
     font-size: 2.4vw;
   }
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 1300px) {
    #me{
      position:absolute;
-     margin-top: 43vw;
-     margin-left:10vw;
-    font-size: 1.3vw;
+     margin-top: 44vw;
+     margin-left:9vw;
+    font-size: 0.8vw;
    }
   }
 
@@ -142,37 +140,36 @@ animation: compare 3s;
   animation: compare 2.7s;
   position: absolute;
   margin-left:20vw;
-  margin-top: 87vw;
+  margin-top: 96vw;
   font-size: 5vw;
   font-weight: bold;
   pointer-events: none;
+  z-index: 10;
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1300px) {
  #about{
-   width:25vw;
-   height:25vw;
    position:absolute;
-   margin-left:10vw;
-   margin-top: 29vw;
-     font-size: 2.8vw;
+   margin-left:9vw;
+   margin-top: 33vw;
+     font-size: 2vw;
  }
 }
 
 #indietro{
     animation: compare 5s;
   position: absolute;
-  font-size: 7vw;
+  font-size: 9vw;
   font-weight: bold;
   color:black;
   margin-left: 7vw;
   margin-top: 5vw;
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1300px) {
  #indietro{
    position:absolute;
-   margin-left: 4vw;
-   margin-top: 3vw;
-  font-size: 4vw;
+   margin-left: 3.5vw;
+   margin-top: 2.1vw;
+  font-size: 3.5vw;
  }
 }
 
@@ -181,7 +178,7 @@ a {
   animation-duration: 2s;
   position: absolute;
     transition: 1s;
-    z-index:5;
+    z-index:10;
     opacity: 1;
     cursor:none;
 }
@@ -218,7 +215,6 @@ a:active {
   border-radius: 50%;
   pointer-events: none;
   z-index: 9;
-  animation: animate 2s linear infinite;
 }
 
 a:hover ~ #cursor {
@@ -231,6 +227,7 @@ a:hover ~ #cursor {
        transition: 0.2s;
        background-color:transparent;
 }
+
 
 @keyframes animate {
   0%{
