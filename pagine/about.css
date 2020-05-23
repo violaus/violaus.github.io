@@ -15,14 +15,17 @@ background-attachment: fixed;
 }
 body{
   z-index:5;
-font-family: 'Miriam Libre', sans-serif;
+font-family: 'Montserrat', sans-serif;
   cursor:none;
   margin:0;
   padding:0;
 }
-
+br {
+  content: "";
+  margin: 0.00em;
+  display: block;
+}
 img{
-     animation: compare 2s;
     position:absolute;
   width:auto;
   height:24vw;
@@ -31,14 +34,15 @@ img{
   margin-left: 39vw;
   margin-top: 40vw;
   z-index: 8;
+  opacity:0;
 }
 @media screen and (min-width: 1300px) {
  img{
    width:auto;
    height:10.5vw;
    position:absolute;
-   margin-left: 45vw;
-   margin-top: 17vw;
+   margin-left: 86vw;
+   margin-top: 34vw;
  }
 }
 
@@ -57,87 +61,40 @@ p{
 }
 p{
 position:absolute;
-animation: compare 3s;
   z-index: 10;
   }
-  #p1{
-    margin-top: 107vw;
-    margin-left:20vw;
-    color: black;
-    font-size: 2.4vw;
-  }
-
+#p1{
+  opacity:0;
+}
   @media screen and (min-width: 1300px) {
    #p1{
      position:absolute;
-     margin-top: 38vw;
-     margin-left:9vw;
-    font-size: 0.8vw;
+     margin-top: 3.9vw;
+     margin-left:9.3vw;
+    font-size: 3.5vw;
+    color: black;
+    animation: compare 3s;
+    opacity:1;
    }
   }
-
   #p2{
-    margin-top: 111vw;
+    margin-top: 8vw;
     margin-left:20vw;
     color: black;
-    font-size: 2.4vw;
+    font-size: 5.7vw;
+   opacity:1;
   }
 
   @media screen and (min-width: 1300px) {
    #p2{
-     position:absolute;
-     margin-top: 39.5vw;
-     margin-left:9vw;
-    font-size: 0.8vw;
+         opacity:0;
    }
   }
 
-  #p3{
-    margin-top: 115vw;
-    margin-left:20vw;
-    color: black;
-    font-size: 2.4vw;
-  }
-  @media screen and (min-width: 1300px) {
-   #p3{
-     position:absolute;
-     margin-top: 41vw;
-     margin-left:9vw;
-    font-size: 0.8vw;
-   }
-  }
-  #p4{
-    margin-top: 119vw;
-    margin-left:20vw;
-    color: black;
-    font-size: 2.4vw;
-  }
-  @media screen and (min-width: 1300px) {
-   #p4{
-     position:absolute;
-     margin-top: 42.5vw;
-     margin-left:9vw;
-    font-size: 0.8vw;
-   }
-  }
-  #me{
-    margin-top: 123vw;
-    margin-left:20vw;
-    color: black;
-    font-size: 2.4vw;
-  }
-  @media screen and (min-width: 1300px) {
-   #me{
-     position:absolute;
-     margin-top: 44vw;
-     margin-left:9vw;
-    font-size: 0.8vw;
-   }
-  }
 
 
 #about{
-  animation: compare 2.7s;
+  background-color: white;
   position: absolute;
   margin-left:20vw;
   margin-top: 96vw;
@@ -145,13 +102,16 @@ animation: compare 3s;
   font-weight: bold;
   pointer-events: none;
   z-index: 10;
+  opacity:0;
 }
 @media screen and (min-width: 1300px) {
  #about{
+     background-color: white;
    position:absolute;
    margin-left:9vw;
    margin-top: 33vw;
      font-size: 2vw;
+       opacity:0;
  }
 }
 
@@ -161,14 +121,16 @@ animation: compare 3s;
   font-size: 9vw;
   font-weight: bold;
   color:black;
-  margin-left: 7vw;
+  margin-left: 5vw;
   margin-top: 5vw;
+  z-index:10;
+  pointer-events: all;
 }
 @media screen and (min-width: 1300px) {
  #indietro{
    position:absolute;
-   margin-left: 3.5vw;
-   margin-top: 2.1vw;
+   margin-left: 2.6vw;
+   margin-top: 3.3vw;
   font-size: 3.5vw;
  }
 }
@@ -206,8 +168,8 @@ a:active {
 
 #cursor{
   position:fixed;
-  width:53px;
-  height:53px;
+  width:75px;
+  height:75px;
   background-color: #a2ff00;
   box-sizing: content-box;
   transition: 0.1s;
@@ -245,4 +207,5 @@ a:hover ~ #cursor {
   99% {opacity:1;
     }
 }
+
 </style>
