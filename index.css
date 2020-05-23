@@ -9,6 +9,7 @@ body{
   width: auto;
   height: auto;
   background-attachment: fixed;
+  background-color: white;
   z-index:5;
 font-family: 'Miriam Libre', sans-serif;
   font-size: 50vw;
@@ -79,145 +80,198 @@ p{
 #cursor9{
   transform: translate(-50%, -50%);
 }
+#cursor10{
+  transform: translate(-50%, -50%);
+}
+#cursor11{
+  transform: translate(-50%, -50%);
+}
+#cursor12{
+  transform: translate(-50%, -50%);
+}
+#cursor13{
+  transform: translate(-50%, -50%);
+}
+#cursor14{
+  transform: translate(-50%, -50%);
+}
 
 
 .box-about:hover ~ #cursor {
   width: 130vw;
   height:130vw;
-    background-color:#00FFFF;
+    background-color:#00FA9A;
   animation: animate 3s linear infinite;
   transition: 0.1s;
     border-radius: 50%;
+    transition: all 0.8s cubic-bezier(0.5, 0, 0.02, 1);
 }
 @media screen and (min-width: 1300px) {
  .box-about:hover ~ #cursor{
    width: 80vw;
    height:80vw;
- }
-}
-.box-about:hover ~ #cursor3 {
-  width: 83vw;
-  height:83vw;
-  border: 0.3vw dotted black;
-  animation: animate 50s linear infinite;
-  transition: 0.1s;
-    border-radius: 50%;
-    opacity:0;
-}
-@media screen and (min-width: 1300px) {
-.box-about:hover ~ #cursor3{
-  width: 83vw;
-  height:83vw;
-  opacity:1;
+   margin-top: -15vw;
  }
 }
 .box-contact:hover ~ #cursor {
   width: 90vw;
   height:90vw;
-  background-color:#79fffe ;
+  background-color:##00FA9A ;
     border: 2px solid #75D5FD;
   transition: 0.1s;
     border-radius: 50%;
       filter: blur(100px);
+      opacity: 1;
 }
 @media screen and (min-width: 1300px) {
 .box-contact:hover ~ #cursor{
-  width: 90vw;
-  height:90vw;
-      filter: blur(400px);
+  width: 60vw;
+  height:60vw;
+      filter: blur(200px);
  }
 }
 
-.box-contact:hover ~ #cursor3 {
+.box-about:hover ~ #cursor3 {
   width: 17vw;
   height:17vw;
-  border: 2.4px dashed black;
+  border: 1.5px dashed black;
   animation: animate 6s linear infinite;
   transition: 0.1s;
     border-radius: 50%;
 }
 @media screen and (min-width: 1300px) {
-.box-contact:hover ~ #cursor3{
-  width: 8vw;
-  height:8vw;
+.box-about:hover ~ #cursor3{
+  width: 9vw;
+  height:9vw;
+        border: 2.2px dashed black;
  }
 }
-.box-contact:hover ~ #cursor2 {
+.box-about:hover ~ #cursor2 {
   width: 15vw;
   height:15vw;
-  border: 2px dashed black;
-  animation: -animate 3s linear infinite;
+  border: 1.5px dashed black;
+  animation: -animate 4.5s linear infinite;
   transition: 0.1s;
     border-radius: 70%;
 }
 @media screen and (min-width: 1300px) {
-.box-contact:hover ~ #cursor2{
-  width: 6vw;
-  height:6vw;
+.box-about:hover ~ #cursor2{
+  width: 7.7vw;
+  height:7.7vw;
+      border: 2.5px dashed black;
+        border: 2.2px dashed black;
  }
 }
+.box-contact:hover ~ #cursor4 {
+  width: 15vw;
+  height:15vw;
+  border: 0.7px solid black;
+  animation: -animate 10s linear infinite;
+  transition: 0.1s;
+  border-radius: 0%;
+    margin-left: 0vw;
+    margin-top: 0vw;
+}
+@media screen and (min-width: 1300px) {
+.box-contact:hover ~ #cursor4{
+  width: 11vw;
+  height:11vw;
+  margin-left: 0vw;
+  margin-top: 0vw;
+    border: 1.2px solid black;
+ }
+}
+.box-contact:hover ~ #cursor5 {
+  width: 14vw;
+  height:14vw;
+  border: 0.7px solid black;
+  animation: animate 10s linear infinite;
+  transition: 0.1s;
+  border-radius: 0%;
+    margin-left: 0vw;
+    margin-top: 0vw;
+}
+@media screen and (min-width: 1300px) {
+.box-contact:hover ~ #cursor5{
+  width: 40vw;
+  height:40vw;
+  margin-left: 0vw;
+  margin-top: 0vw;
+      border: 1.2px solid black;
+ }
+}
+
+
+
+
+
+
+
+
+
+
 .box-works:hover ~ #cursor {
   width: 20vw;
   height:20vw;
   background-color: transparent;
-  border: 0.5px solid black;
-    transition: 0.2s;
+  border: 3px solid #00FA9A;
+    transition: 0.1s;
     transition: all 0.0s cubic-bezier(0.5, 0, 0.02, 1);
 }
 .box-works:hover ~ #cursor2 {
   width: 30vw;
   height:30vw;
   border: 0.5px solid black;
-    transition: 0.2s;
+    transition: 0.1s;
     transition: all 0.1s cubic-bezier(0.5, 0, 0.02, 1);
 }
 .box-works:hover ~ #cursor3 {
   width: 40vw;
   height:40vw;
   border: 0.5px solid black;
-    transition: 0.2s;
+    transition: 0.1s;
     transition: all 0.2s cubic-bezier(0.5, 0, 0.02, 1);
 }
 .box-works:hover ~ #cursor4 {
   width: 50vw;
   height:50vw;
   border: 0.5px solid black;
-    transition: 0.2s;
+    transition: 0.1s;
     transition: all 0.3s cubic-bezier(0.5, 0, 0.02, 1);
 }
 .box-works:hover ~ #cursor5 {
   width: 60vw;
   height:60vw;
   border: 0.5px solid black;
-    transition: 0.2s;
+    transition: 0.1s;
     transition: all 0.4s cubic-bezier(0.5, 0, 0.02, 1);
 }
 .box-works:hover ~ #cursor6 {
   width: 70vw;
   height:70vw;
   border: 0.5px solid black;
-    transition: 0.2s;
+    transition: 0.1s;
     transition: all 0.5s cubic-bezier(0.5, 0, 0.02, 1);
 }
 .box-works:hover ~ #cursor7 {
   width: 80vw;
   height:80vw;
   border: 0.5px solid black;
-    transition: 0.2s;
+    transition: 0.1s;
     transition: all 0.6s cubic-bezier(0.5,0, 0.02, 1);
 }
 .box-works:hover ~ #cursor8 {
   width: 90vw;
   height:90vw;
   border: 0.5px solid black;
-    transition: 0.2s;
+    transition: 0.1s;
     transition: all 0.7s cubic-bezier(0.5, 0, 0.02, 1);
 }
 .box-works:hover ~ #cursor9 {
   width: 100vw;
   height:100vw;
   border: 0.5px solid black;
-    transition: 0.2s;
+    transition: 0.1s;
     transition: all 0.8s cubic-bezier(0.5, 0, 0.02, 1);
 }
 
@@ -247,8 +301,7 @@ p{
   font-size: 2.2vw;
   font-weight: lighter;
   pointer-events: none;
-  font-family: 'Work Sans', sans-serif;
-  font-family: 'Muli', sans-serif//
+font-family: 'Montserrat', sans-serif;
 
 }
 @media screen and (min-width: 1300px) {
@@ -326,66 +379,70 @@ a:active {
 }
 
 #about {
-  animation: compare 3.5s;
+  animation: compare 1.5s;
+  text-align: center;
   position:absolute;
-  margin-left: 32.5vw;
-  margin-top: 29vw;
-  font-size: 8vw;
-  font-weight: bold;
+  margin-left: 34.5vw;
+  margin-top: 49vw;
+  font-size: 10vw;
+  font-weight: lighter;
   transition: 0.6s;
   z-index:10;
   opacity: 1;
-  transform:rotate(-43deg);
+  transform:rotate(0deg);
 }
 @media screen and (min-width: 1300px) {
  #about{
    position:absolute;
-font-size:4.2vw;
-margin-left: 18vw;
-margin-top: 25vw;
-transform:rotate(-37deg);
+font-size:5.3vw;
+margin-left: 19vw;
+margin-top: 24.5vw;
+//transform:rotate(-37deg);
  }
 }
 #works{
-  animation: compare 4.5s;
+  animation: compare 2.5s;
+    text-align: center;
     margin-top: 68vw;
-  margin-left: 36vw;
+  margin-left: 33vw;
     position:absolute;
-    font-size: 8vw;
-    font-weight: bold;
+    font-size: 10vw;
+    font-weight: lighter;
     transition: 0.6s;
     z-index:10;
-    transform:rotate(21deg);
+    transform:rotate(0deg);
     opacity: 1;
 }
 @media screen and (min-width: 1300px) {
  #works{
+   text-align: center;
    position:absolute;
-font-size:4.2vw;
-margin-top: 27vw;
-margin-left: 38vw;
-  transform:rotate(15deg);
+font-size:5.3vw;
+margin-top: 24.5vw;
+margin-left: 38.2vw;
+  //transform:rotate(15deg);
  }
 }
 #contact {
-  animation: compare 5.5s;
-  margin-top: 108vw;
+  animation: compare 3.5s;
+    text-align: center;
+  margin-top: 88vw;
 margin-left: 30vw;
     position:absolute;
-    font-size:8vw;
-    font-weight: bold;
+    font-size:10vw;
+    font-weight: lighter;
     z-index:10;
     opacity: 1;
     transition: 0.6s;
-    transform:rotate(-57deg);
+    transform:rotate(0deg);
 }
 @media screen and (min-width: 1300px) {
  #contact{
    position:absolute;
-font-size:4.2vw;
-margin-top: 24vw;
-margin-left: 60vw;
-  transform:rotate(-30deg);
+font-size:5.3vw;
+margin-top: 24.5vw;
+margin-left: 59vw;
+  //transform:rotate(-30deg);
  }
 }
 
@@ -441,24 +498,24 @@ margin-left: 60vw;
   position: absolute;
 }
 .box-works .custom-underline::after {
-  top: 97%;
-  height: 1.3vw;
+  top: 110%;
+  height: 1vw;
   width: 0%;
   left: 3%;
   background-color: rgba(0, 0, 0, 2);
     transition: 0.3s ease all .1s;
 }
 .box-about .custom-underline::after {
-  top: 97%;
-  height: 1.3vw;
+  top: 108%;
+  height: 1vw;
   width: 0%;
   left: 3%;
   background-color: rgba(0, 0, 0, 2);
     transition: 0.3s ease all .1s;
 }
 .box-contact .custom-underline::after {
-  top: 97%;
-  height: 1.3vw;
+  top: 110%;
+  height: 1vw;
   width: 0%;
   left: 3%;
   background-color: rgba(0, 0, 0, 2);
@@ -466,77 +523,42 @@ margin-left: 60vw;
 }
 @media screen and (min-width: 1300px) {
  .box-about .custom-underline::after{
-   top: 97%;
-   height: 0.6vw;
+top: 105%;
+   height: 0.39vw;
    width: 0%;
-   left: 3%;
+   left: 0%;
  }
 }
 @media screen and (min-width: 1300px) {
  .box-works .custom-underline::after{
-   top: 97%;
-   height: 0.6vw;
+   top: 105%;
+   height: 0.4vw;
    width: 0%;
-   left: 3%;
+   left: 1%;
  }
 }
 @media screen and (min-width: 1300px) {
  .box-contact .custom-underline::after{
-   top: 97%;
-   height: 0.6vw;
+top: 105%;
+   height: 0.4vw;
    width: 0%;
-   left: 3%;
+   left: 1%;
  }
 }
-.box-behance .custom-underline::after {
-  top: 70%;
-  height: 0.17vw;
-  width: 0%;
-  left: 3%;
-  background-color: rgba(0, 0, 0, 2);
-    transition: 0.3s ease all .1s;
-}
-.box-insta .custom-underline::after {
-  top: 70%;
-  height: 0.17vw;
-  width: 0%;
-  left: 3%;
-  background-color: rgba(0, 0, 0, 2);
-    transition: 0.3s ease all .1s;
-}
-.box-fb .custom-underline::after {
-  top: 70%;
-  height: 0.17vw;
-  width: 0%;
-  left: 3%;
-  background-color: rgba(0, 0, 0, 2);
-    transition: 0.3s ease all .1s;
-}
 .box-works:hover .custom-underline::after {
-  width: 90%;
+  width: 98%;
     transition: 0.2s ease all;
 }
 .box-about:hover .custom-underline::after {
-  width: 90%;
-    transition: 0.2s ease all;
-}
-.box-behance:hover .custom-underline::after {
-  width: 90%;
-    transition: 0.2s ease all;
-}
-.box-insta:hover .custom-underline::after {
-  width: 90%;
-    transition: 0.2s ease all;
-}
-.box-fb:hover .custom-underline::after {
-  width: 90%;
+  width: 97%;
     transition: 0.2s ease all;
 }
 .box-contact:hover .custom-underline::after {
-  width: 90%;
+  width: 95%;
     transition: 0.2s ease all;
 }
 
 
 
 </style>
+
