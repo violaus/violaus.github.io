@@ -9,7 +9,7 @@ body{
   width: auto;
 background-attachment: fixed;
 z-index:0;
-font-family: 'Miriam Libre', sans-serif;
+font-family: 'Muli', sans-serif;
 cursor:none;
 margin:0;
 padding:0;
@@ -214,16 +214,17 @@ height: 20vw;
   margin-left:14vw;
   margin-top: 58.5vw;
   font-size: 7vw;
-  font-weight: bold;
+  font-weight: lighter;
   pointer-events: none;
   z-index:2;
+  font-family: 'Miriam Libre', sans-serif;
 }
 @media screen and (min-width: 1300px) {
  #works{
    position:absolute;
-font-size:2.8vw;
-margin-left: 9.5vw;
-margin-top: 13vw;
+font-size:3vw;
+margin-left: 87vw;
+margin-top: 3vw;
  }
 }
 
@@ -235,13 +236,16 @@ margin-top: 13vw;
     font-size: 3vw;
       z-index:2;
         pointer-events: none;
+
 }
 @media screen and (min-width: 1300px) {
  #playingcards{
    position:absolute;
-font-size:1.2vw;
-margin-left: 10vw;
-margin-top: 19vw;
+font-size:3vw;
+//margin-left: 10vw;
+margin-left: 39vw;
+margin-top: 13vw;
+z-index:2;
  }
 }
 #img_carte{
@@ -251,16 +255,16 @@ margin-top: 19vw;
   height: 25vw;
   margin-left:43vw;
   margin-top:-5vw;
-    z-index:2;
+    z-index:1;
 }
 @media screen and (min-width: 1300px) {
  #img_carte{
    opacity:1;
    width: auto;
-   height: 25vw;
-   margin-left:43vw;
-   margin-top:-5vw;
-     z-index:2;
+   height: 20vw;
+   margin-left:-33vw;
+   margin-top:3vw;
+     z-index:1;
  }
 }
 #magazine{
@@ -274,9 +278,9 @@ margin-top: 19vw;
 @media screen and (min-width: 1300px) {
  #magazine{
    position:absolute;
-font-size:1.2vw;
-margin-left: 10vw;
-margin-top: 21.5vw;
+font-size:3vw;
+margin-left: 30vw;
+margin-top: 18vw;
  }
 }
 #img_paula{
@@ -286,16 +290,16 @@ margin-top: 21.5vw;
   height: 25vw;
   margin-left:43vw;
   margin-top:-7vw;
-    z-index:2;
+    z-index:0;
 }
 @media screen and (min-width: 1300px) {
  #img_paula{
    opacity:1;
    width: auto;
-   height: 25vw;
-   margin-left:43vw;
-   margin-top:-7vw;
-     z-index:2;
+   height: 20vw;
+   margin-left:23vw;
+   margin-top:3vw;
+     z-index:0;
  }
 }
 #hex{
@@ -309,9 +313,9 @@ margin-top: 21.5vw;
 @media screen and (min-width: 1300px) {
  #hex{
    position:absolute;
-font-size:1.2vw;
-margin-left: 10vw;
-margin-top: 24vw;
+font-size:3vw;
+margin-left: 45.5vw;
+margin-top: 23vw;
  }
 }
 #img_hex{
@@ -321,16 +325,16 @@ margin-top: 24vw;
   height: 25vw;
   margin-left:43vw;
   margin-top:-10vw;
-    z-index:2;
+    z-index:0;
 }
 @media screen and (min-width: 1300px) {
  #img_hex{
    opacity:1;
    width: auto;
-   height: 25vw;
-   margin-left:43vw;
-   margin-top:-10vw;
-     z-index:2;
+   height: 20vw;
+   margin-left:-34vw;
+   margin-top:0vw;
+     z-index:0;
  }
 }
 a .hover-img {
@@ -371,8 +375,8 @@ a:hover .hover-img span {
 @media screen and (min-width: 1300px) {
  #indietro{
    position:absolute;
-   margin-left: 4vw;
-   margin-top: 3vw;
+   margin-left: 3vw;
+   margin-top: 1.5vw;
   font-size: 4vw;
  }
 }
