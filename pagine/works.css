@@ -15,6 +15,7 @@ margin:0;
 padding:0;
 overflow-y: scroll;
 overflow-x: auto;
+  text-decoration: none;
 }
 
 
@@ -241,9 +242,9 @@ margin-top: 3vw;
 @media screen and (min-width: 1300px) {
  #playingcards{
    position:absolute;
-font-size:3vw;
+font-size:2.3vw;
 //margin-left: 10vw;
-margin-left: 39vw;
+margin-left: 41vw;
 margin-top: 13vw;
 z-index:2;
  }
@@ -278,8 +279,8 @@ z-index:2;
 @media screen and (min-width: 1300px) {
  #magazine{
    position:absolute;
-font-size:3vw;
-margin-left: 30vw;
+font-size:2.3vw;
+margin-left: 33.5vw;
 margin-top: 18vw;
  }
 }
@@ -313,8 +314,8 @@ margin-top: 18vw;
 @media screen and (min-width: 1300px) {
  #hex{
    position:absolute;
-font-size:3vw;
-margin-left: 45.5vw;
+font-size:2.3vw;
+margin-left: 45.8vw;
 margin-top: 23vw;
  }
 }
@@ -342,6 +343,7 @@ a .hover-img {
   z-index:2;
     opacity:1;
       pointer-events: auto;
+        text-decoration: none;
  }
 a .hover-img span {
   position:absolute;
@@ -351,6 +353,7 @@ a .hover-img span {
   z-index:2;
     opacity:0;
       pointer-events: none;
+        text-decoration: none;
  }
 a:hover .hover-img span {
   z-index:2;
@@ -358,6 +361,7 @@ a:hover .hover-img span {
   left:0;
     opacity:1;
       pointer-events: auto;
+        text-decoration: none;
  }
 
 
@@ -436,6 +440,7 @@ a:hover ~ #cursor {
   background-color: transparent;
   animation: animate 3s linear infinite;
        cursor:none;
+         text-decoration: none;
 }
 .hover-img:hover ~ #cursor {
   width: 50px;
@@ -446,6 +451,7 @@ a:hover ~ #cursor {
   animation: animate 3s linear infinite;
        cursor:none;
        transition:0.2s;
+         text-decoration: none;
 }
 .slideshow-container-1:hover ~ #cursor {
   width: 60px;
@@ -547,3 +553,4 @@ margin-top: 217vw;
 }
 
 </style>
+
