@@ -8,10 +8,10 @@ html {
 body{
   height: auto;
   width: auto;
+  cursor:none;
 background-attachment: fixed;
 z-index:5;
-font-family: 'Miriam Libre', sans-serif;
-cursor:none;
+font-family: 'Muli', sans-serif;
 margin:0;
 padding:0;
 overflow-y: scroll;
@@ -30,6 +30,7 @@ p{
     margin-inline-start: 0vw;
     margin-inline-end: 0vw;
     position:absolute;
+      cursor:none;
 
 }
 
@@ -45,17 +46,21 @@ a {
 }
 a:link {
   color:black;
+  cursor:none;
 }
 a:visited {
   color: black;
+  cursor:none;
 }
 a:hover {
   color: black;
     transition: 0.5s;
+    cursor:none;
 
 }
 a:active {
   color: black;
+  cursor:none;
 }
 
 a:hover ~ #cursor {
@@ -79,6 +84,7 @@ a:hover ~ #cursor {
   margin-top: 9vw;
     z-index:10;
   pointer-events: all;
+  cursor:none;
 
 }
 @media screen and (min-width: 1300px) {
@@ -91,15 +97,17 @@ a:hover ~ #cursor {
 }
 
 #contact{
+  font-family: 'Miriam Libre', sans-serif;
+  font-weight: bold;
   animation: compare 2.7s;
   position: absolute;
   margin-left:20vw;
   margin-top: 84vw;
   font-size: 5vw;
-  font-weight: bold;
     z-index: 10;
       opacity: 1;
       transition: 0.6s;
+        cursor:none;
 }
 @media screen and (min-width: 1300px) {
  #contact{
@@ -115,6 +123,7 @@ a:hover ~ #cursor {
 
 #cursor{
   position:fixed;
+  cursor:none;
   width:66px;
   height:66px;
   background-color: yellow;
@@ -127,6 +136,7 @@ a:hover ~ #cursor {
 }
 #cursor2{
   position:fixed;
+    cursor:none;
   width:66px;
   height:66px;
   background-color:transparent;
@@ -151,13 +161,14 @@ color: black;
   transition: 0.6s;
   z-index:10;
 opacity: 1;
+  cursor:none;
 }
 @media screen and (min-width: 1300px) {
  #behance{
    position:absolute;
 font-size: 1.4vw;
 margin-top: 25.6vw;
-margin-left: 70.2vw;
+margin-left: 70.1vw;
  }
 }
 #insta {
@@ -171,13 +182,14 @@ color:black;
   font-size: 2.6vw;
 z-index:10;
 opacity: 1;
+  cursor:none;
 }
 @media screen and (min-width: 1300px) {
  #insta{
    position:absolute;
 font-size: 1.4vw;
 margin-top: 29.3vw;
-margin-left: 68.8vw;
+margin-left: 69.2vw;
  }
 }
 
@@ -189,13 +201,14 @@ margin-top:112.2vw;
 color:black;
 font-size: 2.6vw;
 z-index:10;
+  cursor:none;
 }
 @media screen and (min-width: 1300px) {
 #email{
  position:absolute;
 font-size: 1.4vw;
 margin-top: 33vw;
-margin-left: 71.7vw;
+margin-left: 71.9vw;
  }
 }
 
@@ -208,12 +221,15 @@ margin-left: 71.7vw;
     border-radius: 14%;
     filter:blur(30px);
       animation: animate 33s linear infinite;
+        cursor:none;
 }
 .box-insta:hover  ~ #cursor2 {
 background-color: transparent;
+  cursor:none;
 }
 .box-behance:hover  ~ #cursor2 {
 background-color: transparent;
+  cursor:none;
 }
 .box-behance:hover  ~ #cursor {
   width: 60vw;
@@ -222,6 +238,7 @@ background-color: transparent;
   transition: 0.2s;
     border-radius: 50%;
     filter:blur(0.4px);
+      cursor:none;
 }
 .box-email:hover  ~ #cursor {
   width: 60vw;
@@ -231,6 +248,7 @@ background-color: transparent;
   opacity:1;
     border-radius: 50%;
     filter:blur(100px);
+      cursor:none;
 }
 .box-email:hover  ~ #cursor2 {
   width: 6vw;
@@ -239,6 +257,7 @@ background-color: transparent;
   transition: 0.2s;
     border-radius: 5%;
     filter:blur(0.2px);
+      cursor:none;
 }
 
 
@@ -251,12 +270,14 @@ background-color: transparent;
 }
 .box-behance, .box-insta, .box-email, a {
   line-height:4.6vw;
+    cursor:none;
 }
 
 .custom-underline {
   position: absolute;
   display: inline-block;
   text-align: center;
+    cursor:none;
 }
 .custom-underline,
 .custom-underline:hover,
@@ -264,10 +285,12 @@ background-color: transparent;
 .custom-underline:active {
   color: black;
   text-decoration: none;
+    cursor:none;
 }
 .custom-underline::after {
   content: "";
   position: absolute;
+    cursor:none;
 }
 
 .box-behance .custom-underline::after {
@@ -299,6 +322,7 @@ background-color: transparent;
 .box-behance:hover .custom-underline::after {
   width: 90%;
     transition: 0.25s ease all;
+      cursor:none;
 }
 .box-insta:hover .custom-underline::after {
   width: 90%;
