@@ -30,12 +30,14 @@ overflow-x: auto;
   width: 100%;
   margin-top:245vw;
   margin-left: 0vw;
+  cursor:none;
 }
 @media screen and (min-width: 1300px) {
 .slideshow-container-1{
 margin-left: 48vw;
 margin-top: 87vw;
 width: 46vw;
+cursor:none;
  }
 }
 
@@ -51,6 +53,7 @@ width: 46vw;
 margin-left: 48vw;
 margin-top: 159.5vw;
 width: 46vw;
+cursor:none;
  }
 }
 .slideshow-container-3 {
@@ -65,29 +68,35 @@ width: 46vw;
 margin-left: 48vw;
 margin-top: 224vw;
 width: 46vw;
+cursor:none;
  }
 }
 
 /* Hide the images by default */
 .mySlides1 {
   position: absolute;
+  cursor:none;
 }
 .mySlides2 {
   position: absolute;
+    cursor:none;
 }
 .mySlides3 {
   position: absolute;
+    cursor:none;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  cursor:none;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: none;
+  cursor:none;
 }
 
 /* Caption text */
@@ -215,7 +224,7 @@ height: 20vw;
   margin-left:14vw;
   margin-top: 58.5vw;
   font-size: 7vw;
-  font-weight: lighter;
+  font-weight: bold;
   pointer-events: none;
   z-index:2;
   font-family: 'Miriam Libre', sans-serif;
@@ -224,7 +233,7 @@ height: 20vw;
  #works{
    position:absolute;
 font-size:3vw;
-margin-left: 87vw;
+margin-left: 86.7vw;
 margin-top: 3vw;
  }
 }
@@ -420,6 +429,7 @@ a:active {
 
 #cursor{
   position:fixed;
+  cursor:none;
   width:30px;
   height:30px;
   background-color: #00FA9A;
@@ -428,7 +438,6 @@ a:active {
   transform: translate(-50%, -50%);
   border-radius: 50%;
   pointer-events: none;
-  cursor:none;
   z-index: 9;
   animation: animate 2s linear infinite;
 }
