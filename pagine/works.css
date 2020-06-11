@@ -63,7 +63,7 @@ width: 46vw;
 @media screen and (min-width: 1300px) {
 .slideshow-container-3{
 margin-left: 48vw;
-margin-top: 227vw;
+margin-top: 224vw;
 width: 46vw;
  }
 }
@@ -204,7 +204,7 @@ height: 20vw;
    position:absolute;
 font-size:0.95vw;
 margin-left: 5.3vw;
-margin-top: 220vw;
+margin-top: 227vw;
 width: 29vw;
 height: 20vw;
  }
@@ -553,4 +553,3 @@ margin-top: 217vw;
 }
 
 </style>
-
