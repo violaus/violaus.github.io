@@ -110,7 +110,7 @@ width: 46vw;
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
+  cursor: none;
   height: 15px;
   width: 15px;
   margin: 0 1vw;
@@ -428,6 +428,7 @@ a:active {
   transform: translate(-50%, -50%);
   border-radius: 50%;
   pointer-events: none;
+  cursor:none;
   z-index: 9;
   animation: animate 2s linear infinite;
 }
