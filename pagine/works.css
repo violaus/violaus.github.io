@@ -45,7 +45,7 @@ cursor:none;
   max-width: 120vw;
   position: absolute;
   width: 100%;
-  margin-top:440vw;
+  margin-top:435vw;
     margin-left:0vw;
 }
 @media screen and (min-width: 1300px) {
@@ -60,7 +60,7 @@ cursor:none;
   max-width: 120vw;
   position: absolute;
   width: 100%;
-  margin-top:650vw;
+  margin-top:680vw;
     margin-left:0vw;
 }
 @media screen and (min-width: 1300px) {
@@ -71,6 +71,8 @@ width: 46vw;
 cursor:none;
  }
 }
+
+
 
 /* Hide the images by default */
 .mySlides1 {
@@ -199,13 +201,13 @@ height: 20vw;
 }
 #concept_hex{
   padding: 5vw;
-  width: 29vw;
+  width: 57vw;
   height: 20vw;
   text-align: justify;
   position: absolute;
-  margin-left: 5.3vw;
-  margin-top: 220vw;
-    font-size: 0.95vw;
+  margin-left: 5.8vw;
+  margin-top: 608vw;
+    font-size: 2vw;
       z-index:2;
 }
 @media screen and (min-width: 1300px) {
