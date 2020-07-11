@@ -336,7 +336,7 @@ opacity:0;
 }
 #hex6{
   position:absolute;
-margin-top: 770vw;
+margin-top: 800vw;
 margin-left: 0vw;
 width: 100%;
 height: 55%;
@@ -366,7 +366,7 @@ opacity:0;
 }
 #hex8{
   position:absolute;
-margin-top: 858vw;
+margin-top: 888vw;
 margin-left: 0vw;
 width: 100%;
    height: 55%;
@@ -452,16 +452,18 @@ opacity:0;
   position: absolute;
   width: 100%;
   opacity:1;
-  margin-top: 1344vw;
+  margin-top: 1494vw;
+  height:55%;
 
 }
 @media screen and (min-width: 1300px) {
 #click1{
    position:absolute;
-   margin-top: 904vw;
+   margin-top: 901vw;
    margin-left: 52vw;
    opacity:1;
    width: 40%;
+   height: 55%;
  }
 }
 
@@ -532,7 +534,7 @@ opacity:0;
   overflow-x: scroll;
   display: flex;
   margin-left: 0vw;
-  margin-top: 690vw;
+  margin-top: 710vw;
     height: 55%;
     width: 100%;
     opacity:1;
@@ -552,7 +554,7 @@ opacity:0;
   overflow-x: scroll;
   display: flex;
   margin-left: 0vw;
-  margin-top: 1010vw;
+  margin-top: 1080vw;
     height: 55%;
     width: 100%;
     opacity:1;
@@ -571,7 +573,7 @@ opacity:0;
   overflow-x: scroll;
   display: flex;
   margin-left: 0vw;
-  margin-top: 1175vw;
+  margin-top: 1295vw;
     height: 55%;
     width: 100%;
     opacity:1;
@@ -689,7 +691,7 @@ height: 20vw;
   text-align: justify;
   position: absolute;
   margin-left: 5.8vw;
-  margin-top: 618vw;
+  margin-top: 648vw;
     font-size: 2vw;
       z-index:2;
 }
@@ -711,7 +713,7 @@ height: 20vw;
   text-align: justify;
   position: absolute;
   margin-left: 5.8vw;
-  margin-top: 952vw;
+  margin-top: 1022vw;
     font-size: 2vw;
       z-index:2;
 }
@@ -734,7 +736,7 @@ height: 20vw;
   text-align: justify;
   position: absolute;
   margin-left: 5.8vw;
-  margin-top: 1108vw;
+  margin-top: 1228vw;
     font-size: 2vw;
       z-index:2;
 }
@@ -757,7 +759,7 @@ height: 20vw;
   text-align: justify;
   position: absolute;
   margin-left: 5.8vw;
-  margin-top: 1288vw;
+  margin-top: 1438vw;
     font-size: 2vw;
       z-index:2;
 }
@@ -1186,7 +1188,7 @@ margin-top: 220vw;
 #collegamento_hex {
   position: absolute;
   margin-left: 8vw;
-  margin-top: 610vw;
+  margin-top: 640vw;
     text-decoration:none;
     font-size: 3.4vw;
       z-index:2;
@@ -1204,7 +1206,7 @@ margin-top: 400vw;
 #collegamento_mulan {
   position: absolute;
   margin-left: 8vw;
-  margin-top: 950vw;
+  margin-top: 1020vw;
     text-decoration:none;
     font-size: 3.4vw;
       z-index:2;
@@ -1223,7 +1225,7 @@ margin-top: 580vw;
 #collegamento_frame {
   position: absolute;
   margin-left: 8vw;
-  margin-top: 1100vw;
+  margin-top: 1220vw;
     text-decoration:none;
     font-size: 3.4vw;
       z-index:2;
@@ -1243,7 +1245,7 @@ margin-top: 740vw;
 #collegamento_click {
   position: absolute;
   margin-left: 8vw;
-  margin-top: 1280vw;
+  margin-top: 1430vw;
     text-decoration:none;
     font-size: 3.4vw;
       z-index:2;
