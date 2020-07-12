@@ -1,458 +1,1520 @@
-<html>
-<link rel="stylesheet" href="works.css">
-<style>
-@import url('https://fonts.googleapis.com/css?family=Miriam+Libre:400,700|Palanquin+Dark:400,600|Work+Sans:400,600&display=swap');
-</style>
-<head>
-  <title>viola_WORKS</title>
-    <link rel='icon' href='images/favicon.png' type='image/x-icon'/>
-</head>
-
-<meta name="viewport" content="width=device-width, initial-scale=0.5">
-
-<img src="images/carte.jpg" style="max-width:40%" id="carte1">
-<img src="images/carte_3rosse.jpg" style="max-width:40%" id="carte2">
-<img src="images/carte_ombra.jpg" style="max-width:40%" id="carte3">
-<img src="images/carte_3diverse.jpg" style="max-width:40%" id="carte4">
-<img src="images/carte_jolly.jpg" style="max-width:40%" id="carte5">
-
-
-<img src="images/paula.jpg" style="max-width:40%" id="paula1">
-<img src="images/paula_fasce.jpg" style="max-width:40%" id="paula2">
-<img src="images/paula_kid.jpg" style="max-width:40%" id="paula3">
-<img src="images/themet.jpg" style="max-width:40%" id="paula4">
-<img src="images/paula_atlantic.jpg" style="max-width:40%" id="paula5">
-<img src="images/paula_rosso.jpg" style="max-width:40%" id="paula6">
-<img src="images/paula_verde.jpg" style="max-width:40%" id="paula7">
-<iframe width="580vw" height="400vw" id="paula8" src="https://www.youtube-nocookie.com/embed/vNf4RqS_mKA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-<img src="images/hex_foto_struttura.jpg" style="max-width:40%" id="hex1">
-<img src="images/hex_fuori_servizio.jpg" style="max-width:40%" id="hex2">
-<img src="images/hex_maledizione.jpg" style="max-width:40%" id="hex3">
-<img src="images/hex_guida_fortuna.jpg" style="max-width:40%" id="hex4">
-<img src="images/hex_eleonora.jpg" style="max-width:40%" id="hex5">
-<img src="images/10.jpg" style="max-width:40%" id="hex7">
-<iframe width="576" height="315" id="hex8" src="https://www.youtube-nocookie.com/embed/biZlwOJ2dso?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="576" height="315" id="hex6" src="https://www.youtube-nocookie.com/embed/PdE2FiJoNGc?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<img src="images/mulan_sfondo.jpg" style="max-width:40%" id="mulan1">
-<img src="images/mulan_2.jpg" style="max-width:40%" id="mulan2">
-<img src="images/mulan_inizio.jpg" style="max-width:40%" id="mulan3">
-<img src="images/mulan_intro.jpg" style="max-width:40%" id="mulan4">
-<img src="images/mulan_obliquo.jpg" style="max-width:40%" id="mulan5">
-<img src="images/mulan_sconfitta.png" style="max-width:40%" id="mulan6">
-<img src="images/mulan_rapimento.jpg" style="max-width:40%" id="mulan7">
-
-
-<img src="images/frame.jpg" style="max-width:40%" id="frame1">
-<img src="images/frame_inizio.jpg" style="max-width:40%" id="frame2">
-<img src="images/frame_lee.jpg" style="max-width:40%" id="frame3">
-<img src="images/frame_doppia.jpg" style="max-width:40%" id="frame4">
-<img src="images/frame_reverso.jpg" style="max-width:40%" id="frame5">
-<iframe width="576" height="315" id="click1" src="https://www.youtube.com/embed/hWEBVdzE6c8?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<img src="images/cover_r&b.jpg" style="max-width:40%" id="cover1">
-<img src="images/cover_indie.jpg" style="max-width:40%" id="cover2">
-<img src="images/cover_alt.jpg" style="max-width:40%" id="cover3">
-<img src="images/cover_elettronica.jpg" style="max-width:40%" id="cover4">
-<img src="images/cover_misto.jpg" style="max-width:40%" id="cover5">
-
-
-<div class="slide-container">
-    <div class="slide">
-       <div class="image-ctn">
-         <img src="images/carte.jpg" style="max-width:200%"/>
-       </div>
-    </div>
-
-    <div class="slide">
-       <div class="image-ctn">
-         <img src="images/carte_3rosse.jpg" style="max-width:200%"/>
-      </div>
-    </div>
-
-    <div class="slide">
-       <div class="image-ctn">
-         <img src="images/carte_ombra.jpg" style="max-width:200%"/>
-       </div>
-     </div>
-
-    <div class="slide">
-            <div class="image-ctn">
-              <img src="images/carte_3diverse.jpg" style="max-width:200%"/>
-     </div>
-    </div>
-
-    <div class="slide">
-            <div class="image-ctn">
-              <img src="images/carte_jolly.jpg" style="max-width:200%"/>
-     </div>
-    </div>
-
-  </div>
-
-
-
-
-
-
-  <div class="slide-container-paula">
-      <div class="slide">
-         <div class="image-ctn">
-           <img src="images/paula.jpg" style="max-width:200%"/>
-         </div>
-      </div>
-
-      <div class="slide">
-         <div class="image-ctn">
-           <img src="images/paula_fasce.jpg" style="max-width:200%"/>
-        </div>
-      </div>
-
-      <div class="slide">
-         <div class="image-ctn">
-           <img src="images/paula_kid.jpg" style="max-width:200%"/>
-         </div>
-       </div>
-
-      <div class="slide">
-              <div class="image-ctn">
-                <img src="images/themet.jpg" style="max-width:200%"/>
-       </div>
-      </div>
-
-      <div class="slide">
-              <div class="image-ctn">
-                <img src="images/paula_atlantic.jpg" style="max-width:200%"/>
-       </div>
-      </div>
-
-      <div class="slide">
-              <div class="image-ctn">
-                <img src="images/paula_rosso.jpg" style="max-width:200%"/>
-       </div>
-      </div>
-
-      <div class="slide">
-              <div class="image-ctn">
-                <img src="images/paula_verde.jpg" style="max-width:200%"/>
-       </div>
-      </div>
-    </div>
-
-
-
-
-    <div class="slide-container-hex">
-        <div class="slide">
-           <div class="image-ctn">
-             <img src="images/hex_foto_struttura.jpg" style="max-width:200%"/>
-           </div>
-        </div>
-
-        <div class="slide">
-           <div class="image-ctn">
-             <img src="images/hex_fuori_servizio.jpg" style="max-width:200%"/>
-          </div>
-        </div>
-
-        <div class="slide">
-           <div class="image-ctn">
-             <img src="images/hex_maledizione.jpg" style="max-width:200%"/>
-           </div>
-         </div>
-
-        <div class="slide">
-                <div class="image-ctn">
-                  <img src="images/hex_guida_fortuna.jpg" style="max-width:200%"/>
-         </div>
-        </div>
-
-        <div class="slide">
-                <div class="image-ctn">
-                  <img src="images/hex_eleonora.jpg" style="max-width:200%"/>
-         </div>
-        </div>
-
-        <div class="slide">
-                <div class="image-ctn">
-                  <img src="images/10.jpg" style="max-width:200%"/>
-         </div>
-        </div>
-          </div>
-
-
-
-        <div class="slide-container-mulan">
-            <div class="slide">
-               <div class="image-ctn">
-                 <img src="images/mulan_sfondo.jpg" style="max-width:200%"/>
-               </div>
-            </div>
-
-            <div class="slide">
-               <div class="image-ctn">
-                 <img src="images/mulan_2.jpg" style="max-width:200%"/>
-              </div>
-            </div>
-
-            <div class="slide">
-               <div class="image-ctn">
-                 <img src="images/mulan_inizio.jpg" style="max-width:200%"/>
-               </div>
-             </div>
-
-            <div class="slide">
-                    <div class="image-ctn">
-                      <img src="images/mulan_intro.jpg" style="max-width:200%"/>
-             </div>
-            </div>
-
-            <div class="slide">
-                    <div class="image-ctn">
-                      <img src="images/mulan_obliquo.jpg" style="max-width:200%"/>
-             </div>
-            </div>
-
-            <div class="slide">
-                    <div class="image-ctn">
-                      <img src="images/mulan_sconfitta.png" style="max-width:200%"/>
-             </div>
-            </div>
-
-            <div class="slide">
-                    <div class="image-ctn">
-                      <img src="images/mulan_rapimento.jpg" style="max-width:200%"/>
-             </div>
-            </div>
-      </div>
-
-
-      <div class="slide-container-frame">
-          <div class="slide">
-             <div class="image-ctn">
-               <img src="images/frame.jpg" style="max-width:200%"/>
-             </div>
-          </div>
-
-          <div class="slide">
-             <div class="image-ctn">
-               <img src="images/frame_inizio.jpg" style="max-width:200%"/>
-            </div>
-          </div>
-
-          <div class="slide">
-             <div class="image-ctn">
-               <img src="images/frame_lee.jpg" style="max-width:200%"/>
-             </div>
-           </div>
-
-          <div class="slide">
-                  <div class="image-ctn">
-                    <img src="images/frame_doppia.jpg" style="max-width:200%"/>
-           </div>
-          </div>
-
-          <div class="slide">
-                  <div class="image-ctn">
-                    <img src="images/frame_reverso.jpg" style="max-width:200%"/>
-           </div>
-          </div>
-    </div>
-
-
-    <div class="slide-container-cover">
-        <div class="slide">
-           <div class="image-ctn">
-             <img src="images/cover_r&b.jpg" style="max-width:200%"/>
-           </div>
-        </div>
-
-        <div class="slide">
-           <div class="image-ctn">
-             <img src="images/cover_elettronica.jpg" style="max-width:200%"/>
-          </div>
-        </div>
-
-        <div class="slide">
-           <div class="image-ctn">
-             <img src="images/cover_alt.jpg" style="max-width:200%"/>
-           </div>
-         </div>
-
-        <div class="slide">
-                <div class="image-ctn">
-                  <img src="images/cover_indie.jpg" style="max-width:200%"/>
-         </div>
-        </div>
-
-        <div class="slide">
-                <div class="image-ctn">
-                  <img src="images/cover_misto.jpg" style="max-width:200%"/>
-         </div>
-        </div>
-  </div>
-
-
 
 <style>
+html {
+   height: 100%;
+   width: 100%;
+     cursor:none;
+}
+body{
+  height: 14300px;
+  width: auto;
+background-attachment: fixed;
+z-index:0;
+font-family: 'Muli', sans-serif;
+cursor:none;
+margin:0;
+padding:0;
+overflow-y: scroll;
+overflow-x: hidden;
+  text-decoration: none;
+}
+
+.container-carte {
+  position: absolute;
+  opacity:1;
+  width: 35%;
+  margin-left: 12vw;
+    margin-top: 28vw;
+}
+@media screen and (min-width: 1300px) {
+  .container-carte {
+  position: absolute;
+  width: 25%;
+  margin-left: 8vw;
+    margin-top: 13vw;
+}}
+
+.container-paula {
+  position: absolute;
+  opacity:1;
+  width: 35%;
+  margin-left: 12vw;
+    margin-top: 58vw;
+}
+@media screen and (min-width: 1300px) {
+  .container-paula {
+    position: absolute;
+    width: 25%;
+    margin-left: 38vw;
+      margin-top: 20vw;
+}}
+
+.container-frame {
+  position: absolute;
+  width: 35%;
+  margin-left: 12vw;
+    margin-top: 88vw;
+}
+@media screen and (min-width: 1300px) {
+  .container-frame {
+    position: absolute;
+    width: 25%;
+    margin-left: 68vw;
+      margin-top: 16vw;
+}}
+
+.container-hex {
+  position: absolute;
+  width: 35%;
+  margin-left: 53vw;
+    margin-top: 35vw;
+}
+@media screen and (min-width: 1300px) {
+  .container-hex {
+    position: absolute;
+    width: 25%;
+    margin-left: 8vw;
+      margin-top: 35vw;
+}}
+
+
+
+.container-mulan {
+  position: absolute;
+  width: 35%;
+  margin-left: 53vw;
+    margin-top: 65vw;
+}
+@media screen and (min-width: 1300px) {
+  .container-mulan {
+    position: absolute;
+    width: 25%;
+    margin-left: 38vw;
+      margin-top: 42vw;
+}}
+
+
+.container-click {
+  position: absolute;
+  width: 35%;
+  margin-left: 53vw;
+    margin-top: 95vw;
+}
+@media screen and (min-width: 1300px) {
+  .container-click {
+    position: absolute;
+    width: 25%;
+    margin-left: 68vw;
+      margin-top: 40vw;
+}}
+
+.container-cover {
+  position: absolute;
+  width: 35%;
+  margin-left: 12vw;
+    margin-top: 121vw;
+}
+@media screen and (min-width: 1300px) {
+  .container-cover {
+    position: absolute;
+    width: 25%;
+    margin-left: 8vw;
+      margin-top: 57vw;
+}}
 
 
 
 
+.image {
+  display: block;
+  width: 240%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:  #ffffff;
+}
+
+.container-carte, .container-frame, .container-paula, .container-mulan, .container-hex, .container-click, .container-cover,:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 1.5vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+#carte1{
+    opacity:0;
+  position: absolute;
+
+}
+@media screen and (min-width: 1300px) {
+ #carte1{
+   opacity:1;
+   position:absolute;
+   margin-top: 91vw;
+   margin-left: 52vw;
+ }
+}
+#carte2{
+  position:absolute;
+  margin-top: 125vw;
+  margin-left: 52vw;
+    opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #carte2{
+   position:absolute;
+   margin-top: 125vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+#carte3{
+  position:absolute;
+  margin-top: 135vw;
+  margin-left: 8vw;
+      opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #carte3{
+   position:absolute;
+   margin-top: 135vw;
+   margin-left: 8vw;
+   opacity:1;
+ }
+}
+#carte4{
+  position:absolute;
+  margin-top: 160vw;
+  margin-left: 52vw;
+      opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #carte4{
+   position:absolute;
+   margin-top: 160vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+#carte5{
+  position:absolute;
+  margin-top: 170vw;
+  margin-left: 8vw;
+      opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #carte5{
+   position:absolute;
+   margin-top: 170vw;
+   margin-left: 8vw;
+   opacity:1;
+ }
+}
+
+
+
+
+#paula1{
+  position:absolute;
+  opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #paula1{
+   position:absolute;
+   margin-top: 228vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+#paula2{
+  position:absolute;
+opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #paula2{
+   position:absolute;
+   margin-top: 262vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+#paula3{
+  position:absolute;
+   opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #paula3{
+   position:absolute;
+   margin-top: 280vw;
+   margin-left: 8vw;
+   opacity:1;
+ }
+}
+#paula4{
+  position:absolute;
+   opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #paula4{
+   position:absolute;
+   margin-top: 296vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+#paula5{
+  position:absolute;
+   opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #paula5{
+   position:absolute;
+   margin-top: 314vw;
+   margin-left: 8vw;
+   opacity:1;
+ }
+}
+#paula6{
+  position:absolute;
+opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #paula6{
+   position:absolute;
+   margin-top: 348vw;
+   margin-left: 8vw;
+   opacity:1;
+ }
+}
+#paula7{
+  position:absolute;
+opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #paula7{
+   position:absolute;
+   margin-top: 330vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+#paula8{
+  position:absolute;
+  margin-top: 507vw;
+  margin-left: 0vw;
+  width: 100%;
+  height: 40%;
+opacity:1;
+}
+@media screen and (min-width: 1300px) {
+ #paula8{
+   position:absolute;
+   margin-top: 364vw;
+   margin-left: 52vw;
+   opacity:1;
+     width: 40%;
+     height:50%;
+ }
+}
+
+
+
+
+#mulan1{
+  position:absolute;
+
+  opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #mulan1{
+   position:absolute;
+   margin-top: 584vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+#mulan2{
+  position:absolute;
+opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #mulan2{
+   position:absolute;
+   margin-top: 618vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+#mulan3{
+  position:absolute;
+   opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #mulan3{
+   position:absolute;
+   margin-top: 629vw;
+   margin-left: 8vw;
+   opacity:1;
+ }
+}
+#mulan4{
+  position:absolute;
+   opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #mulan4{
+   position:absolute;
+   margin-top: 653vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+#mulan5{
+  position:absolute;
+   opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #mulan5{
+   position:absolute;
+   margin-top: 664vw;
+   margin-left: 8vw;
+   opacity:1;
+ }
+}
+#mulan6{
+  position:absolute;
+opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #mulan6{
+   position:absolute;
+   margin-top: 687vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+
+#mulan7{
+  position:absolute;
+   opacity:0;
+}
+@media screen and (min-width: 1300px) {
+ #mulan7{
+   position:absolute;
+   margin-top: 699vw;
+   margin-left: 8vw;
+   opacity:1;
+ }
+}
+
+
+
+
+
+#hex1{
+  position:absolute;
+opacity:0;
+}
+@media screen and (min-width: 1300px) {
+#hex1{
+   position:absolute;
+   margin-top: 410vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+#hex2{
+  position:absolute;
+opacity:0;
+}
+@media screen and (min-width: 1300px) {
+#hex2{
+   position:absolute;
+   margin-top: 444vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+#hex3{
+  position:absolute;
+opacity:0;
+}
+@media screen and (min-width: 1300px) {
+#hex3{
+   position:absolute;
+   margin-top: 454vw;
+   margin-left: 8vw;
+   opacity:1;
+ }
+}
+#hex4{
+  position:absolute;
+opacity:0;
+}
+@media screen and (min-width: 1300px) {
+#hex4{
+   position:absolute;
+   margin-top: 478vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+#hex5{
+  position:absolute;
+opacity:0;
+}
+@media screen and (min-width: 1300px) {
+#hex5{
+   position:absolute;
+   margin-top: 488vw;
+   margin-left: 8vw;
+   opacity:1;
+ }
+}
+#hex6{
+  position:absolute;
+margin-top: 810vw;
+margin-left: 0vw;
+width: 100%;
+   height: 38%;
+opacity:1;
+}
+@media screen and (min-width: 1300px) {
+#hex6{
+   position:absolute;
+   margin-top: 522vw;
+   margin-left: 8vw;
+   opacity:1;
+      width: 40%;
+    height: 50%;
+ }
+}
+#hex7{
+  position:absolute;
+opacity:0;
+}
+@media screen and (min-width: 1300px) {
+#hex7{
+   position:absolute;
+   margin-top: 512vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+#hex8{
+  position:absolute;
+margin-top: 893vw;
+margin-left: 0vw;
+width: 100%;
+   height: 38%;
+opacity:1;
+}
+@media screen and (min-width: 1300px) {
+#hex8{
+   position:absolute;
+   margin-top: 545vw;
+   margin-left: 52vw;
+   opacity:1;
+   width: 40%;
+    height: 50%;
+
+ }
+}
+
+
+#frame1{
+  position:absolute;
+opacity:0;
+}
+@media screen and (min-width: 1300px) {
+#frame1{
+   position:absolute;
+   margin-top: 752vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+#frame2{
+  position:absolute;
+opacity:0;
+}
+@media screen and (min-width: 1300px) {
+#frame2{
+   position:absolute;
+   margin-top: 787vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+#frame3{
+  position:absolute;
+opacity:0;
+}
+@media screen and (min-width: 1300px) {
+#frame3{
+   position:absolute;
+   margin-top: 800vw;
+   margin-left: 8vw;
+   opacity:1;
+ }
+}
+#frame4{
+  position:absolute;
+opacity:0;
+}
+@media screen and (min-width: 1300px) {
+#frame4{
+   position:absolute;
+   margin-top: 821vw;
+   margin-left: 52vw;
+   opacity:1;
+ }
+}
+#frame5{
+  position:absolute;
+opacity:0;
+}
+@media screen and (min-width: 1300px) {
+#frame5{
+   position:absolute;
+   margin-top: 834vw;
+   margin-left: 8vw;
+   opacity:1;
+ }
+}
+
+
+
+#click1{
+  position: absolute;
+  width: 100%;
+  opacity:1;
+  margin-top: 1494vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#click1{
+   position:absolute;
+   margin-top: 901vw;
+   margin-left: 52vw;
+   opacity:1;
+   width: 40%;
+   height: 55%;
+ }
+}
+
+
+#cover1{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 1494vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#cover1{
+   position:absolute;
+   margin-top: 969vw;
+   margin-left: 52vw;
+   opacity:1;
+   width: 40%;
+   height: 60%;
+ }
+}
+
+#cover2{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 1494vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#cover2{
+   position:absolute;
+   margin-top: 1002vw;
+   margin-left: 52vw;
+   opacity:1;
+   width: 40%;
+   height: 60%;
+ }
+}
+
+
+#cover3{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 1494vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#cover3{
+   position:absolute;
+   margin-top: 1013vw;
+   margin-left: 8vw;
+   opacity:1;
+   width: 40%;
+   height: 55%;
+ }
+}
+
+#cover4{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 1494vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#cover4{
+   position:absolute;
+   margin-top: 1035vw;
+   margin-left: 52vw;
+   opacity:1;
+   width: 40%;
+   height: 55%;
+ }
+}
+
+
+#cover5{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 1494vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#cover5{
+   position:absolute;
+   margin-top: 1043.5vw;
+   margin-left: 8vw;
+   opacity:1;
+   width: 40%;
+   height: 65%;
+ }
+}
+
+
+* {box-sizing:border-box}
+
+
+:root {
+ --color-lighter: #e6f8f9;
+ --color-light: #b1e8ed;
+ --color-dark: #edb5f5;
+ --color-darker: #e86ed0;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+.image-ctn {
+  width: 50%;
+}
+
+
+
+.slide-container {
+  position:absolute;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  display: flex;
+  margin-left: 0vw;
+  margin-top: 240vw;
+    height: 55%;
+    width: 100%;
+    opacity:1;
+}
+
+@media screen and (min-width: 1300px) {
+.slide-container{
+opacity:0;
+ }
+}
+
+.slide-container-paula {
+  position:absolute;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  display: flex;
+  margin-left: 0vw;
+  margin-top: 425vw;
+    height: 55%;
+    width: 100%;
+    opacity:1;
+}
+
+@media screen and (min-width: 1300px) {
+.slide-container-paula{
+opacity:0;
+ }
+}
+
+
+
+.slide-container-hex {
+  position:absolute;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  display: flex;
+  margin-left: 0vw;
+  margin-top: 710vw;
+    height: 55%;
+    width: 100%;
+    opacity:1;
+}
+
+@media screen and (min-width: 1300px) {
+.slide-container-hex{
+opacity:0;
+ }
+}
+
+
+
+.slide-container-mulan {
+  position:absolute;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  display: flex;
+  margin-left: 0vw;
+  margin-top: 1080vw;
+    height: 55%;
+    width: 100%;
+    opacity:1;
+}
+
+@media screen and (min-width: 1300px) {
+.slide-container-mulan{
+opacity:0;
+ }
+}
+
+
+.slide-container-frame {
+  position:absolute;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  display: flex;
+  margin-left: 0vw;
+  margin-top: 1295vw;
+    height: 55%;
+    width: 100%;
+    opacity:1;
+}
+
+@media screen and (min-width: 1300px) {
+.slide-container-frame{
+opacity:0;
+ }
+}
+
+
+
+.slide-container-cover {
+  position:absolute;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  display: flex;
+  margin-left: 0vw;
+  margin-top: 1680vw;
+    height: 55%;
+    width: 100%;
+    opacity:1;
+}
+
+@media screen and (min-width: 1300px) {
+.slide-container-cover{
+opacity:0;
+ }
+}
+
+
+
+
+
+
+
+.slide {
+  scroll-snap-align: start;
+  min-width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: none;
+  justify-content: none;
+  width: 100%;
+      opacity:1;
+}
+@media screen and (min-width: 1300px) {
+.slide{
+opacity:0;
+ }
+}
+
+.light {
+  background-color: var(--color-light);
+}
+
+.lighter {
+  background-color: var(--color-lighter);
+}
+
+.dark {
+  background-color: var(--color-dark);
+}
+
+.darker {
+  background-color: var(--color-darker);
+}
+
+
+
+
+
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+#concept_carte{
+  padding: 5vw;
+  width: 57vw;
+  height: 20vw;
+  text-align: justify;
+  position: absolute;
+  margin-left: 5.8vw;
+  margin-top: 195vw;
+    font-size: 2vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #concept_carte{
+   position:absolute;
+font-size:0.95vw;
+margin-left: 5.3vw;
+margin-top: 102vw;
+width: 29vw;
+height: 20vw;
+ }
+}
+#concept_paula{
+  padding: 5vw;
+  width: 57vw;
+  height: 20vw;
+  text-align: justify;
+  position: absolute;
+  margin-left: 5.8vw;
+  margin-top: 370vw;
+    font-size: 2vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #concept_paula{
+   position:absolute;
+font-size:0.95vw;
+margin-left: 5.3vw;
+margin-top: 230vw;
+width: 29vw;
+height: 20vw;
+ }
+}
+#concept_hex{
+  padding: 5vw;
+  width: 57vw;
+  height: 20vw;
+  text-align: justify;
+  position: absolute;
+  margin-left: 5.8vw;
+  margin-top: 648vw;
+    font-size: 2vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #concept_hex{
+   position:absolute;
+font-size:0.95vw;
+margin-left: 5.3vw;
+margin-top: 410vw;
+width: 29vw;
+height: 20vw;
+ }
+}
+
+#concept_mulan{
+  padding: 5vw;
+  width: 57vw;
+  height: 20vw;
+  text-align: justify;
+  position: absolute;
+  margin-left: 5.8vw;
+  margin-top: 1022vw;
+    font-size: 2vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #concept_mulan{
+   position:absolute;
+font-size:0.95vw;
+margin-left: 5.3vw;
+margin-top: 588vw;
+width: 29vw;
+height: 20vw;
+ }
+}
+
+#play{
+  padding: 5vw;
+  width: 57vw;
+  height: 20vw;
+  text-align: justify;
+  position: absolute;
+  margin-left: 5.8vw;
+  margin-top: 1065vw;
+    font-size: 2vw;
+      z-index:2;
+      font-weight: bold;
+          pointer-events: initial;
+}
+@media screen and (min-width: 1300px) {
+ #play{
+   position:absolute;
+font-size:1vw;
+margin-left: 5.3vw;
+margin-top: 612vw;
+width: 29vw;
+height: 20vw;
+font-weight: bold;
+ }
+}
+
+
+#concept_frame{
+  padding: 5vw;
+  width: 57vw;
+  height: 20vw;
+  text-align: justify;
+  position: absolute;
+  margin-left: 5.8vw;
+  margin-top: 1228vw;
+    font-size: 2vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #concept_frame{
+   position:absolute;
+font-size:0.95vw;
+margin-left: 5.3vw;
+margin-top: 750vw;
+width: 29vw;
+height: 20vw;
+ }
+}
+
+
+#concept_click{
+  padding: 5vw;
+  width: 57vw;
+  height: 20vw;
+  text-align: justify;
+  position: absolute;
+  margin-left: 5.8vw;
+  margin-top: 1438vw;
+    font-size: 2vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #concept_click{
+   position:absolute;
+font-size:0.95vw;
+margin-left: 5.3vw;
+margin-top: 900vw;
+width: 29vw;
+height: 20vw;
+ }
+}
+
+
+#concept_cover{
+  padding: 5vw;
+  width: 57vw;
+  height: 20vw;
+  text-align: justify;
+  position: absolute;
+  margin-left: 5.8vw;
+  margin-top: 1618vw;
+    font-size: 2vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #concept_cover{
+   position:absolute;
+font-size:0.95vw;
+margin-left: 5.3vw;
+margin-top: 970vw;
+width: 29vw;
+height: 20vw;
+ }
+}
+
+
+
+#works{
+  animation: compare 2.7s;
+  position: absolute;
+  margin-left:64vw;
+  margin-top: 8vw;
+  font-size: 7vw;
+  font-weight: bold;
+  pointer-events: none;
+  z-index:2;
+  font-family: 'Miriam Libre', sans-serif;
+}
+@media screen and (min-width: 1300px) {
+ #works{
+   position:absolute;
+font-size:3vw;
+margin-left: 82.7vw;
+margin-top: 3vw;
+ }
+}
+
+#playingcards{
+  position: absolute;
+  margin-left: 14.7vw;
+  margin-top: 75vw;
+  color: black;
+    font-size: 3vw;
+      z-index:2;
+        pointer-events: none;
+
+}
+@media screen and (min-width: 1300px) {
+ #playingcards{
+   position:absolute;
+font-size:2.3vw;
+margin-left: 38vw;
+margin-top: 13vw;
+z-index:2;
+ }
+}
+
+
+#magazine{
+  position: absolute;
+  color: black;
+  margin-left: 14.7vw;
+  margin-top: 82vw;
+    font-size: 3vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #magazine{
+   position:absolute;
+font-size:2.3vw;
+margin-left: 40vw;
+margin-top: 18vw;
+ }
+}
+
+
+#hex{
+  position: absolute;
+  margin-left: 14.7vw;
+  margin-top: 89vw;
+    font-size: 3vw;
+      z-index:2;
+        color: black;
+}
+@media screen and (min-width: 1300px) {
+ #hex{
+   position:absolute;
+font-size:2.3vw;
+margin-left: 45.8vw;
+margin-top: 23vw;
+ }
+}
+
+
+
+
+#mulan{
+  position: absolute;
+  margin-left: 14.7vw;
+  margin-top: 96vw;
+    font-size: 3vw;
+      z-index:2;
+        color: black;
+}
+@media screen and (min-width: 1300px) {
+ #mulan{
+   position:absolute;
+font-size:2.3vw;
+margin-left: 44vw;
+margin-top: 28vw;
+ }
+}
+
+
+#frame{
+  position: absolute;
+  margin-left: 14.7vw;
+  margin-top: 103vw;
+    font-size: 3vw;
+      z-index:2;
+        color: black;
+}
+@media screen and (min-width: 1300px) {
+ #frame{
+   position:absolute;
+font-size:2.3vw;
+margin-left: 35.5vw;
+margin-top: 33vw;
+ }
+}
+
+
+#click{
+  position: absolute;
+  margin-left: 14.7vw;
+  margin-top: 110vw;
+    font-size: 3vw;
+      z-index:2;
+        color: black;
+}
+@media screen and (min-width: 1300px) {
+ #click{
+   position:absolute;
+font-size:2.3vw;
+margin-left: 44.5vw;
+margin-top: 38vw;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a .hover-img {
+  position:relative;
+  z-index:2;
+    opacity:1;
+      pointer-events: auto;
+        text-decoration: none;
+ }
+a .hover-img span {
+  position:absolute;
+  z-index:2;
+  left:3vw;
+  top:20vw;
+    opacity:0;
+      pointer-events: none;
+        text-decoration: none;
+ }
+a:hover .hover-img span {
+  z-index:2;
+  top: 20px;
+  left:0;
+    opacity:1;
+      pointer-events: auto;
+        text-decoration: none;
+ }
+
+
+#indietro{
+    animation: compare 5s;
+  position: absolute;
+  font-size: 7vw;
+  font-weight: bold;
+  color:black;
+  margin-left: 5.5vw;
+  margin-top: 5vw;
+    z-index:2;
+    text-decoration:none;
+}
+@media screen and (min-width: 1300px) {
+ #indietro{
+   position:absolute;
+   margin-left: 3vw;
+   margin-top: 1.5vw;
+  font-size: 4vw;
+ }
+}
+
+a {
+  animation: compare 2s;
+  animation-duration: 2s;
+  position: absolute;
+    transition: 1s;
+    z-index:2;
+    opacity: 1;
+    pointer-events: initial;
+}
+
+
+a:link { //sotto works
+  color:black;
+  text-decoration:none;
+       cursor:none;
+
+}
+a:visited {
+  color: black;
+  text-decoration:none;
+       cursor:none;
+}
+a:hover {
+  color: black;
+  text-decoration:underline;
+  cursor:none;
+}
+a:active {
+  color: black;
+  text-decoration:none;
+       cursor:none;
+}
+
+#cursor{
+  position:fixed;
+opacity:0;}
+
+@media screen and (min-width: 1300px) {
+ #cursor{
+   opacity:1;
+   position:fixed;
+   cursor:none;
+   width:46px;
+   height:46px;
+   background-color: #00FA9A;
+   box-sizing: content-box;
+   transition: 0.1s;
+   transform: translate(-50%, -50%);
+   border-radius: 50%;
+   pointer-events: none;
+   z-index: 10;
+   animation: animate 2s linear infinite;
+ }
+}
+
+a:hover ~ #cursor {
+  width: 70px;
+  height:70px;
+  border: 2px dashed black;
+  color:black;
+  background-color: transparent;
+  animation: animate 3s linear infinite;
+       cursor:none;
+         text-decoration: none;
+}
+.hover-img:hover ~ #cursor {
+  width: 50px;
+  height:50px;
+  border: 1px solid black;
+  color:black;
+  background-color: transparent;
+  animation: animate 3s linear infinite;
+       cursor:none;
+       transition:0.2s;
+         text-decoration: none;
+}
+
+
+#collegamento_carte {
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: 179vw;
+    text-decoration:none;
+    padding-top: 10vw;
+    font-size: 3.4vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #collegamento_carte{
+   position:absolute;
+   padding-top: 21vw;
+font-size:1.8vw;
+margin-left: 8vw;
+margin-top: 80vw;
+ }
+}
+#collegamento_paula {
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: 350vw;
+  padding-top: 12vw;
+    text-decoration:none;
+    font-size: 3.4vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #collegamento_paula{
+   position:absolute;
+   padding-top: 8vw;
+font-size:1.8vw;
+margin-left: 8vw;
+margin-top: 220vw;
+ }
+}
+#collegamento_hex {
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: 640vw;
+    text-decoration:none;
+    font-size: 3.4vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #collegamento_hex{
+   position:absolute;
+   padding-top: 8vw;
+font-size:1.8vw;
+margin-left: 8vw;
+margin-top: 400vw;
+ }
+}
+
+#collegamento_mulan {
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: 1020vw;
+    text-decoration:none;
+    font-size: 3.4vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #collegamento_mulan{
+   position:absolute;
+   padding-top: 8vw;
+font-size:1.8vw;
+margin-left: 8vw;
+margin-top: 580vw;
+ }
+}
+
+
+#collegamento_frame {
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: 1220vw;
+    text-decoration:none;
+    font-size: 3.4vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #collegamento_frame{
+   position:absolute;
+   padding-top: 8vw;
+font-size:1.8vw;
+margin-left: 8vw;
+margin-top: 740vw;
+ }
+}
+
+
+
+#collegamento_click {
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: 1430vw;
+    text-decoration:none;
+    font-size: 3.4vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #collegamento_click{
+   position:absolute;
+   padding-top: 8vw;
+font-size:1.8vw;
+margin-left: 8vw;
+margin-top: 891vw;
+ }
+}
+
+
+#collegamento_cover {
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: 1610vw;
+    text-decoration:none;
+    font-size: 3.4vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #collegamento_cover{
+   position:absolute;
+   padding-top: 8vw;
+font-size:1.8vw;
+margin-left: 8vw;
+margin-top: 961vw;
+ }
+}
+
+
+@keyframes animate {
+  0%{
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes compare {
+  0% {opacity: 0;
+  }
+  35% {opacity:0;}
+
+  99% {opacity:1;
+    }
+}
 
 </style>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="jquery.js" type="text/javascript"></script>
-  <body>
-    <head>
-  <meta charset="utf-8">
-</head>
-
-<a id="indietro" href="https://violaus.github.io/">  &#9756; </a>
-
-<p><a id="works"> WORKS </a></p>
-
-
-
-
-
-</div>
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-  <div id="cursor"></div>
-   <script type="text/javascript">
-     var cursor = document.getElementById('cursor');
-     document.addEventListener('mousemove', function(e){
-  var x= e.clientX;
-  var y= e.clientY;
-  cursor.style.left= x+"px";
-  cursor.style.top= y+"px";
-  });
-  </script>
-
-
-
-  <a id="collegamento_carte" name="prog_carte"> <br> TOUR DE CARTES </a>
-  <div id="concept_carte"> _ four ways to know four different faces of Milan, a city where art and beauty are hidden in every corner: from the incredible modern buildings, to the fascinating ancient monuments, through the districts decorated by murals, to the pubs and clubs loved by the locals.<br>
-Each card suit is an itinerary, each card is a step containing the indications to reach the next one.
-The Milanese will be able to demonstrate how much they really know their city while the tourists will get useful tips about the "must-sees" of Milan.</div>
-
-
-  <a id="collegamento_paula" name="prog_paula"> PAULA SCHER -<br>groove in new york </a>
-  <div id="concept_paula">_ Paula Scher loves New York City.<br> Her work reflects the spirit of the City
-but at the same time contributes to the evolution of its appearance, collaborating with record
-companies, museums, theaters, cinemas, schools, parks and every other kind of institution in New York. <br>This number investigates the relation between
-the designer and her city analyzing the works she made. The four rubrics treat the different kind of creations she made during her career in the Big
-Apple: the record covers in the ‘70s and ‘80s, the collaboration with the cultural centres, the 24-year-long relation with The Public Theater, the design for public good. Somehow, these are four ways Paula dealt with New York City. The key element in the magazine is the map: its
-whole structure is based on the traceability of every single institution she collaborated with.<br>
-</div>
-
-
-    <a id="collegamento_hex" name="prog_hex">HEX - when death anxiety<br>meets superstition</a>
-    <div id="concept_hex">_What if we could push away death?<br>
-What would the real impact be?
-What problems would this create in our minds?<br>
-We developed this concept into a speculative design experience both physical and digital that shows the extreme planning about the theme of death and the rituals surrounding it. In particular, how superstition contributes to the way people experience end-of-life rituals in order to emphasize how important these performances are to make us forget the fear and the uncertainty of life and to remove the taboo around death and dying. HEX is an Alternate reality game that challenges people to approach superstition as salvation from death anxieties with the purpose of make users realize how this mental scheme isn’t that far from modern reality. As a matter of fact, this social experiment wants to highlight how superstition is still considered to be efficient against death for many people all around the world. A real nonsense that make us feel better giving us the illusion to control our lives. </div>
-
-
-
-    <a id="collegamento_mulan" name="prog_mulan">MULAN - ten years later</a>
-    <div id="concept_mulan">_The animated film Mulan is one of the best Disney films we will always remember. For this reason our team decided to turn this adventure into a platform game as required from the brief of this Computer Graphics course. We had to imagine this fable ten years later and invent a new conflict between the characters of the film in order to create a new scenario to solve through an arcade game. We designed everything from the game code to the characters and settings. Another crucial part of this project was to represent Mulan scenarios and events into 3D graphics in order to set them between the game levels to engage the player into the game. We tried to create a flow in player’s mindset balancing the user’s skills with the abilities requested to finish each level.
-The is available in Italian and (of course) Chinese.</div>
-
-<a id="play" href="https://kiaa1998.github.io/mulan_game/"> PLAY NOW! </a>
-
-
-
-    <a id="collegamento_frame" name="prog_frame">FRAME WITHIN FRAME<br> in cinema and photography </a>
-    <div id="concept_frame">_Frame in frame is a short analysis about the visual role of mirrors and reflected images througout the history of both cinema and photography. Each volume investigates one of the two visual areas starting with digressions about examples of the past to explore the evolution of this technique up to modern days. Together with the composition skills required to succed in creating meaningful visual contents, both these articles explain the meaning of this method in relation with the visual storytelling.
-    The photographic one, titled Mise an abyme, examines the beautiful works of Brassaï, Lee Friedlander, Gregory Crewdson and Alex Webb through their use of mirrored surfaces. The cinematic one, instead, focuses on the use of mirrors in films like The Truman Show, Citizen Kane and others through the meaning that this composition technique can add to their scenes. But, in particular, this part wants to investigate the amazing use of the frame within frame setting in Wong Kar Wai’s In the mood for Love and the significant role that this adds to the whole story. </div>
-
-
-
-        <a id="collegamento_click" name="prog_click">CLICK<br> turn off the lights </a>
-        <div id="concept_click">_How long has it been since you’ve seen the stars?
-The short story of a cute boy dreaming about space walks us through the consequences of light pollution. The aim of this workshop project was to create a video with an educational purpose about the public good and the value of social cooperation that refers to kids between 6 and 10 years old. After a deep research about communication for kids,we decided to use a simple illustration and animation style purposely, as we aimed to reflect the message in direct and easy way aligned with language of kids of that age range and target: curiosity and participation in the Fridays for Future’s cause. The story starts with the kid dreaming about being an astronaut and continues showing the benefit of saving energy through a little gesture as turning off the light: seeing the stars.
-        </div>
-
-
-        <a id="collegamento_cover" name="prog_cover">COVER UP<br>album covers</a>
-        <div id="concept_cover">_Cover Up is a photographic project about album covers. The brief was to take pictures that could be published in a real contest such as advertising, brand identity and no profit campaigns. I decided to focus on the music context, as it is one of my biggest passion, designing the album covers of most of the music genres: R&B, electro, indie, rock , jazz and alternative. In order to make the whole project effective, i tried to define a precise brand identity to simulate the real communication of a single record company. For this reason, these pictures i made have elements like bright colours, strong contrast and light experiments in common. To complete the identity of the record label i designed the graphics of every single album cover to emphasize and characterize each music genre. However, graphics aren’t that invasive because of the photographic approach of the whole project.
-        </div>
-
-
-</head>
-<body>
-
-  <div class="container-carte">
-    <a href="#prog_carte"><img src="images/carte_ombra.jpg" class="image">
-    <div class="overlay">
-      <div class="text">tour de cartes</div>
-    </div></a>
-  </div>
-
-
-  <div class="container-paula">
-    <a href="#prog_paula"><img src="images/paula_home.jpg" class="image">
-    <div class="overlay">
-      <div class="text">magazine about paula scher</div>
-    </div></a>
-  </div>
-
-  <div class="container-hex">
-    <a href="#prog_hex"><img src="images/hex.jpg" class="image">
-    <div class="overlay">
-      <div class="text">hex</div>
-    </div></a>
-  </div>
-
-  <div class="container-mulan">
-    <a href="#prog_mulan"><img src="images/mulan_sfondo.jpg" class="image">
-    <div class="overlay">
-      <div class="text">mulan</div>
-    </div></a>
-  </div>
-
-
-  <div class="container-click">
-    <a href="#prog_click"><img src="images/click.jpg" class="image">
-    <div class="overlay">
-      <div class="text">click</div>
-    </div></a>
-  </div>
-
-
-<div class="container-frame">
-  <a href="#prog_frame"><img src="images/frame.jpg" class="image">
-  <div class="overlay">
-    <div class="text">frame within frame</div>
-  </div></a>
-</div>
-
-<div class="container-cover">
-  <a href="#prog_cover"><img src="images/cover_r&b.jpg" class="image">
-  <div class="overlay">
-    <div class="text">cover up</div>
-  </div></a>
-</div>
-
-
-
-
-
-  </body>
-  </html>
