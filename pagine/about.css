@@ -81,7 +81,7 @@ position:absolute;
     margin-top: 8vw;
     margin-left:20vw;
     color: black;
-    font-size: 5.7vw;
+    font-size: 6.6vw;
    opacity:1;
   }
 
@@ -168,15 +168,23 @@ a:active {
 
 #cursor{
   position:fixed;
-  width:75px;
-  height:75px;
-  background-color: #a2ff00;
-  box-sizing: content-box;
-  transition: 0.1s;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
+  opacity:0;
   pointer-events: none;
-  z-index: 9;
+}
+@media screen and (min-width: 1300px) {
+ #cursor{
+  opacity:1;
+   position:fixed;
+   width:75px;
+   height:75px;
+   background-color: #00FA9A;
+   box-sizing: content-box;
+   transition: 0.1s;
+   transform: translate(-50%, -50%);
+   border-radius: 50%;
+   pointer-events: none;
+   z-index: 9;
+ }
 }
 
 a:hover ~ #cursor {
@@ -209,3 +217,4 @@ a:hover ~ #cursor {
 }
 
 </style>
+
