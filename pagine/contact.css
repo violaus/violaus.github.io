@@ -102,8 +102,8 @@ a:hover ~ #cursor {
   animation: compare 2.7s;
   position: absolute;
   margin-left:20vw;
-  margin-top: 84vw;
-  font-size: 5vw;
+  margin-top: 89vw;
+  font-size: 7vw;
     z-index: 10;
       opacity: 1;
       transition: 0.6s;
@@ -124,16 +124,26 @@ a:hover ~ #cursor {
 #cursor{
   position:fixed;
   cursor:none;
-  width:66px;
-  height:66px;
-  background-color: yellow;
-  box-sizing: content-box;
-  transition: 0.1s;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  z-index:9;
+  opacity:0;
   pointer-events: none;
 }
+@media screen and (min-width: 1300px) {
+ #cursor{
+   opacity:1;
+   position:fixed;
+   cursor:none;
+   width:66px;
+   height:66px;
+   background-color: #00FA9A;
+   box-sizing: content-box;
+   transition: 0.1s;
+   transform: translate(-50%, -50%);
+   border-radius: 50%;
+   z-index:9;
+   pointer-events: none;
+ }
+}
+
 #cursor2{
   position:fixed;
     cursor:none;
@@ -154,10 +164,10 @@ a:hover ~ #cursor {
 #behance {
   animation: compare 3.5s;
 position:absolute;
-margin-top:95vw;
+margin-top:103vw;
   margin-left:20vw;
 color: black;
-  font-size: 2.6vw;
+  font-size: 4.4vw;
   transition: 0.6s;
   z-index:10;
 opacity: 1;
@@ -175,11 +185,11 @@ margin-left: 70.1vw;
     animation: compare 3.5s;
   font-weight:normal;
 position:absolute;
-margin-top:104vw;
+margin-top:112vw;
 margin-left:20vw;
 position:absolute;
 color:black;
-  font-size: 2.6vw;
+  font-size: 4.4vw;
 z-index:10;
 opacity: 1;
   cursor:none;
@@ -196,10 +206,10 @@ margin-left: 69.2vw;
 #email {
   animation: compare 3.5s;
 position:absolute;
-margin-top:112.2vw;
+margin-top:120.2vw;
   margin-left:20vw;
 color:black;
-font-size: 2.6vw;
+font-size: 4.4vw;
 z-index:10;
   cursor:none;
 }
@@ -312,7 +322,7 @@ background-color: transparent;
 
 .box-email .custom-underline::after {
   top: 70%;
-  height: 0.23vw;
+  height: 0.12vw;
   width: 0%;
   left: 3%;
   background-color: rgba(0, 0, 0, 2);
