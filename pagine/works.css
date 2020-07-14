@@ -1287,10 +1287,10 @@ a:hover .hover-img span {
 }
 @media screen and (min-width: 1300px) {
  #indietro{
-   position:absolute;
+   position:fixed;
    margin-left: 3vw;
    margin-top: 1.5vw;
-  font-size: 4vw;
+  font-size: 3.5vw;
  }
 }
 
