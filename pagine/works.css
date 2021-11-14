@@ -76,8 +76,6 @@ overflow-x: hidden;
       margin-top: 35vw;
 }}
 
-
-
 .container-mulan {
   position: absolute;
   width: 35%;
@@ -91,7 +89,6 @@ overflow-x: hidden;
     margin-left: 38vw;
       margin-top: 42vw;
 }}
-
 
 .container-click {
   position: absolute;
@@ -111,7 +108,7 @@ overflow-x: hidden;
   position: absolute;
   width: 35%;
   margin-left: 12vw;
-    margin-top: 121vw;
+    margin-top: 118vw;
 }
 @media screen and (min-width: 1300px) {
   .container-cover {
@@ -121,7 +118,19 @@ overflow-x: hidden;
       margin-top: 57vw;
 }}
 
-
+.container-paradiso {
+  position: absolute;
+  width: 35%;
+  margin-left: 53vw;
+    margin-top: 123vw;
+}
+@media screen and (min-width: 1300px) {
+  .container-paradiso {
+    position: absolute;
+    width: 25%;
+    margin-left: 38vw;
+      margin-top: 64vw;
+}}
 
 
 .image {
@@ -145,7 +154,7 @@ overflow-x: hidden;
        cursor:none;
 }
 
-.container-carte, .container-frame, .container-paula, .container-mulan, .container-hex, .container-click, .container-cover,:hover .overlay {
+.container-carte, .container-frame, .container-paula, .container-mulan, .container-hex, .container-click, .container-cover, .container-paradiso, :hover .overlay {
   opacity: 1;
        cursor:none;
 }
@@ -496,7 +505,7 @@ opacity:0;
 }
 #hex6{
   position:absolute;
-margin-top: 810vw;
+margin-top: 805vw;
 margin-left: 0vw;
 width: 100%;
    height: 38%;
@@ -526,7 +535,7 @@ opacity:0;
 }
 #hex8{
   position:absolute;
-margin-top: 893vw;
+margin-top: 885vw;
 margin-left: 0vw;
 width: 100%;
    height: 38%;
@@ -606,8 +615,6 @@ opacity:0;
  }
 }
 
-
-
 #click1{
   position: absolute;
   width: 100%;
@@ -666,7 +673,6 @@ opacity:0;
  }
 }
 
-
 #cover3{
   position: absolute;
   width: 100%;
@@ -705,7 +711,6 @@ opacity:0;
  }
 }
 
-
 #cover5{
   position: absolute;
   width: 100%;
@@ -724,6 +729,103 @@ opacity:0;
    height: 65%;
  }
 }
+
+
+#paradiso1{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 1494vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#paradiso1{
+   position:absolute;
+   margin-top: 1113.5vw;
+   margin-left: 52vw;
+   opacity:1;
+   width: 100%;
+   height: 47%;
+ }
+}
+
+#paradiso2{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 1494vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#paradiso2{
+   position:absolute;
+   margin-top: 1149.5vw;
+   margin-left: 8vw;
+   opacity:1;
+   width: 100%;
+   height: 55%;
+ }
+}
+
+#paradiso3{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 1494vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#paradiso3{
+   position:absolute;
+   margin-top: 1141vw;
+   margin-left: 52vw;
+   opacity:1;
+   width: 100%;
+   height: 55%;
+ }
+}
+
+#paradiso4{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 1494vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#paradiso4{
+   position:absolute;
+   margin-top: 1172.5vw;
+   margin-left: 52vw;
+   opacity:1;
+   width: 100%;
+   height: 55%;
+ }
+}
+
+#paradiso5{
+  position: absolute;
+  width: 100%;
+  opacity:1;
+  margin-top: 1970vw;
+  height:39%;
+
+}
+@media screen and (min-width: 1300px) {
+#paradiso5{
+   position:absolute;
+   margin-top: 1181vw;
+   margin-left: 8vw;
+   opacity:1;
+   width: 39.9%;
+   height: 45%;
+ }
+}
+
 
 
 * {box-sizing:border-box}
@@ -864,6 +966,24 @@ opacity:0;
 }
 
 
+
+.slide-container-paradiso {
+  position:absolute;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  display: flex;
+  margin-left: 0vw;
+  margin-top: 1890vw;
+    height: 55%;
+    width: 100%;
+    opacity:1;
+}
+
+@media screen and (min-width: 1300px) {
+.slide-container-paradiso{
+opacity:0;
+ }
+}
 
 
 
@@ -1101,6 +1221,27 @@ height: 20vw;
  }
 }
 
+#concept_paradiso{
+  padding: 5vw;
+  width: 57vw;
+  height: 20vw;
+  text-align: justify;
+  position: absolute;
+  margin-left: 5.8vw;
+  margin-top: 1818vw;
+    font-size: 2vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #concept_paradiso{
+   position:absolute;
+font-size:0.95vw;
+margin-left: 5.3vw;
+margin-top: 1110vw;
+width: 29vw;
+height: 20vw;
+ }
+}
 
 
 #works{
@@ -1180,8 +1321,6 @@ margin-top: 23vw;
 }
 
 
-
-
 #mulan{
   position: absolute;
   margin-left: 14.7vw;
@@ -1236,13 +1375,22 @@ margin-top: 38vw;
 }
 
 
-
-
-
-
-
-
-
+#paradiso{
+  position: absolute;
+  margin-left: 14.7vw;
+  margin-top: 117vw;
+    font-size: 3vw;
+      z-index:2;
+        color: black;
+}
+@media screen and (min-width: 1300px) {
+ #paradiso{
+   position:absolute;
+font-size:2.3vw;
+margin-left: 35.5vw;
+margin-top: 43vw;
+ }
+}
 
 
 
@@ -1272,6 +1420,9 @@ a:hover .hover-img span {
       pointer-events: auto;
         text-decoration: none;
  }
+
+
+
 
 
 #indietro{
@@ -1326,6 +1477,9 @@ a:active {
   text-decoration:none;
        cursor:none;
 }
+
+
+
 
 #cursor{
   position:fixed;
@@ -1502,6 +1656,24 @@ margin-top: 961vw;
  }
 }
 
+#collegamento_paradiso {
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: 1810vw;
+    text-decoration:none;
+    font-size: 3.4vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #collegamento_paradiso{
+   position:absolute;
+   padding-top: 8vw;
+font-size:1.8vw;
+margin-left: 8vw;
+margin-top: 1101vw;
+ }
+}
+
 
 @keyframes animate {
   0%{
@@ -1526,7 +1698,7 @@ margin-top: 961vw;
   text-decoration: none;
   font-size: 3.4vw;
   position: absolute;
-  margin-top: 1840vw;
+  margin-top: 2060vw;
   margin-left: 43vw;
       z-index:2;
       font-weight: bold;
@@ -1538,7 +1710,7 @@ margin-top: 961vw;
    position:absolute;
    padding-top: 8vw;
 font-size:1.2vw;
-margin-top: 1091vw;
+margin-top: 1220vw;
   margin-left: 45vw;
  }
 }
@@ -1823,4 +1995,44 @@ margin-left: 38vw;
 margin-top: 882.3vw;
  }
 }
+
+#info_paradiso {
+  position: absolute;
+  margin-left: 64vw;
+  margin-top: 1813.2vw;
+    text-decoration:none;
+    padding-top: 10vw;
+    font-size: 1.6vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #info_paradiso{
+   position:absolute;
+   padding-top: 21vw;
+font-size:0.7vw;
+margin-left: 33vw;
+margin-top: 1094.2vw;
+ }
+}
+
+
+#info_paradiso_det {
+  position: absolute;
+  margin-left: 75vw;
+  margin-top: 1813.2vw;
+    text-decoration:none;
+    padding-top: 10vw;
+    font-size: 1.6vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #info_paradiso_det{
+   position:absolute;
+   padding-top: 22.9vw;
+font-size:0.7vw;
+margin-left: 38vw;
+margin-top: 1092.26vw;
+ }
+}
+
 </style>
