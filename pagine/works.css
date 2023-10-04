@@ -1,6 +1,6 @@
 <style>
 
-html {
+html{
 height: 100%;
 width: 100%;
 cursor:none;
@@ -163,6 +163,22 @@ overflow-x: hidden;
 }}
 
 
+.container-zine {
+  position: absolute;
+  width: 35%;
+  margin-left: 12vw;
+    margin-top: 177.5vw;
+}
+@media screen and (min-width: 1300px) {
+  .container-zine {
+    position: absolute;
+    width: 25%;
+    margin-left: 38vw;
+      margin-top: 84.5vw;
+}}
+
+
+
 .image {
   display: block;
   width: 240%;
@@ -184,7 +200,7 @@ overflow-x: hidden;
        cursor:none;
 }
 
-.container-carte, .container-frame, .container-paula, .container-mulan, .container-hex, .container-click, .container-cover, .container-paradiso, .container-elva, .container-tesi, :hover .overlay {
+.container-carte, .container-frame, .container-paula, .container-mulan, .container-hex, .container-click, .container-cover, .container-paradiso, .container-elva, .container-tesi, .container-zine, :hover .overlay {
   opacity: 1;
        cursor:none;
 }
@@ -361,7 +377,7 @@ opacity:0;
 }
 #paula8{
   position:absolute;
-  margin-top: 507vw;
+  margin-top: 545vw;
   margin-left: 0vw;
   width: 100%;
   height: 36%;
@@ -1086,6 +1102,181 @@ opacity:0;
  }
 }
 
+
+#zine1{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 2500vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#zine1{
+   position:absolute;
+   margin-top: 1617.5vw;
+   margin-left: 10vw;
+   opacity:1;
+   width: 35%;
+   height: 95%;
+ }
+}
+
+#zine2{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 2500vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#zine2{
+   position:absolute;
+   margin-top: 1617.5vw;
+   margin-left: 54vw;
+   opacity:1;
+   width: 35%;
+   height: 95%;
+ }
+}
+
+#zine8{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 2500vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#zine8{
+   position:absolute;
+   margin-top: 1667.5vw;
+   margin-left: 54vw;
+   opacity:1;
+   width: 35%;
+   height: 105%;
+ }
+}
+
+#zine7{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 2530vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#zine7{
+   position:absolute;
+   margin-top: 1667.5vw;
+   margin-left: 10vw;
+   opacity:1;
+   width: 35%;
+   height: 105%;
+ }
+}
+
+#zine11{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 2530vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#zine11{
+   position:absolute;
+   margin-top: 1722.5vw;
+   margin-left: 54vw;
+   opacity:1;
+   width: 35%;
+   height: 105%;
+ }
+}
+
+#zine12{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 2530vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#zine12{
+   position:absolute;
+   margin-top: 1722.5vw;
+   margin-left: 10vw;
+   opacity:1;
+   width: 35%;
+   height: 105%;
+ }
+}
+
+#zine13{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 2530vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#zine13{
+   position:absolute;
+   margin-top: 1777vw;
+   margin-left: 10vw;
+   opacity:1;
+   width: 35%;
+   height: 100%;
+ }
+}
+
+#zine14{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 2530vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#zine14{
+   position:absolute;
+   margin-top: 1777vw;
+   margin-left: 54vw;
+   opacity:1;
+   width: 35%;
+   height: 100%;
+ }
+}
+
+#zine15{
+  position: absolute;
+  width: 100%;
+  opacity:0;
+  margin-top: 2530vw;
+  height:50%;
+
+}
+@media screen and (min-width: 1300px) {
+#zine15{
+   position:absolute;
+   margin-top: 1582vw;
+   margin-left: 54vw;
+   opacity:0;
+   width: 35%;
+   height: 70%;
+ }
+}
+
+
+
+
 * {box-sizing:border-box}
 
 
@@ -1114,7 +1305,7 @@ img {
   overflow-x: scroll;
   display: flex;
   margin-left: 0vw;
-  margin-top: 240vw;
+  margin-top: 300vw;
     height: 42%;
     width: 100%;
     opacity:1;
@@ -1132,7 +1323,7 @@ opacity:0;
   overflow-x: scroll;
   display: flex;
   margin-left: 0vw;
-  margin-top: 425vw;
+  margin-top: 465vw;
     height: 40%;
     width: 100%;
     opacity:1;
@@ -1282,6 +1473,25 @@ opacity:0;
 }
 
 
+.slide-container-zine {
+  position:absolute;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  display: flex;
+  margin-left: 0vw;
+  margin-top: 2720vw;
+    height: 46%;
+    width: 100%;
+    opacity:1;
+}
+
+@media screen and (min-width: 1300px) {
+.slide-container-zine{
+opacity:0;
+ }
+}
+
+
 
 
 
@@ -1344,7 +1554,7 @@ opacity:0;
   text-align: justify;
   position: absolute;
   margin-left: 5.8vw;
-  margin-top: 195vw;
+  margin-top: 255vw;
     font-size: 2vw;
       z-index:2;
 }
@@ -1365,7 +1575,7 @@ height: 20vw;
   text-align: justify;
   position: absolute;
   margin-left: 5.8vw;
-  margin-top: 370vw;
+  margin-top: 407vw;
     font-size: 2vw;
       z-index:2;
 }
@@ -1587,6 +1797,31 @@ height: 20vw;
 }
 
 
+#concept_zine{
+  padding: 5vw;
+  width: 57vw;
+  height: 20vw;
+  text-align: justify;
+  position: absolute;
+  margin-left: 5.8vw;
+  margin-top: 2660vw;
+    font-size: 2vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #concept_zine{
+   position:absolute;
+font-size:0.95vw;
+margin-left: 5.3vw;
+margin-top: 1585vw;
+width: 29vw;
+height: 20vw;
+ }
+}
+
+
+
+
 
 #works{
   animation: compare 2.7s;
@@ -1772,6 +2007,23 @@ margin-top: 143vw;
  }
 }
 
+#zine{
+  position: absolute;
+  margin-left: 14.7vw;
+  margin-top: 207vw;
+    font-size: 3vw;
+      z-index:2;
+        color: black;
+}
+@media screen and (min-width: 1300px) {
+ #zine{
+   position:absolute;
+font-size:2.3vw;
+margin-left: 35.5vw;
+margin-top: 943vw;
+ }
+}
+
 
 
 
@@ -1932,7 +2184,7 @@ a:hover ~ #cursor {
 #collegamento_carte {
   position: absolute;
   margin-left: 8vw;
-  margin-top: 179vw;
+  margin-top: 237vw;
     text-decoration:none;
     padding-top: 10vw;
     font-size: 3.4vw;
@@ -1950,7 +2202,7 @@ margin-top: 149vw;
 #collegamento_paula {
   position: absolute;
   margin-left: 8vw;
-  margin-top: 350vw;
+  margin-top: 387vw;
   padding-top: 12vw;
     text-decoration:none;
     font-size: 3.4vw;
@@ -2117,6 +2369,25 @@ margin-top: 1428.5vw;
 }
 
 
+#collegamento_zine {
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: 2652vw;
+    text-decoration:none;
+    font-size: 3.4vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #collegamento_zine{
+   position:absolute;
+   padding-top: 8vw;
+font-size:1.8vw;
+margin-left: 8vw;
+margin-top: 1575.5vw;
+ }
+}
+
+
 
 @keyframes animate {
   0%{
@@ -2141,7 +2412,7 @@ margin-top: 1428.5vw;
   text-decoration: none;
   font-size: 3.4vw;
   position: absolute;
-  margin-top: 2630vw;
+  margin-top: 2830vw;
   margin-left: 43vw;
       z-index:2;
       font-weight: bold;
@@ -2153,7 +2424,7 @@ margin-top: 1428.5vw;
    position:absolute;
    padding-top: 8vw;
 font-size:1.2vw;
-margin-top: 1600vw;
+margin-top: 1850vw;
   margin-left: 45vw;
  }
 }
@@ -2163,7 +2434,7 @@ margin-top: 1600vw;
 #info_carte {
   position: absolute;
   margin-left: 64vw;
-  margin-top: 190.1vw;
+  margin-top: 250.1vw;
     text-decoration:none;
     padding-top: 10vw;
     font-size: 1.6vw;
@@ -2183,7 +2454,7 @@ margin-top: 156.2vw;
 #info_carte_det {
   position: absolute;
   margin-left: 75vw;
-  margin-top: 190vw;
+  margin-top: 250vw;
     text-decoration:none;
     padding-top: 10vw;
     font-size: 1.6vw;
@@ -2203,7 +2474,7 @@ margin-top: 154.3vw;
 #info_paula {
   position: absolute;
   margin-left: 64vw;
-  margin-top: 365.2vw;
+  margin-top: 402.2vw;
     text-decoration:none;
     padding-top: 10vw;
     font-size: 1.6vw;
@@ -2223,7 +2494,7 @@ margin-top: 294.2vw;
 #info_paula_det {
   position: absolute;
   margin-left: 75vw;
-  margin-top: 365vw;
+  margin-top: 402vw;
     text-decoration:none;
     padding-top: 10vw;
     font-size: 1.6vw;
@@ -2556,6 +2827,46 @@ margin-top: 1424.2vw;
 font-size:0.7vw;
 margin-left: 38vw;
 margin-top: 1422.3vw;
+ }
+}
+
+
+#info_zine {
+  position: absolute;
+  margin-left: 64vw;
+  margin-top: 2655.2vw;
+    text-decoration:none;
+    padding-top: 10vw;
+    font-size: 1.6vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #info_zine{
+   position:absolute;
+   padding-top: 21vw;
+font-size:0.7vw;
+margin-left: 33vw;
+margin-top: 1569.2vw;
+ }
+}
+
+
+#info_zine_det {
+  position: absolute;
+  margin-left: 75vw;
+  margin-top: 2655.2vw;
+    text-decoration:none;
+    padding-top: 10vw;
+    font-size: 1.6vw;
+      z-index:2;
+}
+@media screen and (min-width: 1300px) {
+ #info_zine_det{
+   position:absolute;
+   padding-top: 22.9vw;
+font-size:0.7vw;
+margin-left: 38vw;
+margin-top: 1567.3vw;
  }
 }
 
