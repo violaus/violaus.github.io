@@ -114,20 +114,20 @@ p{
  }
 }
 .box-contact:hover ~ #cursor {
-  width: 90vw;
-  height:90vw;
+  width: 60vw;
+  height:60vw;
   background-color:##00FA9A ;
     border: 2px solid #75D5FD;
   transition: 0.1s;
     border-radius: 50%;
-      filter: blur(100px);
+      filter: blur(50px);
       opacity: 1;
 }
 @media screen and (min-width: 1300px) {
 .box-contact:hover ~ #cursor{
-  width: 60vw;
-  height:60vw;
-      filter: blur(200px);
+  width: 30vw;
+  height:30vw;
+      filter: blur(50px);
  }
 }
 
