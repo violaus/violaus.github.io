@@ -1634,30 +1634,6 @@ height: 20vw;
  }
 }
 
-#play{
-  padding: 5vw;
-  width: 57vw;
-  height: 20vw;
-  text-align: justify;
-  position: absolute;
-  margin-left: 5.8vw;
-  margin-top: 1067vw;
-    font-size: 2vw;
-      z-index:2;
-      font-weight: bold;
-          pointer-events: initial;
-}
-@media screen and (min-width: 1300px) {
- #play{
-   position:absolute;
-font-size:1vw;
-margin-left: 5.3vw;
-margin-top: 690vw;
-width: 29vw;
-height: 20vw;
-font-weight: bold;
- }
-}
 
 
 #concept_frame{
