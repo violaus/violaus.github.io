@@ -181,6 +181,8 @@ margin-top: 25.6vw;
 margin-left: 70.1vw;
  }
 }
+
+
 #insta {
     animation: compare 3.5s;
   font-weight:normal;
@@ -222,21 +224,46 @@ margin-left: 71.9vw;
  }
 }
 
+
+#linkedin {
+  animation: compare 3.5s;
+position:absolute;
+margin-top:128.4vw;
+  margin-left:20vw;
+color:black;
+font-size: 4.4vw;
+z-index:10;
+  cursor:none;
+}
+@media screen and (min-width: 1300px) {
+#linkedin{
+ position:absolute;
+font-size: 1.4vw;
+margin-top: 36.8vw;
+margin-left: 70.6vw;
+ }
+}
+
+
+
 .box-insta:hover  ~ #cursor {
-  width: 50vw;
-  height:50vw;
+  width: 30vw;
+  height:30vw;
   background-color: #FFDC80;
     background-image:linear-gradient(to bottom right, #FFDC80,#FCAF45, #F77737, #F56040, #E1306C, #C13584, #833AB4, #5851DB, #405DE6);
   transition: 0.2s;
     border-radius: 14%;
-    filter:blur(30px);
+    filter:blur(5px);
       animation: animate 33s linear infinite;
         cursor:none;
 }
 .box-insta:hover  ~ #cursor2 {
-background-color: transparent;
-  cursor:none;
+  background-color: transparent;
+    cursor:none;
 }
+
+
+
 .box-behance:hover  ~ #cursor2 {
 background-color: transparent;
   cursor:none;
@@ -250,19 +277,22 @@ background-color: transparent;
     filter:blur(0.4px);
       cursor:none;
 }
+
+
+
 .box-email:hover  ~ #cursor {
-  width: 60vw;
-  height:60vw;
+  width: 50vw;
+  height:50vw;
   background-color: red;
   transition: 0.2s;
   opacity:1;
     border-radius: 50%;
-    filter:blur(100px);
+    filter:blur(30px);
       cursor:none;
 }
 .box-email:hover  ~ #cursor2 {
-  width: 6vw;
-  height:4vw;
+  width: 5vw;
+  height:3vw;
   background-color: white;
   transition: 0.2s;
     border-radius: 5%;
@@ -271,14 +301,31 @@ background-color: transparent;
 }
 
 
-.box-behance, .box-insta, .box-email, {
+.box-linkedin:hover  ~ #cursor {
+  width: 40vw;
+  height:40vw;
+  background-color: #0E76A8;
+  background-image:linear-gradient(to bottom right, #0E76A8,#FFFFFF);
+  transition: 0.1s;
+    border-radius: 15%;
+    filter:blur(1px);
+      animation: animate 33s linear infinite;
+        cursor:none;
+}
+.box-linkedin:hover  ~ #cursor2 {
+background-color: transparent;
+  cursor:none;
+}
+
+
+.box-behance, .box-insta, .box-email, .box-linkedin, {
   position:absolute;
   width:130%;
   height: 20%;
   cursor:none;
   z-index:9;
 }
-.box-behance, .box-insta, .box-email, a {
+.box-behance, .box-insta, .box-email, .box-linkedin, a {
   line-height:4.6vw;
     cursor:none;
 }
@@ -305,7 +352,7 @@ background-color: transparent;
 
 .box-behance .custom-underline::after {
   top: 70%;
-  height: 0.16vw;
+  height: 0.10vw;
   width: 0%;
   left: 3%;
   background-color: rgba(0, 0, 0, 2);
@@ -313,7 +360,7 @@ background-color: transparent;
 }
 .box-insta .custom-underline::after {
   top: 70%;
-  height: 0.15vw;
+  height: 0.10vw;
   width: 0%;
   left: 3%;
   background-color: rgba(0, 0, 0, 2);
@@ -322,7 +369,16 @@ background-color: transparent;
 
 .box-email .custom-underline::after {
   top: 70%;
-  height: 0.12vw;
+  height: 0.10vw;
+  width: 0%;
+  left: 3%;
+  background-color: rgba(0, 0, 0, 2);
+    transition: 0.3s ease all .1s;
+}
+
+.box-linkedin .custom-underline::after {
+  top: 70%;
+  height: 0.10vw;
   width: 0%;
   left: 3%;
   background-color: rgba(0, 0, 0, 2);
@@ -343,6 +399,17 @@ background-color: transparent;
   width: 90%;
     transition: 0.25s ease all;
 }
+
+.box-linkedin:hover .custom-underline::after {
+  width: 90%;
+    transition: 0.25s ease all;
+}
+
+
+
+
+
+
 @keyframes animate {
   0%{
     transform: translate(-50%, -50%) rotate(0deg);
